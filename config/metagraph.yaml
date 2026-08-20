@@ -1,0 +1,113 @@
+version: "0.1.0"
+
+name: "EEF1A Hetnet"
+
+description: >
+  Production metagraph for pure Hetnet Connectivity Search of compounds
+  connected to EEF1A1, EEF1A2, and disease-associated protein partners.
+
+metanodes:
+  - name: Compound
+    abbreviation: C
+    canonical_identifier: compound_id
+
+  - name: Gene
+    abbreviation: G
+    canonical_identifier: ncbi_gene_id
+
+  - name: DiseasePartner
+    abbreviation: DP
+    canonical_identifier: partner_id
+
+  - name: Disease
+    abbreviation: D
+    canonical_identifier: disease_ontology_id
+
+  - name: Pathway
+    abbreviation: PW
+    canonical_identifier: pathway_id
+
+  - name: BiologicalProcess
+    abbreviation: BP
+    canonical_identifier: go_id
+
+  - name: MolecularFunction
+    abbreviation: MF
+    canonical_identifier: go_id
+
+  - name: CellularComponent
+    abbreviation: CC
+    canonical_identifier: go_id
+
+metaedges:
+  - source: Compound
+    target: Gene
+    kind: binds
+    direction: forward
+    abbreviation: b
+
+  - source: Compound
+    target: Gene
+    kind: inhibits
+    direction: forward
+    abbreviation: i
+
+  - source: Compound
+    target: DiseasePartner
+    kind: binds
+    direction: forward
+    abbreviation: b
+
+  - source: Compound
+    target: Disease
+    kind: treats
+    direction: forward
+    abbreviation: t
+
+  - source: Gene
+    target: Gene
+    kind: interacts
+    direction: both
+    abbreviation: i
+
+  - source: Gene
+    target: DiseasePartner
+    kind: interacts
+    direction: both
+    abbreviation: i
+
+  - source: Gene
+    target: Disease
+    kind: associates
+    direction: both
+    abbreviation: a
+
+  - source: Gene
+    target: Pathway
+    kind: participates
+    direction: both
+    abbreviation: p
+
+  - source: Gene
+    target: BiologicalProcess
+    kind: participates
+    direction: both
+    abbreviation: p
+
+  - source: Gene
+    target: MolecularFunction
+    kind: performs
+    direction: forward
+    abbreviation: f
+
+  - source: Gene
+    target: CellularComponent
+    kind: localizes
+    direction: forward
+    abbreviation: l
+
+  - source: DiseasePartner
+    target: Disease
+    kind: contributes_to
+    direction: forward
+    abbreviation: c
