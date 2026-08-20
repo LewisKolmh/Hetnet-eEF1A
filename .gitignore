@@ -1,0 +1,56 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+*.secret
+config/local.yaml
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
+
+# Raw and intermediate data
+data/raw/*
+data/interim/*
+
+# Preserve empty directory structure
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+
+# Large generated network outputs
+results/networks/*
+results/logs/*
+
+# Preserve output directories
+!results/networks/.gitkeep
+!results/logs/.gitkeep
+
+# HetMat and numerical matrices
+*.hetmat/
+*.npy
+*.npz
+*.sparse.npz
+
+# Large tabular formats
+*.parquet
+*.feather
+
+# Temporary files
+*.tmp
+*.bak
