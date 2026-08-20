@@ -1,0 +1,2 @@
+source_id	target_id	relationship	directed	evidence_type	source_database	source_record_id	publication_id	retrieval_date	confidence	notes
+HIV1_RT	DOID:526	contributes_to	true	disease_aetiology	Disease Ontology; primary literature	DOID:526		2026-08-20	curated	HIV-1 reverse transcriptase is a viral protein encoded by HIV-1, which contributes to HIV infectious disease.
