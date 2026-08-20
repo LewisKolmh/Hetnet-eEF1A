@@ -1,0 +1,2 @@
+id	name	synonym	mondo_id	mesh_id	source	source_record_id	retrieval_date	notes
+DOID:526	human immunodeficiency virus infectious disease	HIV infection	MONDO:0005109	MESH:D015658	Disease Ontology	DOID:526	2026-08-20	Initial disease context for the HIV-1 RT and eEF1A interaction.
