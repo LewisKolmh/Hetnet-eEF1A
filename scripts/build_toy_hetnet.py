@@ -19,7 +19,7 @@ def build_metagraph() -> hetnet.MetaGraph:
 
 
 def build_graph(metagraph: hetnet.MetaGraph) -> hetnet.Graph:
-    """Create the synthetic graph."""
+    """Create and return the synthetic test graph."""
 
     graph = hetnet.Graph(metagraph)
 
@@ -34,22 +34,45 @@ def build_graph(metagraph: hetnet.MetaGraph) -> hetnet.Graph:
         name="Synthetic Partner 1",
     )
 
-    compound_a = graph.get_node("Compound", "C1")
-    compound_b = graph.get_node("Compound", "C2")
-    compound_c = graph.get_node("Compound", "C3")
-    eef1a1 = graph.get_node("Gene", "EEF1A1")
-    partner_1 = graph.get_node("Gene", "PARTNER1")
+    compound_a = graph.get_node(("Compound", "C1"))
+    compound_b = graph.get_node(("Compound", "C2"))
+    compound_c = graph.get_node(("Compound", "C3"))
+    eef1a1 = graph.get_node(("Gene", "EEF1A1"))
+    partner_1 = graph.get_node(("Gene", "PARTNER1"))
 
-    graph.add_edge(compound_a, eef1a1, "binds", "forward")
-    graph.add_edge(compound_b, partner_1, "binds", "forward")
-    graph.add_edge(compound_c, partner_1, "binds", "forward")
-    graph.add_edge(partner_1, eef1a1, "interacts", "both")
+    graph.add_edge(
+        compound_a,
+        eef1a1,
+        "binds",
+        "forward",
+    )
+
+    graph.add_edge(
+        compound_b,
+        partner_1,
+        "binds",
+        "forward",
+    )
+
+    graph.add_edge(
+        compound_c,
+        partner_1,
+        "binds",
+        "forward",
+    )
+
+    graph.add_edge(
+        partner_1,
+        eef1a1,
+        "interacts",
+        "both",
+    )
 
     return graph
 
 
 def main() -> None:
-    """Build and summarise the synthetic network."""
+    """Build, inspect, and summarise the synthetic test network."""
 
     metagraph = build_metagraph()
     graph = build_graph(metagraph)
@@ -77,7 +100,13 @@ def main() -> None:
     for metaedge in metagraph.get_edges():
         print(f"  {metaedge}")
 
+    print("\nExpected connectivity to EEF1A1:")
+    print("  Compound A: one direct path")
+    print("  Compound B: one indirect path through Partner 1")
+    print("  Compound C: one indirect path through Partner 1")
+
     print("\nToy graph constructed successfully.")
+    print("=" * 60)
 
 
 if __name__ == "__main__":
