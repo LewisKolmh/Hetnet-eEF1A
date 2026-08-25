@@ -1,4 +1,14 @@
-"""Automated tests for the synthetic heterogeneous network."""
+"""Automated tests for the synthetic heterogeneous network.
+
+Note: this toy scaffold predates the real data pipeline (s01-s04, dwpc,
+xswap, gamma_hurdle, rank_compounds, compare_to_resko) and depends on the
+optional `hetnetpy` package, which is not part of that pipeline's
+dependencies. Skipped automatically when hetnetpy is unavailable.
+"""
+
+import pytest
+
+pytest.importorskip("hetnetpy")
 
 from scripts.build_toy_hetnet import build_graph, build_metagraph
 
