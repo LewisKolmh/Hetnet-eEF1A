@@ -1,0 +1,18 @@
+protein_id	target_chembl_id	pref_name	organism	target_type
+EEF1A1	CHEMBL1795120	Elongation factor 1-alpha 1	Homo sapiens	SINGLE PROTEIN
+EEF1B2	CHEMBL4295731	Elongation factor 1-beta	Homo sapiens	SINGLE PROTEIN
+EEF1G	CHEMBL4295735	Elongation factor 1-gamma	Homo sapiens	SINGLE PROTEIN
+EEF1D	CHEMBL4295739	Elongation factor 1-delta	Homo sapiens	SINGLE PROTEIN
+RPL18A	CHEMBL6067541	Large ribosomal subunit protein eL20	Homo sapiens	SINGLE PROTEIN
+RPL4	CHEMBL6066910	Large ribosomal subunit protein uL4	Homo sapiens	SINGLE PROTEIN
+EEF1A2	CHEMBL1795122	Elongation factor 1-alpha 2	Homo sapiens	SINGLE PROTEIN
+RPL7	CHEMBL6066948	Large ribosomal subunit protein uL30	Homo sapiens	SINGLE PROTEIN
+RPS2	CHEMBL6066954	Small ribosomal subunit protein uS5	Homo sapiens	SINGLE PROTEIN
+RPL3	CHEMBL6066907	Large ribosomal subunit protein uL3	Homo sapiens	SINGLE PROTEIN
+RPS3	CHEMBL6066939	Small ribosomal subunit protein uS3	Homo sapiens	SINGLE PROTEIN
+RPS3A	CHEMBL6067564	Small ribosomal subunit protein eS1	Homo sapiens	SINGLE PROTEIN
+RAN	CHEMBL1741190	GTP-binding nuclear protein Ran	Homo sapiens	SINGLE PROTEIN
+ETF1	CHEMBL6066354	Eukaryotic peptide chain release factor subunit 1	Homo sapiens	SINGLE PROTEIN
+HSF1	CHEMBL5869	Heat shock factor protein 1	Homo sapiens	SINGLE PROTEIN
+PAPSS2	CHEMBL4105790	Bifunctional 3'-phosphoadenosine 5'-phosphosulfate synthase 2	Homo sapiens	SINGLE PROTEIN
+PAPSS1	CHEMBL6067042	Bifunctional 3'-phosphoadenosine 5'-phosphosulfate synthase 1	Homo sapiens	SINGLE PROTEIN

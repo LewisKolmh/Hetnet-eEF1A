@@ -1,0 +1,82 @@
+version: "0.1.0"
+
+description: >
+  Canonical and alternative identifier systems for nodes in the
+  production EEF1A Hetnet.
+
+identifiers:
+  Gene:
+    primary: NCBI_Gene
+    alternatives:
+      - HGNC
+      - Ensembl_Gene
+      - UniProt
+
+  Compound:
+    primary: InChIKey
+    alternatives:
+      - ChEMBL
+      - PubChem_CID
+      - ChEBI
+      - BindingDB
+
+  DiseasePartner:
+    primary: local_stable_id
+    alternatives:
+      - UniProt
+      - NCBI_Protein
+      - RefSeq_Protein
+
+  Disease:
+    primary: Disease_Ontology
+    alternatives:
+      - MONDO
+      - MeSH
+
+  Pathway:
+    primary: Reactome
+    alternatives:
+      - WikiPathways
+
+  BiologicalProcess:
+    primary: GO
+
+  MolecularFunction:
+    primary: GO
+
+  CellularComponent:
+    primary: GO
+
+rules:
+  - >
+    Names, labels, symbols, and synonyms must not be used as primary
+    identifiers.
+
+  - >
+    EEF1A1 and EEF1A2 must always remain separate Gene nodes.
+
+  - >
+    A generic eEF1A Gene node must not be created.
+
+  - >
+    Evidence reported only as eEF1A must use the property
+    isoform_assignment: unresolved.
+
+  - >
+    HIV-1 reverse transcriptase must use the conceptual
+    DiseasePartner identifier HIV1_RT.
+
+  - >
+    Exact HIV-1 strain and protein accessions must be retained on
+    evidence records rather than used as the universal HIV1_RT node.
+
+  - >
+    Compound names must not be used to merge chemical records.
+
+  - >
+    Compound merging must consider structure, stereochemistry, salt
+    form, mixture status, and parent-compound relationships.
+
+  - >
+    Every imported node must retain its source database, source record
+    identifier, source version, and retrieval date.

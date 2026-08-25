@@ -1,0 +1,11 @@
+name: eef1a-hetnet
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ipykernel
+  - python=3.10
+  - pip
+  - jupyterlab
+prefix: /Users/lewis/miniconda3/envs/eef1a-hetnet

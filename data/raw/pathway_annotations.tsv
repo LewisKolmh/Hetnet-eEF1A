@@ -1,0 +1,169 @@
+protein_id	uniprot_accession	pathway_id	pathway_name
+EEF1A1	P68104	R-HSA-156842	Eukaryotic Translation Elongation
+EEF1A1	P68104	R-HSA-156902	Peptide chain elongation
+EEF1A1	P68104	R-HSA-3371511	HSF1 activation
+EEF1A1	P68104	R-HSA-6798695	Neutrophil degranulation
+EEF1A1	P68104	R-HSA-8876725	Protein methylation
+EEF1A1	P68104	R-HSA-9613829	Chaperone Mediated Autophagy
+EEF1A1	P68104	R-HSA-9735869	SARS-CoV-1 modulates host translation machinery
+EEF1B2	P24534	R-HSA-156842	Eukaryotic Translation Elongation
+EEF1G	P26641	R-HSA-156842	Eukaryotic Translation Elongation
+EEF1G	P26641	R-HSA-9725370	Signaling by ALK fusions and activated point mutants
+EEF1D	P29692	R-HSA-156842	Eukaryotic Translation Elongation
+RPL18A	Q02543	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
+RPL18A	Q02543	R-HSA-156902	Peptide chain elongation
+RPL18A	Q02543	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
+RPL18A	Q02543	R-HSA-192823	Viral mRNA Translation
+RPL18A	Q02543	R-HSA-2408557	Selenocysteine synthesis
+RPL18A	Q02543	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
+RPL18A	Q02543	R-HSA-72689	Formation of a pool of free 40S subunits
+RPL18A	Q02543	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
+RPL18A	Q02543	R-HSA-72764	Eukaryotic Translation Termination
+RPL18A	Q02543	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+RPL18A	Q02543	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
+RPL18A	Q02543	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+RPL18A	Q02543	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+RPL18A	Q02543	R-HSA-9954709	Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide
+RPL18A	Q02543	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
+RPL18A	Q02543	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
+RPL4	P36578	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
+RPL4	P36578	R-HSA-156902	Peptide chain elongation
+RPL4	P36578	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
+RPL4	P36578	R-HSA-192823	Viral mRNA Translation
+RPL4	P36578	R-HSA-2408557	Selenocysteine synthesis
+RPL4	P36578	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
+RPL4	P36578	R-HSA-72689	Formation of a pool of free 40S subunits
+RPL4	P36578	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
+RPL4	P36578	R-HSA-72764	Eukaryotic Translation Termination
+RPL4	P36578	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+RPL4	P36578	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
+RPL4	P36578	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+RPL4	P36578	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+RPL4	P36578	R-HSA-9954709	Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide
+RPL4	P36578	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
+RPL4	P36578	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
+EEF1A2	Q05639	R-HSA-156842	Eukaryotic Translation Elongation
+RPL7	P18124	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
+RPL7	P18124	R-HSA-156902	Peptide chain elongation
+RPL7	P18124	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
+RPL7	P18124	R-HSA-192823	Viral mRNA Translation
+RPL7	P18124	R-HSA-2408557	Selenocysteine synthesis
+RPL7	P18124	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
+RPL7	P18124	R-HSA-72689	Formation of a pool of free 40S subunits
+RPL7	P18124	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
+RPL7	P18124	R-HSA-72764	Eukaryotic Translation Termination
+RPL7	P18124	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+RPL7	P18124	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
+RPL7	P18124	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+RPL7	P18124	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+RPL7	P18124	R-HSA-9954709	Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide
+RPL7	P18124	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
+RPL7	P18124	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
+RPS2	P15880	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
+RPS2	P15880	R-HSA-156902	Peptide chain elongation
+RPS2	P15880	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
+RPS2	P15880	R-HSA-192823	Viral mRNA Translation
+RPS2	P15880	R-HSA-2408557	Selenocysteine synthesis
+RPS2	P15880	R-HSA-3214858	RMTs methylate histone arginines
+RPS2	P15880	R-HSA-6790901	rRNA modification in the nucleus and cytosol
+RPS2	P15880	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
+RPS2	P15880	R-HSA-72649	Translation initiation complex formation
+RPS2	P15880	R-HSA-72689	Formation of a pool of free 40S subunits
+RPS2	P15880	R-HSA-72695	Formation of the ternary complex, and subsequently, the 43S complex
+RPS2	P15880	R-HSA-72702	Ribosomal scanning and start codon recognition
+RPS2	P15880	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
+RPS2	P15880	R-HSA-72764	Eukaryotic Translation Termination
+RPS2	P15880	R-HSA-8876725	Protein methylation
+RPS2	P15880	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+RPS2	P15880	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
+RPS2	P15880	R-HSA-9684482	IFIT antiviral response
+RPS2	P15880	R-HSA-9735869	SARS-CoV-1 modulates host translation machinery
+RPS2	P15880	R-HSA-9754678	SARS-CoV-2 modulates host translation machinery
+RPS2	P15880	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+RPS2	P15880	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+RPS2	P15880	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
+RPS2	P15880	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
+RPL3	P39023	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
+RPL3	P39023	R-HSA-156902	Peptide chain elongation
+RPL3	P39023	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
+RPL3	P39023	R-HSA-192823	Viral mRNA Translation
+RPL3	P39023	R-HSA-2408557	Selenocysteine synthesis
+RPL3	P39023	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
+RPL3	P39023	R-HSA-72689	Formation of a pool of free 40S subunits
+RPL3	P39023	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
+RPL3	P39023	R-HSA-72764	Eukaryotic Translation Termination
+RPL3	P39023	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+RPL3	P39023	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
+RPL3	P39023	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+RPL3	P39023	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+RPL3	P39023	R-HSA-9954709	Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide
+RPL3	P39023	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
+RPL3	P39023	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
+RPS3	P23396	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
+RPS3	P23396	R-HSA-156902	Peptide chain elongation
+RPS3	P23396	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
+RPS3	P23396	R-HSA-192823	Viral mRNA Translation
+RPS3	P23396	R-HSA-2408557	Selenocysteine synthesis
+RPS3	P23396	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
+RPS3	P23396	R-HSA-72649	Translation initiation complex formation
+RPS3	P23396	R-HSA-72689	Formation of a pool of free 40S subunits
+RPS3	P23396	R-HSA-72695	Formation of the ternary complex, and subsequently, the 43S complex
+RPS3	P23396	R-HSA-72702	Ribosomal scanning and start codon recognition
+RPS3	P23396	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
+RPS3	P23396	R-HSA-72764	Eukaryotic Translation Termination
+RPS3	P23396	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+RPS3	P23396	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
+RPS3	P23396	R-HSA-9684482	IFIT antiviral response
+RPS3	P23396	R-HSA-9735869	SARS-CoV-1 modulates host translation machinery
+RPS3	P23396	R-HSA-9754678	SARS-CoV-2 modulates host translation machinery
+RPS3	P23396	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+RPS3	P23396	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+RPS3	P23396	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
+RPS3	P23396	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
+RPS3A	P61247	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
+RPS3A	P61247	R-HSA-156902	Peptide chain elongation
+RPS3A	P61247	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
+RPS3A	P61247	R-HSA-192823	Viral mRNA Translation
+RPS3A	P61247	R-HSA-2408557	Selenocysteine synthesis
+RPS3A	P61247	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
+RPS3A	P61247	R-HSA-72649	Translation initiation complex formation
+RPS3A	P61247	R-HSA-72689	Formation of a pool of free 40S subunits
+RPS3A	P61247	R-HSA-72695	Formation of the ternary complex, and subsequently, the 43S complex
+RPS3A	P61247	R-HSA-72702	Ribosomal scanning and start codon recognition
+RPS3A	P61247	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
+RPS3A	P61247	R-HSA-72764	Eukaryotic Translation Termination
+RPS3A	P61247	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+RPS3A	P61247	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
+RPS3A	P61247	R-HSA-9684482	IFIT antiviral response
+RPS3A	P61247	R-HSA-9735869	SARS-CoV-1 modulates host translation machinery
+RPS3A	P61247	R-HSA-9754678	SARS-CoV-2 modulates host translation machinery
+RPS3A	P61247	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+RPS3A	P61247	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+RPS3A	P61247	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
+RPS3A	P61247	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
+RAN	P62826	R-HSA-165054	Rev-mediated nuclear export of HIV RNA
+RAN	P62826	R-HSA-1655829	Regulation of cholesterol biosynthesis by SREBP (SREBF)
+RAN	P62826	R-HSA-168333	NEP/NS2 Interacts with the Cellular Export Machinery
+RAN	P62826	R-HSA-180746	Nuclear import of Rev protein
+RAN	P62826	R-HSA-203927	MicroRNA (miRNA) biogenesis
+RAN	P62826	R-HSA-5578749	Transcriptional regulation by small RNAs
+RAN	P62826	R-HSA-6784531	tRNA processing in the nucleus
+RAN	P62826	R-HSA-9615933	Postmitotic nuclear pore complex (NPC) reformation
+ETF1	P62495	R-HSA-72764	Eukaryotic Translation Termination
+ETF1	P62495	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+ETF1	P62495	R-HSA-9629569	Protein hydroxylation
+ETF1	P62495	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+ETF1	P62495	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+HSF1	Q00613	R-HSA-3371453	Regulation of HSF1-mediated heat shock response
+HSF1	Q00613	R-HSA-3371511	HSF1 activation
+HSF1	Q00613	R-HSA-3371568	Attenuation phase
+HSF1	Q00613	R-HSA-3371571	HSF1-dependent transactivation
+HSF1	Q00613	R-HSA-9646399	Aggrephagy
+HSF1	Q00613	R-HSA-9841251	Mitochondrial unfolded protein response (UPRmt)
+PAPSS2	O95340	R-HSA-174362	Transport and metabolism of PAPS
+PAPSS2	O95340	R-HSA-2408550	Metabolism of ingested H2SeO4 and H2SeO3 into H2Se
+PAPSS2	O95340	R-HSA-3560796	Defective PAPSS2 causes SEMD-PA
+PAPSS1	O43252	R-HSA-174362	Transport and metabolism of PAPS
+PAPSS1	O43252	R-HSA-2408550	Metabolism of ingested H2SeO4 and H2SeO3 into H2Se
+PAPSS1	O43252	R-HSA-6802952	Signaling by BRAF and RAF1 fusions
+ST6GALNAC1	Q9NSC7	R-HSA-4085001	Sialic acid metabolism

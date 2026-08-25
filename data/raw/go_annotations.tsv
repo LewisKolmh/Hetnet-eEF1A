@@ -1,0 +1,407 @@
+protein_id	go_id	go_term	aspect
+EEF1A1	GO:0030864	cortical actin cytoskeleton	CellularComponent
+EEF1A1	GO:0005737	cytoplasm	CellularComponent
+EEF1A1	GO:0098574	cytoplasmic side of lysosomal membrane	CellularComponent
+EEF1A1	GO:0005829	cytosol	CellularComponent
+EEF1A1	GO:0022626	cytosolic ribosome	CellularComponent
+EEF1A1	GO:0005853	eukaryotic translation elongation factor 1 complex	CellularComponent
+EEF1A1	GO:0070062	extracellular exosome	CellularComponent
+EEF1A1	GO:0005576	extracellular region	CellularComponent
+EEF1A1	GO:0005615	extracellular space	CellularComponent
+EEF1A1	GO:1904813	ficolin-1-rich granule lumen	CellularComponent
+EEF1A1	GO:0016020	membrane	CellularComponent
+EEF1A1	GO:0005730	nucleolus	CellularComponent
+EEF1A1	GO:0005634	nucleus	CellularComponent
+EEF1A1	GO:0005886	plasma membrane	CellularComponent
+EEF1A1	GO:0005840	ribosome	CellularComponent
+EEF1A1	GO:0032587	ruffle membrane	CellularComponent
+EEF1A1	GO:0034774	secretory granule lumen	CellularComponent
+EEF1A1	GO:0005525	GTP binding	MolecularFunction
+EEF1A1	GO:0003924	GTPase activity	MolecularFunction
+EEF1A1	GO:0019209	kinase activator activity	MolecularFunction
+EEF1A1	GO:0019900	kinase binding	MolecularFunction
+EEF1A1	GO:0060090	molecular adaptor activity	MolecularFunction
+EEF1A1	GO:0019901	protein kinase binding	MolecularFunction
+EEF1A1	GO:0003723	RNA binding	MolecularFunction
+EEF1A1	GO:0003746	translation elongation factor activity	MolecularFunction
+EEF1A1	GO:0000049	tRNA binding	MolecularFunction
+EEF1A1	GO:0071364	cellular response to epidermal growth factor stimulus	BiologicalProcess
+EEF1A1	GO:0006351	DNA-templated transcription	BiologicalProcess
+EEF1A1	GO:0044829	host-mediated activation of viral genome replication	BiologicalProcess
+EEF1A1	GO:1904714	regulation of chaperone-mediated autophagy	BiologicalProcess
+EEF1A1	GO:0006412	translation	BiologicalProcess
+EEF1A1	GO:0006414	translational elongation	BiologicalProcess
+EEF1B2	GO:0005737	cytoplasm	CellularComponent
+EEF1B2	GO:0005829	cytosol	CellularComponent
+EEF1B2	GO:0005853	eukaryotic translation elongation factor 1 complex	CellularComponent
+EEF1B2	GO:0005085	guanyl-nucleotide exchange factor activity	MolecularFunction
+EEF1B2	GO:0003746	translation elongation factor activity	MolecularFunction
+EEF1B2	GO:0045471	response to ethanol	BiologicalProcess
+EEF1B2	GO:0006414	translational elongation	BiologicalProcess
+EEF1G	GO:0005737	cytoplasm	CellularComponent
+EEF1G	GO:0005829	cytosol	CellularComponent
+EEF1G	GO:0070062	extracellular exosome	CellularComponent
+EEF1G	GO:0016020	membrane	CellularComponent
+EEF1G	GO:0005634	nucleus	CellularComponent
+EEF1G	GO:0045296	cadherin binding	MolecularFunction
+EEF1G	GO:0003746	translation elongation factor activity	MolecularFunction
+EEF1G	GO:0009615	response to virus	BiologicalProcess
+EEF1G	GO:0006414	translational elongation	BiologicalProcess
+EEF1D	GO:0005737	cytoplasm	CellularComponent
+EEF1D	GO:0005829	cytosol	CellularComponent
+EEF1D	GO:0005853	eukaryotic translation elongation factor 1 complex	CellularComponent
+EEF1D	GO:0001650	fibrillar center	CellularComponent
+EEF1D	GO:0005654	nucleoplasm	CellularComponent
+EEF1D	GO:0005634	nucleus	CellularComponent
+EEF1D	GO:0045296	cadherin binding	MolecularFunction
+EEF1D	GO:0003677	DNA binding	MolecularFunction
+EEF1D	GO:0140297	DNA-binding transcription factor binding	MolecularFunction
+EEF1D	GO:0005085	guanyl-nucleotide exchange factor activity	MolecularFunction
+EEF1D	GO:0031072	heat shock protein binding	MolecularFunction
+EEF1D	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	MolecularFunction
+EEF1D	GO:0003746	translation elongation factor activity	MolecularFunction
+EEF1D	GO:0008135	translation factor activity, RNA binding	MolecularFunction
+EEF1D	GO:0034605	cellular response to heat	BiologicalProcess
+EEF1D	GO:0071479	cellular response to ionizing radiation	BiologicalProcess
+EEF1D	GO:0002182	cytoplasmic translational elongation	BiologicalProcess
+EEF1D	GO:0006351	DNA-templated transcription	BiologicalProcess
+EEF1D	GO:0045944	positive regulation of transcription by RNA polymerase II	BiologicalProcess
+EEF1D	GO:0006414	translational elongation	BiologicalProcess
+RPL18A	GO:0005737	cytoplasm	CellularComponent
+RPL18A	GO:0005829	cytosol	CellularComponent
+RPL18A	GO:0022625	cytosolic large ribosomal subunit	CellularComponent
+RPL18A	GO:0022626	cytosolic ribosome	CellularComponent
+RPL18A	GO:0016020	membrane	CellularComponent
+RPL18A	GO:0014069	postsynaptic density	CellularComponent
+RPL18A	GO:0003723	RNA binding	MolecularFunction
+RPL18A	GO:0003735	structural constituent of ribosome	MolecularFunction
+RPL18A	GO:0002181	cytoplasmic translation	BiologicalProcess
+RPL18A	GO:1901740	negative regulation of myoblast fusion	BiologicalProcess
+RPL18A	GO:0007283	spermatogenesis	BiologicalProcess
+RPL18A	GO:0006941	striated muscle contraction	BiologicalProcess
+RPL18A	GO:0006412	translation	BiologicalProcess
+RPL4	GO:0005737	cytoplasm	CellularComponent
+RPL4	GO:0005829	cytosol	CellularComponent
+RPL4	GO:0022625	cytosolic large ribosomal subunit	CellularComponent
+RPL4	GO:0022626	cytosolic ribosome	CellularComponent
+RPL4	GO:0070062	extracellular exosome	CellularComponent
+RPL4	GO:0005925	focal adhesion	CellularComponent
+RPL4	GO:0016020	membrane	CellularComponent
+RPL4	GO:0005730	nucleolus	CellularComponent
+RPL4	GO:0005634	nucleus	CellularComponent
+RPL4	GO:1990904	ribonucleoprotein complex	CellularComponent
+RPL4	GO:0005791	rough endoplasmic reticulum	CellularComponent
+RPL4	GO:0003723	RNA binding	MolecularFunction
+RPL4	GO:0003735	structural constituent of ribosome	MolecularFunction
+RPL4	GO:0002181	cytoplasmic translation	BiologicalProcess
+RPL4	GO:1901740	negative regulation of myoblast fusion	BiologicalProcess
+RPL4	GO:0007283	spermatogenesis	BiologicalProcess
+RPL4	GO:0006941	striated muscle contraction	BiologicalProcess
+RPL4	GO:0006412	translation	BiologicalProcess
+EEF1A2	GO:0005737	cytoplasm	CellularComponent
+EEF1A2	GO:0098574	cytoplasmic side of lysosomal membrane	CellularComponent
+EEF1A2	GO:0005789	endoplasmic reticulum membrane	CellularComponent
+EEF1A2	GO:0005853	eukaryotic translation elongation factor 1 complex	CellularComponent
+EEF1A2	GO:0045202	synapse	CellularComponent
+EEF1A2	GO:0005525	GTP binding	MolecularFunction
+EEF1A2	GO:0003924	GTPase activity	MolecularFunction
+EEF1A2	GO:0046872	metal ion binding	MolecularFunction
+EEF1A2	GO:0019901	protein kinase binding	MolecularFunction
+EEF1A2	GO:0003746	translation elongation factor activity	MolecularFunction
+EEF1A2	GO:0008135	translation factor activity, RNA binding	MolecularFunction
+EEF1A2	GO:0090218	positive regulation of lipid kinase activity	BiologicalProcess
+EEF1A2	GO:1904714	regulation of chaperone-mediated autophagy	BiologicalProcess
+EEF1A2	GO:0006412	translation	BiologicalProcess
+EEF1A2	GO:0006414	translational elongation	BiologicalProcess
+RPL7	GO:0005737	cytoplasm	CellularComponent
+RPL7	GO:0005829	cytosol	CellularComponent
+RPL7	GO:0022625	cytosolic large ribosomal subunit	CellularComponent
+RPL7	GO:0022626	cytosolic ribosome	CellularComponent
+RPL7	GO:0005925	focal adhesion	CellularComponent
+RPL7	GO:0016020	membrane	CellularComponent
+RPL7	GO:0005730	nucleolus	CellularComponent
+RPL7	GO:0005634	nucleus	CellularComponent
+RPL7	GO:0014069	postsynaptic density	CellularComponent
+RPL7	GO:1990904	ribonucleoprotein complex	CellularComponent
+RPL7	GO:0003677	DNA binding	MolecularFunction
+RPL7	GO:0042802	identical protein binding	MolecularFunction
+RPL7	GO:0003729	mRNA binding	MolecularFunction
+RPL7	GO:0003723	RNA binding	MolecularFunction
+RPL7	GO:0003735	structural constituent of ribosome	MolecularFunction
+RPL7	GO:0002181	cytoplasmic translation	BiologicalProcess
+RPL7	GO:0000463	maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	BiologicalProcess
+RPL7	GO:1901740	negative regulation of myoblast fusion	BiologicalProcess
+RPL7	GO:0042273	ribosomal large subunit biogenesis	BiologicalProcess
+RPL7	GO:0006364	rRNA processing	BiologicalProcess
+RPL7	GO:0007283	spermatogenesis	BiologicalProcess
+RPL7	GO:0006941	striated muscle contraction	BiologicalProcess
+RPL7	GO:0006412	translation	BiologicalProcess
+RPS2	GO:0005737	cytoplasm	CellularComponent
+RPS2	GO:0005829	cytosol	CellularComponent
+RPS2	GO:0022626	cytosolic ribosome	CellularComponent
+RPS2	GO:0022627	cytosolic small ribosomal subunit	CellularComponent
+RPS2	GO:0070062	extracellular exosome	CellularComponent
+RPS2	GO:0005925	focal adhesion	CellularComponent
+RPS2	GO:0016020	membrane	CellularComponent
+RPS2	GO:0005654	nucleoplasm	CellularComponent
+RPS2	GO:0005634	nucleus	CellularComponent
+RPS2	GO:0045296	cadherin binding	MolecularFunction
+RPS2	GO:0019899	enzyme binding	MolecularFunction
+RPS2	GO:0017134	fibroblast growth factor binding	MolecularFunction
+RPS2	GO:0003729	mRNA binding	MolecularFunction
+RPS2	GO:0003723	RNA binding	MolecularFunction
+RPS2	GO:0003735	structural constituent of ribosome	MolecularFunction
+RPS2	GO:0002181	cytoplasmic translation	BiologicalProcess
+RPS2	GO:0051443	positive regulation of ubiquitin-protein transferase activity	BiologicalProcess
+RPS2	GO:0006412	translation	BiologicalProcess
+RPL3	GO:0005737	cytoplasm	CellularComponent
+RPL3	GO:0005829	cytosol	CellularComponent
+RPL3	GO:0022625	cytosolic large ribosomal subunit	CellularComponent
+RPL3	GO:0022626	cytosolic ribosome	CellularComponent
+RPL3	GO:0070062	extracellular exosome	CellularComponent
+RPL3	GO:0005925	focal adhesion	CellularComponent
+RPL3	GO:0005730	nucleolus	CellularComponent
+RPL3	GO:0005634	nucleus	CellularComponent
+RPL3	GO:0032991	protein-containing complex	CellularComponent
+RPL3	GO:0003723	RNA binding	MolecularFunction
+RPL3	GO:0003735	structural constituent of ribosome	MolecularFunction
+RPL3	GO:0002181	cytoplasmic translation	BiologicalProcess
+RPL3	GO:0007283	spermatogenesis	BiologicalProcess
+RPL3	GO:0006412	translation	BiologicalProcess
+RPS3	GO:0005737	cytoplasm	CellularComponent
+RPS3	GO:0005829	cytosol	CellularComponent
+RPS3	GO:0022626	cytosolic ribosome	CellularComponent
+RPS3	GO:0022627	cytosolic small ribosomal subunit	CellularComponent
+RPS3	GO:0005783	endoplasmic reticulum	CellularComponent
+RPS3	GO:0070062	extracellular exosome	CellularComponent
+RPS3	GO:0005925	focal adhesion	CellularComponent
+RPS3	GO:0016020	membrane	CellularComponent
+RPS3	GO:0005743	mitochondrial inner membrane	CellularComponent
+RPS3	GO:0005759	mitochondrial matrix	CellularComponent
+RPS3	GO:0072686	mitotic spindle	CellularComponent
+RPS3	GO:0071159	NF-kappaB complex	CellularComponent
+RPS3	GO:0005730	nucleolus	CellularComponent
+RPS3	GO:0005654	nucleoplasm	CellularComponent
+RPS3	GO:0005634	nucleus	CellularComponent
+RPS3	GO:0005886	plasma membrane	CellularComponent
+RPS3	GO:0014069	postsynaptic density	CellularComponent
+RPS3	GO:1990904	ribonucleoprotein complex	CellularComponent
+RPS3	GO:0005840	ribosome	CellularComponent
+RPS3	GO:0032587	ruffle membrane	CellularComponent
+RPS3	GO:0140078	class I DNA-(apurinic or apyrimidinic site) endonuclease activity	MolecularFunction
+RPS3	GO:0003684	damaged DNA binding	MolecularFunction
+RPS3	GO:0003677	DNA binding	MolecularFunction
+RPS3	GO:0004520	DNA endonuclease activity	MolecularFunction
+RPS3	GO:0003906	DNA-(apurinic or apyrimidinic site) endonuclease activity	MolecularFunction
+RPS3	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific	MolecularFunction
+RPS3	GO:0140297	DNA-binding transcription factor binding	MolecularFunction
+RPS3	GO:0019899	enzyme binding	MolecularFunction
+RPS3	GO:0030544	Hsp70 protein binding	MolecularFunction
+RPS3	GO:0051879	Hsp90 protein binding	MolecularFunction
+RPS3	GO:0051536	iron-sulfur cluster binding	MolecularFunction
+RPS3	GO:0019900	kinase binding	MolecularFunction
+RPS3	GO:0008017	microtubule binding	MolecularFunction
+RPS3	GO:0003729	mRNA binding	MolecularFunction
+RPS3	GO:0032357	oxidized purine DNA binding	MolecularFunction
+RPS3	GO:0032358	oxidized pyrimidine DNA binding	MolecularFunction
+RPS3	GO:0051018	protein kinase A binding	MolecularFunction
+RPS3	GO:0019901	protein kinase binding	MolecularFunction
+RPS3	GO:0003723	RNA binding	MolecularFunction
+RPS3	GO:0070181	small ribosomal subunit rRNA binding	MolecularFunction
+RPS3	GO:0003735	structural constituent of ribosome	MolecularFunction
+RPS3	GO:0097100	supercoiled DNA binding	MolecularFunction
+RPS3	GO:0015631	tubulin binding	MolecularFunction
+RPS3	GO:0044390	ubiquitin-like protein conjugating enzyme binding	MolecularFunction
+RPS3	GO:0006915	apoptotic process	BiologicalProcess
+RPS3	GO:0006284	base-excision repair	BiologicalProcess
+RPS3	GO:0051301	cell division	BiologicalProcess
+RPS3	GO:0070301	cellular response to hydrogen peroxide	BiologicalProcess
+RPS3	GO:0034614	cellular response to reactive oxygen species	BiologicalProcess
+RPS3	GO:0007059	chromosome segregation	BiologicalProcess
+RPS3	GO:0002181	cytoplasmic translation	BiologicalProcess
+RPS3	GO:0002183	cytoplasmic translational initiation	BiologicalProcess
+RPS3	GO:0006974	DNA damage response	BiologicalProcess
+RPS3	GO:0006281	DNA repair	BiologicalProcess
+RPS3	GO:0006351	DNA-templated transcription	BiologicalProcess
+RPS3	GO:0045738	negative regulation of DNA repair	BiologicalProcess
+RPS3	GO:0031397	negative regulation of protein ubiquitination	BiologicalProcess
+RPS3	GO:0017148	negative regulation of translation	BiologicalProcess
+RPS3	GO:2001235	positive regulation of apoptotic signaling pathway	BiologicalProcess
+RPS3	GO:1905053	positive regulation of base-excision repair	BiologicalProcess
+RPS3	GO:0045739	positive regulation of DNA repair	BiologicalProcess
+RPS3	GO:2000144	positive regulation of DNA-templated transcription initiation	BiologicalProcess
+RPS3	GO:0010628	positive regulation of gene expression	BiologicalProcess
+RPS3	GO:1902231	positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage	BiologicalProcess
+RPS3	GO:0031116	positive regulation of microtubule polymerization	BiologicalProcess
+RPS3	GO:1901224	positive regulation of non-canonical NF-kappaB signal transduction	BiologicalProcess
+RPS3	GO:0042981	regulation of apoptotic process	BiologicalProcess
+RPS3	GO:0061481	response to TNF agonist	BiologicalProcess
+RPS3	GO:0051225	spindle assembly	BiologicalProcess
+RPS3A	GO:0005737	cytoplasm	CellularComponent
+RPS3A	GO:0005829	cytosol	CellularComponent
+RPS3A	GO:0022626	cytosolic ribosome	CellularComponent
+RPS3A	GO:0022627	cytosolic small ribosomal subunit	CellularComponent
+RPS3A	GO:0005783	endoplasmic reticulum	CellularComponent
+RPS3A	GO:0070062	extracellular exosome	CellularComponent
+RPS3A	GO:0005925	focal adhesion	CellularComponent
+RPS3A	GO:0005730	nucleolus	CellularComponent
+RPS3A	GO:0005654	nucleoplasm	CellularComponent
+RPS3A	GO:0005634	nucleus	CellularComponent
+RPS3A	GO:1990904	ribonucleoprotein complex	CellularComponent
+RPS3A	GO:0032040	small-subunit processome	CellularComponent
+RPS3A	GO:0048027	mRNA 5'-UTR binding	MolecularFunction
+RPS3A	GO:0003723	RNA binding	MolecularFunction
+RPS3A	GO:0003735	structural constituent of ribosome	MolecularFunction
+RPS3A	GO:0030154	cell differentiation	BiologicalProcess
+RPS3A	GO:0002181	cytoplasmic translation	BiologicalProcess
+RPS3A	GO:0043066	negative regulation of apoptotic process	BiologicalProcess
+RPS3A	GO:0042274	ribosomal small subunit biogenesis	BiologicalProcess
+RPS3A	GO:0006412	translation	BiologicalProcess
+RPS3A	GO:0006413	translational initiation	BiologicalProcess
+RAN	GO:0005814	centriole	CellularComponent
+RAN	GO:0000785	chromatin	CellularComponent
+RAN	GO:0005737	cytoplasm	CellularComponent
+RAN	GO:0005829	cytosol	CellularComponent
+RAN	GO:0070062	extracellular exosome	CellularComponent
+RAN	GO:0001673	male germ cell nucleus	CellularComponent
+RAN	GO:0002177	manchette	CellularComponent
+RAN	GO:0042470	melanosome	CellularComponent
+RAN	GO:0016020	membrane	CellularComponent
+RAN	GO:0030496	midbody	CellularComponent
+RAN	GO:0005635	nuclear envelope	CellularComponent
+RAN	GO:0005643	nuclear pore	CellularComponent
+RAN	GO:0005730	nucleolus	CellularComponent
+RAN	GO:0005654	nucleoplasm	CellularComponent
+RAN	GO:0005634	nucleus	CellularComponent
+RAN	GO:0032991	protein-containing complex	CellularComponent
+RAN	GO:0055037	recycling endosome	CellularComponent
+RAN	GO:0042565	RNA nuclear export complex	CellularComponent
+RAN	GO:0036126	sperm flagellum	CellularComponent
+RAN	GO:0045296	cadherin binding	MolecularFunction
+RAN	GO:0003682	chromatin binding	MolecularFunction
+RAN	GO:0045505	dynein intermediate chain binding	MolecularFunction
+RAN	GO:0003925	G protein activity	MolecularFunction
+RAN	GO:0019003	GDP binding	MolecularFunction
+RAN	GO:0005525	GTP binding	MolecularFunction
+RAN	GO:0003924	GTPase activity	MolecularFunction
+RAN	GO:0061676	importin-alpha family protein binding	MolecularFunction
+RAN	GO:0000287	magnesium ion binding	MolecularFunction
+RAN	GO:0019904	protein domain specific binding	MolecularFunction
+RAN	GO:0046982	protein heterodimerization activity	MolecularFunction
+RAN	GO:0044877	protein-containing complex binding	MolecularFunction
+RAN	GO:0003723	RNA binding	MolecularFunction
+RAN	GO:0051301	cell division	BiologicalProcess
+RAN	GO:0071389	cellular response to mineralocorticoid stimulus	BiologicalProcess
+RAN	GO:0006259	DNA metabolic process	BiologicalProcess
+RAN	GO:0046039	GTP metabolic process	BiologicalProcess
+RAN	GO:0021766	hippocampus development	BiologicalProcess
+RAN	GO:0000278	mitotic cell cycle	BiologicalProcess
+RAN	GO:0000070	mitotic sister chromatid segregation	BiologicalProcess
+RAN	GO:0007052	mitotic spindle organization	BiologicalProcess
+RAN	GO:0042307	positive regulation of protein import into nucleus	BiologicalProcess
+RAN	GO:0035281	pre-miRNA export from nucleus	BiologicalProcess
+RAN	GO:0006611	protein export from nucleus	BiologicalProcess
+RAN	GO:0006606	protein import into nucleus	BiologicalProcess
+RAN	GO:1902570	protein localization to nucleolus	BiologicalProcess
+RAN	GO:0000055	ribosomal large subunit export from nucleus	BiologicalProcess
+RAN	GO:0000056	ribosomal small subunit export from nucleus	BiologicalProcess
+RAN	GO:0000054	ribosomal subunit export from nucleus	BiologicalProcess
+RAN	GO:0061015	snRNA import into nucleus	BiologicalProcess
+RAN	GO:0007286	spermatid development	BiologicalProcess
+RAN	GO:0016032	viral process	BiologicalProcess
+ETF1	GO:0005737	cytoplasm	CellularComponent
+ETF1	GO:0005829	cytosol	CellularComponent
+ETF1	GO:0022626	cytosolic ribosome	CellularComponent
+ETF1	GO:0018444	translation release factor complex	CellularComponent
+ETF1	GO:0004045	peptidyl-tRNA hydrolase activity	MolecularFunction
+ETF1	GO:0043022	ribosome binding	MolecularFunction
+ETF1	GO:0003723	RNA binding	MolecularFunction
+ETF1	GO:1990825	sequence-specific mRNA binding	MolecularFunction
+ETF1	GO:0003747	translation release factor activity	MolecularFunction
+ETF1	GO:0016149	translation release factor activity, codon specific	MolecularFunction
+ETF1	GO:0008079	translation termination factor activity	MolecularFunction
+ETF1	GO:0002184	cytoplasmic translational termination	BiologicalProcess
+ETF1	GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	BiologicalProcess
+ETF1	GO:0006479	protein methylation	BiologicalProcess
+ETF1	GO:0006449	regulation of translational termination	BiologicalProcess
+ETF1	GO:0006415	translational termination	BiologicalProcess
+HSF1	GO:0005813	centrosome	CellularComponent
+HSF1	GO:0000785	chromatin	CellularComponent
+HSF1	GO:0005737	cytoplasm	CellularComponent
+HSF1	GO:0005829	cytosol	CellularComponent
+HSF1	GO:0000776	kinetochore	CellularComponent
+HSF1	GO:0097431	mitotic spindle pole	CellularComponent
+HSF1	GO:0097165	nuclear stress granule	CellularComponent
+HSF1	GO:0005654	nucleoplasm	CellularComponent
+HSF1	GO:0005634	nucleus	CellularComponent
+HSF1	GO:0048471	perinuclear region of cytoplasm	CellularComponent
+HSF1	GO:0016605	PML body	CellularComponent
+HSF1	GO:0045120	pronucleus	CellularComponent
+HSF1	GO:0101031	protein folding chaperone complex	CellularComponent
+HSF1	GO:1990904	ribonucleoprotein complex	CellularComponent
+HSF1	GO:0031490	chromatin DNA binding	MolecularFunction
+HSF1	GO:0003677	DNA binding	MolecularFunction
+HSF1	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific	MolecularFunction
+HSF1	GO:0003700	DNA-binding transcription factor activity	MolecularFunction
+HSF1	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	MolecularFunction
+HSF1	GO:0001227	DNA-binding transcription repressor activity, RNA polymerase II-specific	MolecularFunction
+HSF1	GO:0140296	general transcription initiation factor binding	MolecularFunction
+HSF1	GO:0031072	heat shock protein binding	MolecularFunction
+HSF1	GO:0051879	Hsp90 protein binding	MolecularFunction
+HSF1	GO:0042802	identical protein binding	MolecularFunction
+HSF1	GO:0046982	protein heterodimerization activity	MolecularFunction
+HSF1	GO:0019901	protein kinase binding	MolecularFunction
+HSF1	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	MolecularFunction
+HSF1	GO:0001162	RNA polymerase II intronic transcription regulatory region sequence-specific DNA binding	MolecularFunction
+HSF1	GO:0043565	sequence-specific DNA binding	MolecularFunction
+HSF1	GO:1990837	sequence-specific double-stranded DNA binding	MolecularFunction
+HSF1	GO:0000976	transcription cis-regulatory region binding	MolecularFunction
+HSF1	GO:0061770	translation elongation factor binding	MolecularFunction
+HSF1	GO:0071276	cellular response to cadmium ion	BiologicalProcess
+HSF1	GO:0071280	cellular response to copper ion	BiologicalProcess
+HSF1	GO:0072738	cellular response to diamide	BiologicalProcess
+HSF1	GO:0071480	cellular response to gamma radiation	BiologicalProcess
+HSF1	GO:0034605	cellular response to heat	BiologicalProcess
+HSF1	GO:1903936	cellular response to sodium arsenite	BiologicalProcess
+HSF1	GO:0034620	cellular response to unfolded protein	BiologicalProcess
+HSF1	GO:0006281	DNA repair	BiologicalProcess
+HSF1	GO:0006351	DNA-templated transcription	BiologicalProcess
+HSF1	GO:0000165	MAPK cascade	BiologicalProcess
+HSF1	GO:0006397	mRNA processing	BiologicalProcess
+HSF1	GO:0051028	mRNA transport	BiologicalProcess
+HSF1	GO:2001033	negative regulation of double-strand break repair via nonhomologous end joining	BiologicalProcess
+HSF1	GO:0031333	negative regulation of protein-containing complex assembly	BiologicalProcess
+HSF1	GO:0000122	negative regulation of transcription by RNA polymerase II	BiologicalProcess
+HSF1	GO:0120162	positive regulation of cold-induced thermogenesis	BiologicalProcess
+HSF1	GO:0010628	positive regulation of gene expression	BiologicalProcess
+HSF1	GO:0045651	positive regulation of macrophage differentiation	BiologicalProcess
+HSF1	GO:0045931	positive regulation of mitotic cell cycle	BiologicalProcess
+HSF1	GO:0045944	positive regulation of transcription by RNA polymerase II	BiologicalProcess
+HSF1	GO:0065003	protein-containing complex assembly	BiologicalProcess
+HSF1	GO:1900034	regulation of cellular response to heat	BiologicalProcess
+HSF1	GO:0006357	regulation of transcription by RNA polymerase II	BiologicalProcess
+PAPSS2	GO:0005829	cytosol	CellularComponent
+PAPSS2	GO:0005634	nucleus	CellularComponent
+PAPSS2	GO:0004020	adenylylsulfate kinase activity	MolecularFunction
+PAPSS2	GO:0005524	ATP binding	MolecularFunction
+PAPSS2	GO:0016779	nucleotidyltransferase activity	MolecularFunction
+PAPSS2	GO:0004781	sulfate adenylyltransferase (ATP) activity	MolecularFunction
+PAPSS2	GO:0050428	3'-phosphoadenosine 5'-phosphosulfate biosynthetic process	BiologicalProcess
+PAPSS2	GO:0042445	hormone metabolic process	BiologicalProcess
+PAPSS2	GO:0000103	sulfate assimilation	BiologicalProcess
+PAPSS1	GO:0005829	cytosol	CellularComponent
+PAPSS1	GO:0005634	nucleus	CellularComponent
+PAPSS1	GO:0004020	adenylylsulfate kinase activity	MolecularFunction
+PAPSS1	GO:0005524	ATP binding	MolecularFunction
+PAPSS1	GO:0016779	nucleotidyltransferase activity	MolecularFunction
+PAPSS1	GO:0042803	protein homodimerization activity	MolecularFunction
+PAPSS1	GO:0004781	sulfate adenylyltransferase (ATP) activity	MolecularFunction
+PAPSS1	GO:0050428	3'-phosphoadenosine 5'-phosphosulfate biosynthetic process	BiologicalProcess
+PAPSS1	GO:0001501	skeletal system development	BiologicalProcess
+PAPSS1	GO:0000103	sulfate assimilation	BiologicalProcess
+ST6GALNAC1	GO:0000139	Golgi membrane	CellularComponent
+ST6GALNAC1	GO:0001665	alpha-N-acetylgalactosaminide alpha-2,6-sialyltransferase activity	MolecularFunction
+ST6GALNAC1	GO:0008373	sialyltransferase activity	MolecularFunction
+ST6GALNAC1	GO:0009101	glycoprotein biosynthetic process	BiologicalProcess
+ST6GALNAC1	GO:0048874	host-mediated modulation of intestinal microbiota composition	BiologicalProcess
+ST6GALNAC1	GO:0009312	oligosaccharide biosynthetic process	BiologicalProcess

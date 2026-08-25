@@ -1,0 +1,21 @@
+compound_id	canonical_smiles	pref_name	max_phase
+CHEMBL1221911	C/C(=C\[C@H](C)C(=O)C[C@H](O)CC1CC(=O)NC(=O)C1)[C@@H]1OC(=O)/C=C/CC/C=C/C=C\[C@@H]1C	LACTIMIDOMYCIN	
+CHEMBL123292	C[C@@H]1C[C@@H]([C@H](O)CC2CC(=O)NC(=O)C2)C(=O)[C@@H](C)C1	CYCLOHEXIMIDE	2.0
+CHEMBL2303630	CSC[S@@+]([O-])CC(CO)NC(=O)/C=C/c1c(C)[nH]c(=O)[nH]c1=O	SPARSOMYCIN	2.0
+CHEMBL1802814	COc1ccc(Nc2nc3cc4c(=O)cc(-c5ccc(C(=O)N[C@@H](CC(C)C)C(N)=O)cc5)oc4cc3n2[C@H](C)C2CCCCC2)cc1		
+CHEMBL1802815	CC(C)CNc1nc2cc3c(=O)cc(-c4ccc(C(=O)N[C@@H](Cc5ccccc5)C(N)=O)cc4)oc3cc2n1Cc1ccccc1		
+CHEMBL1802973	CC(C)C[C@H](NC(=O)c1ccc(-c2cc(=O)c3cc([N+](=O)[O-])c(N[C@H](C)C4CCCCC4)cc3o2)cc1)C(N)=O		
+CHEMBL3799977	C#CCNC(=O)c1ccc(N2N=C(C)/C(=C/c3ccc(-c4cc(C)c(C)cc4[N+](=O)[O-])o3)C2=O)cc1		
+CHEMBL4066032	CCNc1ccc(-c2[nH]c3cc(C(=O)NCCOCCOC(=O)CCCC[C@@H]4SC[C@@H]5NC(=O)N[C@@H]54)ccc3c(=O)c2O)cc1[N+](=O)[O-]		
+CHEMBL4095101	O=C1N[C@H]2[C@H](CS[C@H]2CCCCC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCNc2ccc(-c3[nH]c4ccccc4c(=O)c3O)cc2[N+](=O)[O-])N1		
+CHEMBL4097524	O=C(O)c1cc(-c2[nH]c3ccccc3c(=O)c2O)ccc1N1CCCCC1		
+CHEMBL4070348	O=C(O)c1cc(-c2[nH]c3ccccc3c(=O)c2O)ccc1N1CCOCC1		
+CHEMBL4094319	NC(=O)c1cc(-c2[nH]c3ccccc3c(=O)c2O)ccc1N1CCCCC1		
+CHEMBL4072881	NC(=O)c1cc(-c2[nH]c3ccccc3c(=O)c2O)ccc1N1CCOCC1		
+CHEMBL4067648	CCCCCNC(=O)c1ccc2c(=O)c(O)c(-c3ccc(N4CCCCC4)c(C(N)=O)c3)[nH]c2c1		
+CHEMBL4088864	NC(=O)c1cc(-c2[nH]c3cc(C(=O)NCc4ccccc4)ccc3c(=O)c2O)ccc1N1CCCCC1		
+CHEMBL4105227	O=c1c(O)c(-c2ccccc2)[nH]c2ccccc12		
+CHEMBL514569	O=C(O)/C=C/c1nn(Cc2ccc(Cl)cc2Cl)c2cc(C(F)(F)F)ccc12	GAMENDAZOLE	
+CHEMBL4294164	C/C=C(\C)C(=O)O[C@H]1[C@H](O)[C@]2(COC(C)=O)[C@@H](O)C[C@]3(C)C(=CC[C@@H]4[C@@]5(C)CC[C@H](O[C@@H]6O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]6O)[C@@](C)(CO)[C@@H]5CC[C@]43C)[C@@H]2CC1(C)C		
+CHEMBL1232461	CCNC(=O)C[C@@H]1N=C(c2ccc(Cl)cc2)c2cc(OC)ccc2-n2c(C)nnc21	MOLIBRESIB	2.0
+CHEMBL5653589	Cc1ccc(C(=O)Nc2cccc(C(F)(F)F)c2)cc1Nc1nc(-c2cccnc2)nc2nn(C)cc12		

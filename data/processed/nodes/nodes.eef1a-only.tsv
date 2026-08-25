@@ -1,0 +1,310 @@
+node_id	metanode_type	external_id	name
+0	Gene	ncbi:1915	EEF1A1
+1	Gene	ncbi:1933	EEF1B2
+2	Gene	ncbi:1937	EEF1G
+3	Gene	ncbi:1936	EEF1D
+4	Gene	ncbi:6142	RPL18A
+5	Gene	ncbi:6124	RPL4
+6	Gene	ncbi:1917	EEF1A2
+7	Gene	ncbi:6129	RPL7
+8	Gene	ncbi:6187	RPS2
+9	Gene	ncbi:6122	RPL3
+10	Gene	ncbi:6188	RPS3
+11	Gene	ncbi:6189	RPS3A
+12	Gene	ncbi:5901	RAN
+13	Gene	ncbi:2107	ETF1
+14	Gene	ncbi:3297	HSF1
+15	Gene	ncbi:9060	PAPSS2
+16	Gene	ncbi:9061	PAPSS1
+17	Gene	ncbi:55808	ST6GALNAC1
+18	Compound	CHEMBL1221911	LACTIMIDOMYCIN
+19	Compound	CHEMBL123292	CYCLOHEXIMIDE
+20	Compound	CHEMBL2303630	SPARSOMYCIN
+21	Compound	CHEMBL1802814	CHEMBL1802814
+22	Compound	CHEMBL1802815	CHEMBL1802815
+23	Compound	CHEMBL1802973	CHEMBL1802973
+24	Compound	CHEMBL3799977	CHEMBL3799977
+25	Compound	CHEMBL4066032	CHEMBL4066032
+26	Compound	CHEMBL4095101	CHEMBL4095101
+27	Compound	CHEMBL4097524	CHEMBL4097524
+28	Compound	CHEMBL4070348	CHEMBL4070348
+29	Compound	CHEMBL4094319	CHEMBL4094319
+30	Compound	CHEMBL4072881	CHEMBL4072881
+31	Compound	CHEMBL4067648	CHEMBL4067648
+32	Compound	CHEMBL4088864	CHEMBL4088864
+33	Compound	CHEMBL4105227	CHEMBL4105227
+34	Compound	CHEMBL514569	GAMENDAZOLE
+35	Compound	CHEMBL4294164	CHEMBL4294164
+36	Compound	CHEMBL1232461	MOLIBRESIB
+37	Compound	CHEMBL5653589	CHEMBL5653589
+38	BiologicalProcess	GO:0071364	cellular response to epidermal growth factor stimulus
+39	BiologicalProcess	GO:0006351	DNA-templated transcription
+40	BiologicalProcess	GO:0044829	host-mediated activation of viral genome replication
+41	BiologicalProcess	GO:1904714	regulation of chaperone-mediated autophagy
+42	BiologicalProcess	GO:0006412	translation
+43	BiologicalProcess	GO:0006414	translational elongation
+44	BiologicalProcess	GO:0045471	response to ethanol
+45	BiologicalProcess	GO:0009615	response to virus
+46	BiologicalProcess	GO:0034605	cellular response to heat
+47	BiologicalProcess	GO:0071479	cellular response to ionizing radiation
+48	BiologicalProcess	GO:0002182	cytoplasmic translational elongation
+49	BiologicalProcess	GO:0045944	positive regulation of transcription by RNA polymerase II
+50	BiologicalProcess	GO:0002181	cytoplasmic translation
+51	BiologicalProcess	GO:1901740	negative regulation of myoblast fusion
+52	BiologicalProcess	GO:0007283	spermatogenesis
+53	BiologicalProcess	GO:0006941	striated muscle contraction
+54	BiologicalProcess	GO:0090218	positive regulation of lipid kinase activity
+55	BiologicalProcess	GO:0000463	maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+56	BiologicalProcess	GO:0042273	ribosomal large subunit biogenesis
+57	BiologicalProcess	GO:0006364	rRNA processing
+58	BiologicalProcess	GO:0051443	positive regulation of ubiquitin-protein transferase activity
+59	BiologicalProcess	GO:0006915	apoptotic process
+60	BiologicalProcess	GO:0006284	base-excision repair
+61	BiologicalProcess	GO:0051301	cell division
+62	BiologicalProcess	GO:0070301	cellular response to hydrogen peroxide
+63	BiologicalProcess	GO:0034614	cellular response to reactive oxygen species
+64	BiologicalProcess	GO:0007059	chromosome segregation
+65	BiologicalProcess	GO:0002183	cytoplasmic translational initiation
+66	BiologicalProcess	GO:0006974	DNA damage response
+67	BiologicalProcess	GO:0006281	DNA repair
+68	BiologicalProcess	GO:0045738	negative regulation of DNA repair
+69	BiologicalProcess	GO:0031397	negative regulation of protein ubiquitination
+70	BiologicalProcess	GO:0017148	negative regulation of translation
+71	BiologicalProcess	GO:2001235	positive regulation of apoptotic signaling pathway
+72	BiologicalProcess	GO:1905053	positive regulation of base-excision repair
+73	BiologicalProcess	GO:0045739	positive regulation of DNA repair
+74	BiologicalProcess	GO:2000144	positive regulation of DNA-templated transcription initiation
+75	BiologicalProcess	GO:0010628	positive regulation of gene expression
+76	BiologicalProcess	GO:1902231	positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage
+77	BiologicalProcess	GO:0031116	positive regulation of microtubule polymerization
+78	BiologicalProcess	GO:1901224	positive regulation of non-canonical NF-kappaB signal transduction
+79	BiologicalProcess	GO:0042981	regulation of apoptotic process
+80	BiologicalProcess	GO:0061481	response to TNF agonist
+81	BiologicalProcess	GO:0051225	spindle assembly
+82	BiologicalProcess	GO:0030154	cell differentiation
+83	BiologicalProcess	GO:0043066	negative regulation of apoptotic process
+84	BiologicalProcess	GO:0042274	ribosomal small subunit biogenesis
+85	BiologicalProcess	GO:0006413	translational initiation
+86	BiologicalProcess	GO:0071389	cellular response to mineralocorticoid stimulus
+87	BiologicalProcess	GO:0006259	DNA metabolic process
+88	BiologicalProcess	GO:0046039	GTP metabolic process
+89	BiologicalProcess	GO:0021766	hippocampus development
+90	BiologicalProcess	GO:0000278	mitotic cell cycle
+91	BiologicalProcess	GO:0000070	mitotic sister chromatid segregation
+92	BiologicalProcess	GO:0007052	mitotic spindle organization
+93	BiologicalProcess	GO:0042307	positive regulation of protein import into nucleus
+94	BiologicalProcess	GO:0035281	pre-miRNA export from nucleus
+95	BiologicalProcess	GO:0006611	protein export from nucleus
+96	BiologicalProcess	GO:0006606	protein import into nucleus
+97	BiologicalProcess	GO:1902570	protein localization to nucleolus
+98	BiologicalProcess	GO:0000055	ribosomal large subunit export from nucleus
+99	BiologicalProcess	GO:0000056	ribosomal small subunit export from nucleus
+100	BiologicalProcess	GO:0000054	ribosomal subunit export from nucleus
+101	BiologicalProcess	GO:0061015	snRNA import into nucleus
+102	BiologicalProcess	GO:0007286	spermatid development
+103	BiologicalProcess	GO:0016032	viral process
+104	BiologicalProcess	GO:0002184	cytoplasmic translational termination
+105	BiologicalProcess	GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+106	BiologicalProcess	GO:0006479	protein methylation
+107	BiologicalProcess	GO:0006449	regulation of translational termination
+108	BiologicalProcess	GO:0006415	translational termination
+109	BiologicalProcess	GO:0071276	cellular response to cadmium ion
+110	BiologicalProcess	GO:0071280	cellular response to copper ion
+111	BiologicalProcess	GO:0072738	cellular response to diamide
+112	BiologicalProcess	GO:0071480	cellular response to gamma radiation
+113	BiologicalProcess	GO:1903936	cellular response to sodium arsenite
+114	BiologicalProcess	GO:0034620	cellular response to unfolded protein
+115	BiologicalProcess	GO:0000165	MAPK cascade
+116	BiologicalProcess	GO:0006397	mRNA processing
+117	BiologicalProcess	GO:0051028	mRNA transport
+118	BiologicalProcess	GO:2001033	negative regulation of double-strand break repair via nonhomologous end joining
+119	BiologicalProcess	GO:0031333	negative regulation of protein-containing complex assembly
+120	BiologicalProcess	GO:0000122	negative regulation of transcription by RNA polymerase II
+121	BiologicalProcess	GO:0120162	positive regulation of cold-induced thermogenesis
+122	BiologicalProcess	GO:0045651	positive regulation of macrophage differentiation
+123	BiologicalProcess	GO:0045931	positive regulation of mitotic cell cycle
+124	BiologicalProcess	GO:0065003	protein-containing complex assembly
+125	BiologicalProcess	GO:1900034	regulation of cellular response to heat
+126	BiologicalProcess	GO:0006357	regulation of transcription by RNA polymerase II
+127	BiologicalProcess	GO:0050428	3'-phosphoadenosine 5'-phosphosulfate biosynthetic process
+128	BiologicalProcess	GO:0042445	hormone metabolic process
+129	BiologicalProcess	GO:0000103	sulfate assimilation
+130	BiologicalProcess	GO:0001501	skeletal system development
+131	BiologicalProcess	GO:0009101	glycoprotein biosynthetic process
+132	BiologicalProcess	GO:0048874	host-mediated modulation of intestinal microbiota composition
+133	BiologicalProcess	GO:0009312	oligosaccharide biosynthetic process
+134	CellularComponent	GO:0030864	cortical actin cytoskeleton
+135	CellularComponent	GO:0005737	cytoplasm
+136	CellularComponent	GO:0098574	cytoplasmic side of lysosomal membrane
+137	CellularComponent	GO:0005829	cytosol
+138	CellularComponent	GO:0022626	cytosolic ribosome
+139	CellularComponent	GO:0005853	eukaryotic translation elongation factor 1 complex
+140	CellularComponent	GO:0070062	extracellular exosome
+141	CellularComponent	GO:0005576	extracellular region
+142	CellularComponent	GO:0005615	extracellular space
+143	CellularComponent	GO:1904813	ficolin-1-rich granule lumen
+144	CellularComponent	GO:0016020	membrane
+145	CellularComponent	GO:0005730	nucleolus
+146	CellularComponent	GO:0005634	nucleus
+147	CellularComponent	GO:0005886	plasma membrane
+148	CellularComponent	GO:0005840	ribosome
+149	CellularComponent	GO:0032587	ruffle membrane
+150	CellularComponent	GO:0034774	secretory granule lumen
+151	CellularComponent	GO:0001650	fibrillar center
+152	CellularComponent	GO:0005654	nucleoplasm
+153	CellularComponent	GO:0022625	cytosolic large ribosomal subunit
+154	CellularComponent	GO:0014069	postsynaptic density
+155	CellularComponent	GO:0005925	focal adhesion
+156	CellularComponent	GO:1990904	ribonucleoprotein complex
+157	CellularComponent	GO:0005791	rough endoplasmic reticulum
+158	CellularComponent	GO:0005789	endoplasmic reticulum membrane
+159	CellularComponent	GO:0045202	synapse
+160	CellularComponent	GO:0022627	cytosolic small ribosomal subunit
+161	CellularComponent	GO:0032991	protein-containing complex
+162	CellularComponent	GO:0005783	endoplasmic reticulum
+163	CellularComponent	GO:0005743	mitochondrial inner membrane
+164	CellularComponent	GO:0005759	mitochondrial matrix
+165	CellularComponent	GO:0072686	mitotic spindle
+166	CellularComponent	GO:0071159	NF-kappaB complex
+167	CellularComponent	GO:0032040	small-subunit processome
+168	CellularComponent	GO:0005814	centriole
+169	CellularComponent	GO:0000785	chromatin
+170	CellularComponent	GO:0001673	male germ cell nucleus
+171	CellularComponent	GO:0002177	manchette
+172	CellularComponent	GO:0042470	melanosome
+173	CellularComponent	GO:0030496	midbody
+174	CellularComponent	GO:0005635	nuclear envelope
+175	CellularComponent	GO:0005643	nuclear pore
+176	CellularComponent	GO:0055037	recycling endosome
+177	CellularComponent	GO:0042565	RNA nuclear export complex
+178	CellularComponent	GO:0036126	sperm flagellum
+179	CellularComponent	GO:0018444	translation release factor complex
+180	CellularComponent	GO:0005813	centrosome
+181	CellularComponent	GO:0000776	kinetochore
+182	CellularComponent	GO:0097431	mitotic spindle pole
+183	CellularComponent	GO:0097165	nuclear stress granule
+184	CellularComponent	GO:0048471	perinuclear region of cytoplasm
+185	CellularComponent	GO:0016605	PML body
+186	CellularComponent	GO:0045120	pronucleus
+187	CellularComponent	GO:0101031	protein folding chaperone complex
+188	CellularComponent	GO:0000139	Golgi membrane
+189	MolecularFunction	GO:0005525	GTP binding
+190	MolecularFunction	GO:0003924	GTPase activity
+191	MolecularFunction	GO:0019209	kinase activator activity
+192	MolecularFunction	GO:0019900	kinase binding
+193	MolecularFunction	GO:0060090	molecular adaptor activity
+194	MolecularFunction	GO:0019901	protein kinase binding
+195	MolecularFunction	GO:0003723	RNA binding
+196	MolecularFunction	GO:0003746	translation elongation factor activity
+197	MolecularFunction	GO:0000049	tRNA binding
+198	MolecularFunction	GO:0005085	guanyl-nucleotide exchange factor activity
+199	MolecularFunction	GO:0045296	cadherin binding
+200	MolecularFunction	GO:0003677	DNA binding
+201	MolecularFunction	GO:0140297	DNA-binding transcription factor binding
+202	MolecularFunction	GO:0031072	heat shock protein binding
+203	MolecularFunction	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding
+204	MolecularFunction	GO:0008135	translation factor activity, RNA binding
+205	MolecularFunction	GO:0003735	structural constituent of ribosome
+206	MolecularFunction	GO:0046872	metal ion binding
+207	MolecularFunction	GO:0042802	identical protein binding
+208	MolecularFunction	GO:0003729	mRNA binding
+209	MolecularFunction	GO:0019899	enzyme binding
+210	MolecularFunction	GO:0017134	fibroblast growth factor binding
+211	MolecularFunction	GO:0140078	class I DNA-(apurinic or apyrimidinic site) endonuclease activity
+212	MolecularFunction	GO:0003684	damaged DNA binding
+213	MolecularFunction	GO:0004520	DNA endonuclease activity
+214	MolecularFunction	GO:0003906	DNA-(apurinic or apyrimidinic site) endonuclease activity
+215	MolecularFunction	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific
+216	MolecularFunction	GO:0030544	Hsp70 protein binding
+217	MolecularFunction	GO:0051879	Hsp90 protein binding
+218	MolecularFunction	GO:0051536	iron-sulfur cluster binding
+219	MolecularFunction	GO:0008017	microtubule binding
+220	MolecularFunction	GO:0032357	oxidized purine DNA binding
+221	MolecularFunction	GO:0032358	oxidized pyrimidine DNA binding
+222	MolecularFunction	GO:0051018	protein kinase A binding
+223	MolecularFunction	GO:0070181	small ribosomal subunit rRNA binding
+224	MolecularFunction	GO:0097100	supercoiled DNA binding
+225	MolecularFunction	GO:0015631	tubulin binding
+226	MolecularFunction	GO:0044390	ubiquitin-like protein conjugating enzyme binding
+227	MolecularFunction	GO:0048027	mRNA 5'-UTR binding
+228	MolecularFunction	GO:0003682	chromatin binding
+229	MolecularFunction	GO:0045505	dynein intermediate chain binding
+230	MolecularFunction	GO:0003925	G protein activity
+231	MolecularFunction	GO:0019003	GDP binding
+232	MolecularFunction	GO:0061676	importin-alpha family protein binding
+233	MolecularFunction	GO:0000287	magnesium ion binding
+234	MolecularFunction	GO:0019904	protein domain specific binding
+235	MolecularFunction	GO:0046982	protein heterodimerization activity
+236	MolecularFunction	GO:0044877	protein-containing complex binding
+237	MolecularFunction	GO:0004045	peptidyl-tRNA hydrolase activity
+238	MolecularFunction	GO:0043022	ribosome binding
+239	MolecularFunction	GO:1990825	sequence-specific mRNA binding
+240	MolecularFunction	GO:0003747	translation release factor activity
+241	MolecularFunction	GO:0016149	translation release factor activity, codon specific
+242	MolecularFunction	GO:0008079	translation termination factor activity
+243	MolecularFunction	GO:0031490	chromatin DNA binding
+244	MolecularFunction	GO:0003700	DNA-binding transcription factor activity
+245	MolecularFunction	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific
+246	MolecularFunction	GO:0001227	DNA-binding transcription repressor activity, RNA polymerase II-specific
+247	MolecularFunction	GO:0140296	general transcription initiation factor binding
+248	MolecularFunction	GO:0001162	RNA polymerase II intronic transcription regulatory region sequence-specific DNA binding
+249	MolecularFunction	GO:0043565	sequence-specific DNA binding
+250	MolecularFunction	GO:1990837	sequence-specific double-stranded DNA binding
+251	MolecularFunction	GO:0000976	transcription cis-regulatory region binding
+252	MolecularFunction	GO:0061770	translation elongation factor binding
+253	MolecularFunction	GO:0004020	adenylylsulfate kinase activity
+254	MolecularFunction	GO:0005524	ATP binding
+255	MolecularFunction	GO:0016779	nucleotidyltransferase activity
+256	MolecularFunction	GO:0004781	sulfate adenylyltransferase (ATP) activity
+257	MolecularFunction	GO:0042803	protein homodimerization activity
+258	MolecularFunction	GO:0001665	alpha-N-acetylgalactosaminide alpha-2,6-sialyltransferase activity
+259	MolecularFunction	GO:0008373	sialyltransferase activity
+260	Pathway	R-HSA-156842	Eukaryotic Translation Elongation
+261	Pathway	R-HSA-156902	Peptide chain elongation
+262	Pathway	R-HSA-3371511	HSF1 activation
+263	Pathway	R-HSA-6798695	Neutrophil degranulation
+264	Pathway	R-HSA-8876725	Protein methylation
+265	Pathway	R-HSA-9613829	Chaperone Mediated Autophagy
+266	Pathway	R-HSA-9735869	SARS-CoV-1 modulates host translation machinery
+267	Pathway	R-HSA-9725370	Signaling by ALK fusions and activated point mutants
+268	Pathway	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
+269	Pathway	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
+270	Pathway	R-HSA-192823	Viral mRNA Translation
+271	Pathway	R-HSA-2408557	Selenocysteine synthesis
+272	Pathway	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
+273	Pathway	R-HSA-72689	Formation of a pool of free 40S subunits
+274	Pathway	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
+275	Pathway	R-HSA-72764	Eukaryotic Translation Termination
+276	Pathway	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+277	Pathway	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
+278	Pathway	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+279	Pathway	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+280	Pathway	R-HSA-9954709	Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide
+281	Pathway	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
+282	Pathway	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
+283	Pathway	R-HSA-3214858	RMTs methylate histone arginines
+284	Pathway	R-HSA-6790901	rRNA modification in the nucleus and cytosol
+285	Pathway	R-HSA-72649	Translation initiation complex formation
+286	Pathway	R-HSA-72695	Formation of the ternary complex, and subsequently, the 43S complex
+287	Pathway	R-HSA-72702	Ribosomal scanning and start codon recognition
+288	Pathway	R-HSA-9684482	IFIT antiviral response
+289	Pathway	R-HSA-9754678	SARS-CoV-2 modulates host translation machinery
+290	Pathway	R-HSA-165054	Rev-mediated nuclear export of HIV RNA
+291	Pathway	R-HSA-1655829	Regulation of cholesterol biosynthesis by SREBP (SREBF)
+292	Pathway	R-HSA-168333	NEP/NS2 Interacts with the Cellular Export Machinery
+293	Pathway	R-HSA-180746	Nuclear import of Rev protein
+294	Pathway	R-HSA-203927	MicroRNA (miRNA) biogenesis
+295	Pathway	R-HSA-5578749	Transcriptional regulation by small RNAs
+296	Pathway	R-HSA-6784531	tRNA processing in the nucleus
+297	Pathway	R-HSA-9615933	Postmitotic nuclear pore complex (NPC) reformation
+298	Pathway	R-HSA-9629569	Protein hydroxylation
+299	Pathway	R-HSA-3371453	Regulation of HSF1-mediated heat shock response
+300	Pathway	R-HSA-3371568	Attenuation phase
+301	Pathway	R-HSA-3371571	HSF1-dependent transactivation
+302	Pathway	R-HSA-9646399	Aggrephagy
+303	Pathway	R-HSA-9841251	Mitochondrial unfolded protein response (UPRmt)
+304	Pathway	R-HSA-174362	Transport and metabolism of PAPS
+305	Pathway	R-HSA-2408550	Metabolism of ingested H2SeO4 and H2SeO3 into H2Se
+306	Pathway	R-HSA-3560796	Defective PAPSS2 causes SEMD-PA
+307	Pathway	R-HSA-6802952	Signaling by BRAF and RAF1 fusions
+308	Pathway	R-HSA-4085001	Sialic acid metabolism

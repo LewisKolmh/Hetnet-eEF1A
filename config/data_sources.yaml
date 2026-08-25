@@ -1,0 +1,281 @@
+version: "0.1.0"
+
+description: >
+  Registry of external data sources used to construct the production
+  EEF1A Hetnet. Each imported dataset must have a fixed version,
+  retrieval date, licence record, and processing script.
+
+sources:
+  ncbi_gene:
+    name: "NCBI Gene"
+    purpose:
+      - gene_identity
+      - gene_symbols
+      - identifier_cross_references
+    node_types:
+      - Gene
+    edge_types: []
+    access_method: "NCBI datasets or downloaded records"
+    version: null
+    retrieval_date: null
+    licence: "Record before import"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  uniprot:
+    name: "UniProt"
+    purpose:
+      - protein_identity
+      - reviewed_accessions
+      - activity_regulation
+      - functional_annotations
+    node_types:
+      - Gene
+      - DiseasePartner
+    edge_types:
+      - Compound-binds-Gene
+      - Compound-inhibits-Gene
+      - Gene-participates-BiologicalProcess
+      - Gene-performs-MolecularFunction
+      - Gene-localizes-CellularComponent
+    access_method: "UniProt downloads or REST API"
+    version: null
+    retrieval_date: null
+    licence: "Record before import"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  chembl:
+    name: "ChEMBL"
+    purpose:
+      - compound_identity
+      - compound_structures
+      - binding_assays
+      - functional_assays
+      - drug_indications
+    node_types:
+      - Compound
+      - Gene
+      - DiseasePartner
+      - Disease
+    edge_types:
+      - Compound-binds-Gene
+      - Compound-inhibits-Gene
+      - Compound-binds-DiseasePartner
+      - Compound-treats-Disease
+    access_method: "Versioned SQLite database download"
+    version: "ChEMBL_37"
+    retrieval_date: null
+    licence: "CC BY-SA 3.0"
+    citation: "DOI:10.6019/CHEMBL.database.37"
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  bindingdb:
+    name: "BindingDB"
+    purpose:
+      - compound_identity
+      - compound_structures
+      - protein_ligand_binding_measurements
+      - assay_metadata
+    node_types:
+      - Compound
+      - Gene
+      - DiseasePartner
+    edge_types:
+      - Compound-binds-Gene
+      - Compound-binds-DiseasePartner
+    access_method: "Versioned TSV archive"
+    version: null
+    retrieval_date: null
+    licence: "Record before import"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  string:
+    name: "STRING"
+    purpose:
+      - human_protein_associations
+      - protein_neighbour_discovery
+      - evidence_channel_scores
+    node_types:
+      - Gene
+    edge_types:
+      - Gene-interacts-Gene
+    access_method: "Version-specific API or bulk download"
+    version: "STRING 12.0"
+    retrieval_date: null
+    licence: "CC BY 4.0"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  intact:
+    name: "IntAct"
+    purpose:
+      - physical_protein_interactions
+      - interaction_methods
+      - host_pathogen_interactions
+    node_types:
+      - Gene
+      - DiseasePartner
+    edge_types:
+      - Gene-interacts-Gene
+      - Gene-interacts-DiseasePartner
+    access_method: "PSI-MITAB download or API"
+    version: null
+    retrieval_date: null
+    licence: "Record before import"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  biogrid:
+    name: "BioGRID"
+    purpose:
+      - physical_protein_interactions
+      - genetic_interactions
+      - pathogen_host_interactions
+    node_types:
+      - Gene
+      - DiseasePartner
+    edge_types:
+      - Gene-interacts-Gene
+      - Gene-interacts-DiseasePartner
+    access_method: "Versioned bulk download"
+    version: null
+    retrieval_date: null
+    licence: "Record before import"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  reactome:
+    name: "Reactome"
+    purpose:
+      - pathway_identity
+      - gene_pathway_membership
+      - pathway_hierarchy
+    node_types:
+      - Gene
+      - Pathway
+    edge_types:
+      - Gene-participates-Pathway
+    access_method: "Versioned mapping-file download"
+    version: null
+    retrieval_date: null
+    licence: "CC0 for database data"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  gene_ontology:
+    name: "Gene Ontology"
+    purpose:
+      - biological_process_terms
+      - molecular_function_terms
+      - cellular_component_terms
+      - gene_product_annotations
+    node_types:
+      - Gene
+      - BiologicalProcess
+      - MolecularFunction
+      - CellularComponent
+    edge_types:
+      - Gene-participates-BiologicalProcess
+      - Gene-performs-MolecularFunction
+      - Gene-localizes-CellularComponent
+    access_method: "Versioned ontology and annotation downloads"
+    version: null
+    retrieval_date: null
+    licence: "Record release terms before import"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  disease_ontology:
+    name: "Disease Ontology"
+    purpose:
+      - disease_identity
+      - disease_names
+      - ontology_cross_references
+    node_types:
+      - Disease
+    edge_types: []
+    access_method: "Versioned ontology download"
+    version: null
+    retrieval_date: null
+    licence: "Record before import"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+  primary_literature:
+    name: "Primary biomedical literature"
+    purpose:
+      - disease_partner_interactions
+      - interaction_interface_evidence
+      - compound_mechanism_evidence
+      - ppi_disruption_evidence
+    node_types:
+      - Compound
+      - Gene
+      - DiseasePartner
+      - Disease
+    edge_types:
+      - Compound-binds-Gene
+      - Compound-inhibits-Gene
+      - Compound-binds-DiseasePartner
+      - Gene-interacts-DiseasePartner
+      - DiseasePartner-contributes_to-Disease
+    access_method: "Manual curation of cited publications"
+    version: "Publication-specific"
+    retrieval_date: null
+    licence: "Store extracted facts and citations, not article text"
+    citation: null
+    raw_file: null
+    processing_script: null
+    imported: false
+
+rules:
+  - >
+    No dataset may be imported until its version or retrieval date has
+    been recorded.
+
+  - >
+    No dataset may be imported until its reuse terms have been reviewed.
+
+  - >
+    Each output edge must retain the original source database and source
+    record identifier.
+
+  - >
+    Records redistributed by more than one database must not be counted
+    as independent evidence without confirming separate provenance.
+
+  - >
+    Binding assays and functional assays must remain distinguishable.
+
+  - >
+    Predicted protein associations and experimentally supported physical
+    interactions must remain distinguishable.
+
+  - >
+    Raw downloaded files must not be committed to Git.
+
+  - >
+    Processing scripts and small provenance summaries must be committed
+    to Git.

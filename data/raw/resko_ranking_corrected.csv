@@ -1,0 +1,7 @@
+rank,molecule_chembl_id,display_name,n_records,n_proteins,best_record_score,total_potency,max_evidence,hits_eef1a,n_censored,n_proteomics,best_protein,all_evidence_censored
+1,CHEMBL1802814,CHEMBL1802814,1,1,10,4,2,True,0,0,EEF1A1,False
+2,CHEMBL1802815,CHEMBL1802815,1,1,10,4,2,True,0,0,EEF1A1,False
+3,CHEMBL5653589,CHEMBL5653589,8,8,9,11,2,False,0,0,EEF1G,False
+4,CHEMBL1802973,CHEMBL1802973,1,1,9,3,2,True,0,0,EEF1A1,False
+5,CHEMBL3752910,CHEMBL3752910,8,8,8,19,2,False,0,0,EEF1G,False
+6,CHEMBL1232461,MOLIBRESIB,4,4,8,2,2,True,2,4,EEF1A1,False
