@@ -1,0 +1,3 @@
+id	symbol	name	taxon_id	hgnc_id	ensembl_gene_id	uniprot_accession	uniprot_reviewed	source	source_record_id	retrieval_date	isoform_assignment	notes
+NCBI_Gene:1915	EEF1A1	eukaryotic translation elongation factor 1 alpha 1	9606	HGNC:3189	ENSG00000156508	P68104	true	NCBI Gene; UniProt	1915; P68104	2026-08-20	EEF1A1	Canonical human EEF1A1 seed node.
+NCBI_Gene:1917	EEF1A2	eukaryotic translation elongation factor 1 alpha 2	9606	HGNC:3192	ENSG00000101210	Q05639	true	NCBI Gene; UniProt	1917; Q05639	2026-08-20	EEF1A2	Canonical human EEF1A2 seed node.
