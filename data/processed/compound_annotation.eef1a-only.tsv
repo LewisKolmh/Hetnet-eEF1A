@@ -1,0 +1,20 @@
+compound_id	pref_name	max_phase	canonical_smiles	pubchem_cid	inchikey	alogp	mw	n_vendors	example_vendors	structure_source
+CHEMBL1802814			COc1ccc(Nc2nc3cc4c(=O)cc(-c5ccc(C(=O)N[C@@H](CC(C)C)C(N)=O)cc5)oc4cc3n2[C@H](C)C2CCCCC2)cc1	53362901	JEZQQOPCGJRMDS-IPBJYNAHSA-N	7.33	649.79	0		ChEMBL
+CHEMBL1802815			CC(C)CNc1nc2cc3c(=O)cc(-c4ccc(C(=O)N[C@@H](Cc5ccccc5)C(N)=O)cc4)oc3cc2n1Cc1ccccc1	56662893	XDQGSQOIWVSUFW-PMERELPUSA-N	5.75	613.72	0		ChEMBL
+CHEMBL1802973			CC(C)C[C@H](NC(=O)c1ccc(-c2cc(=O)c3cc([N+](=O)[O-])c(N[C@H](C)C4CCCCC4)cc3o2)cc1)C(N)=O	53361218	OYKRHXHJPJWNMX-KOSHJBKYSA-N	5.38	548.64	0		ChEMBL
+CHEMBL5653589			Cc1ccc(C(=O)Nc2cccc(C(F)(F)F)c2)cc1Nc1nc(-c2cccnc2)nc2nn(C)cc12	117602383	MWKSRKSEWLRPBL-UHFFFAOYSA-N	5.75	503.49	29	10X CHEM; A2B Chem; AA BLOCKS; AChemBlock; AKos Consulting & Solutions	ChEMBL
+CHEMBL2146125	magnesium		[Mg+2]					0		ChEMBL
+CHEMBL1200456	sulphate		[O-]S(=O)(=O)[O-]					0		ChEMBL
+CHEMBL1627076	guanylate		C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)O)O)O)NC(=NC2=O)N					0		ChEMBL
+PUBCHEM:6830	guanosine triphosphate		C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)NC(=NC2=O)N	6830				0		
+CHEMBL384759	guanosine diphosphate		C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)O)O)O)NC(=NC2=O)N					0		ChEMBL
+PUBCHEM:14888	arsenic trioxide		[O-2].[O-2].[O-2].[As+3].[As+3]	14888				15	Ambinter; BenchChem; CATO Research Chemicals Inc.; Chem-Impex; Chem-Impex	
+CHEMBL1233085	Gpp(NH)p		C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(NP(=O)(O)O)O)O)O)NC(=NC2=O)N					0		ChEMBL
+CHEMBL284377	phospho-serine		C(C(C(=O)O)N)OP(=O)(O)O					0		ChEMBL
+CHEMBL113178	selenomethionine		C[Se]CCC(C(=O)O)N					0		ChEMBL
+PUBCHEM:3246323	O-phosphothreonine		CC(C(C(=O)O)N)OP(=O)(O)O	3246323				59	10X CHEM; 10X CHEM; A2B Chem; A2B Chem; AA BLOCKS	
+PUBCHEM:20042692	hydron;sulfate		[H-].[O-]S(=O)(=O)[O-]	20042692				0		
+CHEMBL1418244	pSer		C(C(C(=O)O)N)OP(=O)(O)O					0		ChEMBL
+CHEMBL1242996	guanylate		C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)O)O)O)NC(=NC2=O)N					0		ChEMBL
+CHEMBL1201369	guanosine triphosphate		C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OP(=O)(O)O)O)O)NC(=NC2=O)N					0		ChEMBL
+CHEMBL1742182	O-phosphothreonine		CC(C(C(=O)O)N)OP(=O)(O)O					0		ChEMBL

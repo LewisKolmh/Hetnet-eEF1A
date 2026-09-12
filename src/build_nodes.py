@@ -32,6 +32,53 @@ def build_nodes(scope: str) -> pd.DataFrame:
     seed = pd.read_csv(RAW_DIR / "seed_proteins.tsv", sep="\t")
     mapping = pd.read_csv(RAW_DIR / "uniprot_mapping.tsv", sep="\t")
     compounds = pd.read_csv(RAW_DIR / f"compounds_chembl.{scope}.tsv", sep="\t")
+
+    # Keep only compounds that actually carry at least one admissible edge.
+    #
+    # compounds_chembl.<scope>.tsv lists every compound with *any* activity record
+    # against a seed protein, including those whose records were all non-detections
+    # or non-affinity readouts (see src/activity_filter.py). Such compounds would
+    # enter the graph as degree-zero nodes: they can never score above zero, they
+    # cannot be reached by the XSwap permutation, and they inflate the
+    # multiple-testing denominator with slots no compound could ever have won.
+    edge_sources = [
+        RAW_DIR / f"compound_binds_gene.{scope}.tsv",
+        RAW_DIR / f"compound_stitch_gene.{scope}.tsv",
+    ]
+    connected: set[str] = set()
+    for path in edge_sources:
+        if path.exists():
+            e = pd.read_csv(path, sep="\t")
+            if not e.empty:
+                connected |= set(e["compound_id"].dropna())
+    n_before = len(compounds)
+    compounds = compounds[compounds["compound_id"].isin(connected)]
+    log.info(
+        "Compound nodes: %d of %d ChEMBL compounds retained (%d dropped for having "
+        "no admissible edge after activity filtering)",
+        len(compounds), n_before, n_before - len(compounds),
+    )
+
+    # STITCH-only compounds enter as new nodes. These are the point of adding the
+    # layer: compounds associated with a seed protein by experiment or curation
+    # that nobody ran a seed-target affinity assay on, so ChEMBL's target-activity
+    # tables never saw them.
+    stitch_path = RAW_DIR / f"compounds_stitch.{scope}.tsv"
+    if stitch_path.exists():
+        st = pd.read_csv(stitch_path, sep="\t")
+        if not st.empty:
+            st = st[st["compound_id"].isin(connected)]
+            new = st[~st["compound_id"].isin(set(compounds["compound_id"]))]
+            new = new.drop_duplicates(subset="compound_id")
+            add = pd.DataFrame({
+                "compound_id": new["compound_id"],
+                "canonical_smiles": new["stitch_smiles"],
+                "pref_name": new["stitch_name"],
+                "max_phase": float("nan"),
+            })
+            compounds = pd.concat([compounds, add], ignore_index=True)
+            log.info("Compound nodes: +%d STITCH-only compounds (total %d)",
+                     len(add), len(compounds))
     go = pd.read_csv(RAW_DIR / "go_annotations.tsv", sep="\t")
     pw = pd.read_csv(RAW_DIR / "pathway_annotations.tsv", sep="\t")
 

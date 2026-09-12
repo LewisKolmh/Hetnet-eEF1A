@@ -76,6 +76,29 @@ def main(scope: str) -> None:
     sparse.save_npz(MATRICES_DIR / f"CbG.{scope}.npz", m_cbg)
     log.info("CbG: %d edges (%d skipped - missing node mapping), nnz=%d", len(edges), n_skipped, m_cbg.nnz)
 
+    # CsG: Compound associated-in-STITCH Gene. Kept as a SEPARATE metaedge rather
+    # than merged into CbG: the evidence is of a different kind (curated/experimental
+    # association, not a measured affinity against this target), so metapaths through
+    # it are reported separately and can be included or excluded downstream.
+    stitch_path = RAW_DIR / f"compound_stitch_gene.{scope}.tsv"
+    if stitch_path.exists():
+        csg = pd.read_csv(stitch_path, sep="\t")
+        edges = []
+        n_skipped = 0
+        for row in csg.itertuples(index=False):
+            cid = id_by_ext.get(("Compound", row.compound_id))
+            gid = gene_id(row.protein_id)
+            if cid is None or gid is None:
+                n_skipped += 1
+                continue
+            edges.append((cid, gid))
+        m_csg = build_matrix(n, edges, symmetric=False)
+        sparse.save_npz(MATRICES_DIR / f"CsG.{scope}.npz", m_csg)
+        log.info("CsG: %d edges (%d skipped - missing node mapping), nnz=%d",
+                 len(edges), n_skipped, m_csg.nnz)
+    else:
+        log.warning("No STITCH edge file at %s - CsG layer not built", stitch_path)
+
     # GiG: Gene interacts Gene (symmetric, from the STRING network - same for both scopes)
     gig = pd.read_csv(RAW_DIR / "gene_interacts_gene.tsv", sep="\t")
     edges = []
