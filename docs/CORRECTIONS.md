@@ -1,5 +1,13 @@
 # Corrected iteration: what changed and why
 
+![Corrections summary](fig_corrections.png)
+
+*(a) Edge admission: most ChEMBL activity records behind the baseline binding
+edges report no measured affinity. (b) Network rank and measured affinity point
+at different compounds; marker shade is assay provenance. (c) The uncalibrated
+min-over-metapaths statistic is anticonservative; permutation calibration
+removes the excess. (d) Candidate funnel, applied in pipeline order.*
+
 This branch reworks the hetnet pipeline in `main`. Every change below is either a
 defect fix or a new evidence layer; nothing in `main` is deleted without a stated
 reason, and no claim in the output rests on a filter that is not written down here.
