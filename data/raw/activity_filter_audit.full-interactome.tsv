@@ -1,0 +1,7 @@
+criterion	records_removed	records_remaining
+affinity/potency measurement type	312	443
+exact relation (=)	295	148
+molar-convertible (pchembl_value present)	8	140
+binding or functional assay	0	140
+no ChEMBL validity flag	0	140
+pchembl_value >= 5.0	49	91
