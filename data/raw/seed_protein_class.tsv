@@ -1,0 +1,19 @@
+protein_id	seed_class	substrate_binding_domain	note
+EEF1A1	eef1a_paralogue	FALSE	Canonical target. GTP/GDP binding, but no small-molecule catalytic substrate pocket that vendor metabolites populate.
+EEF1A2	eef1a_paralogue	FALSE	Second paralogue; kept as a separate node throughout.
+EEF1B2	elongation_complex	FALSE	eEF1B alpha; guanine-nucleotide exchange subunit.
+EEF1D	elongation_complex	FALSE	eEF1B delta; exchange-complex subunit.
+EEF1G	elongation_complex	TRUE	eEF1B gamma carries a glutathione-S-transferase-like domain, so its STITCH partners are dominated by glutathione conjugates binding as GST substrates, not as modulators of translation.
+RPL3	ribosome	FALSE	Large-subunit ribosomal protein.
+RPL4	ribosome	FALSE	Large-subunit ribosomal protein.
+RPL7	ribosome	FALSE	Large-subunit ribosomal protein.
+RPL18A	ribosome	FALSE	Large-subunit ribosomal protein.
+RPS2	ribosome	FALSE	Small-subunit ribosomal protein.
+RPS3	ribosome	FALSE	Small-subunit ribosomal protein.
+RPS3A	ribosome	FALSE	Small-subunit ribosomal protein.
+RAN	trafficking	FALSE	Small GTPase; nucleotide site only.
+ETF1	termination	FALSE	Translation termination factor.
+HSF1	regulatory	FALSE	Transcription factor.
+PAPSS1	metabolic_enzyme	TRUE	PAPS synthase: ATP/sulfate/APS/PAPS occupy its catalytic sites, so its STITCH partners are its own substrates and products.
+PAPSS2	metabolic_enzyme	TRUE	PAPS synthase paralogue; same substrate-relation caveat as PAPSS1.
+ST6GALNAC1	metabolic_enzyme	TRUE	Sialyltransferase: CMP-sialic acid is its donor substrate and GalNAc-terminated glycans its acceptors, so its STITCH partners are substrates.
