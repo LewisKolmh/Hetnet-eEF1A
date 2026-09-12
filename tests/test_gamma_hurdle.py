@@ -27,11 +27,25 @@ def test_pi_zero_when_no_nonzero_values():
     assert fit["n_nonzero"] == 0
 
 
-def test_pvalues_output_bonferroni_geq_raw():
+def test_corrections_are_ordered_and_bounded():
+    """BH <= WY <= Bonferroni, all >= the raw calibrated p, all <= 1."""
     df = pd.read_csv("data/processed/pvalues/pvalues.full-interactome.tsv", sep="\t")
-    valid = df.dropna(subset=["p_value", "p_value_bonferroni"])
-    assert (valid["p_value_bonferroni"] >= valid["p_value"] - 1e-12).all()
-    assert (valid["p_value_bonferroni"] <= 1.0).all()
+    valid = df.dropna(subset=["p_minp", "q_bh", "p_bonferroni", "p_westfall_young"])
+    for col in ["q_bh", "p_bonferroni", "p_westfall_young"]:
+        assert (valid[col] >= valid["p_minp"] - 1e-12).all(), col
+        assert (valid[col] <= 1.0 + 1e-12).all(), col
+    # Westfall-Young exploits the correlation between cells, so it can never be
+    # more conservative than Bonferroni.
+    assert (valid["p_westfall_young"] <= valid["p_bonferroni"] + 1e-12).all()
+    assert (valid["q_bh"] <= valid["p_bonferroni"] + 1e-12).all()
+
+
+def test_pooled_gamma_column_is_reported_but_not_used_for_hit_calls():
+    """The previous iteration's pooled statistic is kept only for comparison."""
+    cells = pd.read_csv("data/processed/pvalues/pvalues_cells.full-interactome.tsv", sep="\t")
+    assert "p_gamma_pooled" in cells.columns
+    compounds = pd.read_csv("data/processed/pvalues/pvalues.full-interactome.tsv", sep="\t")
+    assert not any(c.startswith("significant") and "gamma" in c for c in compounds.columns)
 
 
 def test_zero_dwpc_never_flagged_significant():

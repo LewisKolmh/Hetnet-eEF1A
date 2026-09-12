@@ -111,6 +111,29 @@ def run_one_permutation(
     return pd.DataFrame(rows)
 
 
+def consolidate(scope: str, delete_parts: bool) -> Path:
+    """Merge perm_*.parquet into one null_draws.<scope>.parquet.
+
+    At the permutation counts the corrected multiple-testing needs (1e4), the
+    per-permutation files are tens of thousands of small parquets - unusable as a
+    repository artefact. The consolidated file carries the same nonzero rows.
+    """
+    paths = sorted(NULL_DIR.glob(f"perm_*.{scope}.parquet"))
+    if not paths:
+        raise FileNotFoundError(f"no per-permutation files for scope={scope}")
+    frames = [pd.read_parquet(p) for p in paths]
+    out = pd.concat(frames, ignore_index=True)
+    out_path = NULL_DIR / f"null_draws.{scope}.parquet"
+    out.to_parquet(out_path, index=False, compression="zstd")
+    log.info("Consolidated %d permutations (%d nonzero rows) -> %s (%.1f MB)",
+             len(paths), len(out), out_path, out_path.stat().st_size / 1e6)
+    if delete_parts:
+        for p in paths:
+            p.unlink()
+        log.info("Removed %d per-permutation files", len(paths))
+    return out_path
+
+
 def main(
     scope: str, n_permutations: int, start_index: int, end_index: int | None,
     swap_factor: int, damping: float, seed: int,
@@ -168,5 +191,12 @@ if __name__ == "__main__":
     parser.add_argument("--swap-factor", type=int, default=10, help="XSwap attempts = swap_factor x edge_count per metaedge")
     parser.add_argument("--damping", type=float, default=0.4)
     parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--consolidate", action="store_true",
+                        help="Merge existing perm_*.parquet into null_draws.<scope>.parquet and exit")
+    parser.add_argument("--keep-parts", action="store_true",
+                        help="With --consolidate, keep the per-permutation files")
     args = parser.parse_args()
+    if args.consolidate:
+        consolidate(args.scope, delete_parts=not args.keep_parts)
+        raise SystemExit(0)
     main(args.scope, args.n_permutations, args.start_index, args.end_index, args.swap_factor, args.damping, args.seed)
