@@ -90,6 +90,19 @@ def main(scope: str) -> None:
         chembl_ev = pd.DataFrame(columns=["compound_id", "pchembl_max", "n_chembl_targets",
                                           "chembl_targets", "evidence_types"])
 
+    # Per-paralogue affinities. `pchembl_max` is a maximum over every seed protein,
+    # which is the wrong summary for an EEF1A1-versus-EEF1A2 question: it hides a
+    # 12.6-fold preference in this dataset. Report each paralogue separately and
+    # the log ratio between them, positive meaning EEF1A1-preferring.
+    if not cbg.empty:
+        para = (cbg[cbg.protein_id.isin(["EEF1A1", "EEF1A2"])]
+                .groupby(["compound_id", "protein_id"])["pchembl_max"].max().unstack())
+        para = para.reindex(columns=["EEF1A1", "EEF1A2"])
+        para.columns = ["pchembl_EEF1A1", "pchembl_EEF1A2"]
+        para["paralogue_log_selectivity"] = (
+            para["pchembl_EEF1A1"] - para["pchembl_EEF1A2"]).round(2)
+        chembl_ev = chembl_ev.merge(para.reset_index(), on="compound_id", how="left")
+
     # STITCH evidence, with the discarded channels kept visible.
     csg_path = RAW_DIR / "compound_stitch_gene.full-interactome.tsv"
     csg = pd.read_csv(csg_path, sep="\t") if csg_path.exists() else pd.DataFrame()
@@ -176,7 +189,8 @@ def main(scope: str) -> None:
             "best_metapath", "best_target_gene", "dwpc_at_best",
             "p_cell_min", "p_minp", "q_bh", "p_bonferroni", "p_westfall_young",
             "significant_bh", "significant_bonferroni", "significant_wy",
-            "edge_layers", "n_seed_targets", "pchembl_max", "evidence_types",
+            "edge_layers", "n_seed_targets", "pchembl_max", "pchembl_EEF1A1",
+            "pchembl_EEF1A2", "paralogue_log_selectivity", "evidence_types",
             "chembl_targets", "stitch_score_max", "stitch_experimental_max",
             "stitch_database_max", "stitch_textmining_max_discarded", "stitch_targets",
             "binds_eef1a_directly", "substrate_relation_only", "seed_targets",
@@ -184,7 +198,7 @@ def main(scope: str) -> None:
             "max_seed_proteins_in_one_document", "example_assay_description",
             "tractable_small_molecule", "nucleotide_cofactor",
             "structural_exclusion_reason", "n_heavy_atoms", "n_rings",
-            "max_phase", "alogp", "mw", "n_vendors", "example_vendors",
+            "sa_score", "max_phase", "alogp", "mw", "n_vendors", "example_vendors",
             "canonical_smiles", "inchikey", "pubchem_cid", "structure_source"]
     cols = [c for c in cols if c in out.columns]
 
@@ -193,22 +207,25 @@ def main(scope: str) -> None:
     out[cols].to_csv(out_path, index=False)
     log.info("Saved %d ranked compounds to %s", len(out), out_path)
 
-    # Purchasable shortlist: BH-significant, has a structure, has at least one
-    # supplier, and is not a many-target chemotype.
-    orderable = (out["significant_bh"]
-                 & out["canonical_smiles"].notna()
-                 & (out.get("n_vendors", 0).fillna(0) > 0)
-                 & (out["n_seed_targets"] <= 3))
+    # Candidate shortlist: BH-significant, has a structure, and is not a
+    # many-target chemotype. Purchasability is deliberately NOT a criterion - a
+    # compound absent from every catalogue can still be synthesised, and on this
+    # graph the only compounds with a targeted eEF1A binding measurement have no
+    # supplier at all. Catalogue presence and synthetic accessibility both travel
+    # as columns so the reader can apply either.
+    credible = (out["significant_bh"]
+                & out["canonical_smiles"].notna()
+                & (out["n_seed_targets"] <= 3))
     chemically_sensible = out["tractable_small_molecule"] & ~out["nucleotide_cofactor"]
-    shortlist = out[orderable & chemically_sensible & ~out["substrate_relation_only"]]
-    held_back = out[orderable & ~(chemically_sensible & ~out["substrate_relation_only"])]
+    shortlist = out[credible & chemically_sensible & ~out["substrate_relation_only"]]
+    held_back = out[credible & ~(chemically_sensible & ~out["substrate_relation_only"])]
     held_path = RESULTS_DIR / f"substrate_relation_hits.{scope}.csv"
     held_back[cols].to_csv(held_path, index=False)
     log.info(
-        "Held back %d significant, purchasable hits that are substrate/cofactor "
+        "Held back %d significant candidates that are substrate/cofactor "
         "relations or fail the structural floor -> %s", len(held_back), held_path,
     )
-    short_path = RESULTS_DIR / f"purchasable_shortlist.{scope}.csv"
+    short_path = RESULTS_DIR / f"candidate_shortlist.{scope}.csv"
     shortlist[cols].to_csv(short_path, index=False)
 
     # Lead candidates: the purchasable shortlist plus every compound whose link to

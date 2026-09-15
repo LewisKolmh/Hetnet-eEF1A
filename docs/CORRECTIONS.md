@@ -158,9 +158,27 @@ and the full assay description travels with every output row.
 ## What the corrected pipeline actually returns
 
 The funnel (panel **d**, `full-interactome`): 446 ranked -> 64 significant at
-q < 0.05 -> 64 with a resolved structure -> 18 purchasable -> 16 binding <= 3 seed
-proteins -> 5 clearing the structural floor -> **1** that is not a substrate or
-cofactor relation.
+q < 0.05 -> 64 with a resolved structure -> 56 binding <= 3 seed proteins -> 11
+clearing the structural floor -> **1** that is not a substrate or cofactor
+relation.
+
+**Purchasability is not a criterion anywhere in the funnel or the shortlist.** An
+earlier iteration gated the shortlist on having at least one catalogued supplier,
+on the reasoning that a shortlist is a list someone orders from. That is wrong for
+this project: a compound absent from every catalogue can be synthesised, and on
+this graph the only compounds carrying a targeted eEF1A binding measurement have
+no supplier at all, so the gate dropped exactly the molecules worth making. The
+gate is removed, `results/purchasable_shortlist.*.csv` is now
+`results/candidate_shortlist.*.csv`, and two columns carry the information the
+gate used to destroy:
+
+* `n_vendors` / `example_vendors` - catalogue presence, reported not required.
+* `sa_score` - Ertl & Schuffenhauer synthetic accessibility, 1 (easy) to 10
+  (hard), computed from the structure. The three measured eEF1A binders score
+  3.2-3.7, i.e. ordinary medicinal-chemistry difficulty, and they have a
+  published on-bead route. Treat scores above ~6 as a warning rather than a
+  verdict: the score is a fragment heuristic and knows nothing about a published
+  route to a specific compound.
 
 That one compound is **molibresib** (CHEMBL1232461, 73 catalogued suppliers) -
 and its seed-protein evidence is a `multiplexed_pulldown`: a single document
@@ -181,6 +199,34 @@ Two things follow for bench work, and neither is something the network can
 settle: molibresib is orderable today but its eEF1A engagement needs a targeted
 binding measurement before it means anything, and the flavonoid series has the
 measurement but needs synthesis.
+
+### Affinity is now reported per paralogue
+
+`pchembl_max` is a maximum over every seed protein, which is the wrong summary
+for an EEF1A1-versus-EEF1A2 question - it hid a 12.6-fold preference in this
+dataset. The ranked tables now carry `pchembl_EEF1A1`, `pchembl_EEF1A2` and
+`paralogue_log_selectivity` (positive = EEF1A1-preferring) alongside it:
+
+| compound | EEF1A1 | EEF1A2 | log ratio |
+|---|---|---|---|
+| CHEMBL1802814 | 8.43 | 8.31 | +0.12 |
+| CHEMBL1802815 | 8.09 | 8.61 | -0.52 |
+| CHEMBL1802973 | 7.24 | 8.34 | -1.10 |
+
+### The didemnin pocket cannot explain that selectivity
+
+`results/pocket_conservation.csv`: the 16 residues contacting didemnin B in
+5LZS (ligand 7C4, contacts from the PDBe interactions API) are **identical**
+between human EEF1A1 and EEF1A2, even though the paralogues differ at 34
+positions overall (92.4% identity). PDB author numbering for that chain lines up
+with human EEF1A1 numbering at all 16 positions.
+
+So a docking protocol at this site cannot predict, and cannot explain, the
+up-to-12.6-fold EEF1A2 preference measured by SPR. Either these compounds bind
+somewhere other than the didemnin site, or the preference comes from outside the
+contact set - conformational preference, or the 34 differing positions elsewhere
+in the fold. This is a limit on what structure-based work can claim here, and it
+is worth knowing before a docking run rather than after.
 
 ## Relevance audit: what this graph is a list of
 

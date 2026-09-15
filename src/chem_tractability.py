@@ -98,6 +98,37 @@ def _descriptors(smiles: str | float | None) -> dict:
     )
 
 
+def synthetic_accessibility(smiles_iter) -> list[float | None]:
+    """Ertl & Schuffenhauer synthetic accessibility score, 1 (easy) to 10 (hard).
+
+    Reported instead of purchasability as the practical gate on a candidate: a
+    compound absent from every catalogue is not out of reach if it can be made,
+    and the eEF1A series that carries the only targeted binding measurements on
+    this graph was made by a documented on-bead route. Catalogue presence is a
+    convenience, so it travels as a column; whether a molecule can be made is
+    the question that decides whether an assay is possible.
+
+    Scores above ~6 are a warning, not a verdict: the score is a fragment-based
+    heuristic that penalises ring complexity and stereocentres, and it knows
+    nothing about a published route to the specific compound.
+    """
+    import os
+    import sys
+
+    from rdkit.Chem import RDConfig
+
+    sa_dir = os.path.join(RDConfig.RDContribDir, "SA_Score")
+    if sa_dir not in sys.path:
+        sys.path.append(sa_dir)
+    import sascorer  # noqa: E402  (RDKit Contrib module, only importable after the path append)
+
+    out = []
+    for smi in smiles_iter:
+        m = Chem.MolFromSmiles(smi) if isinstance(smi, str) and smi else None
+        out.append(round(sascorer.calculateScore(m), 2) if m is not None else None)
+    return out
+
+
 def annotate_tractability(df: pd.DataFrame, smiles_col: str = "canonical_smiles") -> pd.DataFrame:
     """Add structural descriptors and the two advisory flags to `df`.
 
@@ -121,6 +152,7 @@ def annotate_tractability(df: pd.DataFrame, smiles_col: str = "canonical_smiles"
     out["nucleotide_cofactor"] = (
         out["nucleotide_cofactor"].astype("boolean").fillna(False).astype(bool)
     )
+    out["sa_score"] = synthetic_accessibility(out[smiles_col])
     # Every excluded row states why, in the same call that excludes it: a reader
     # of the ranked table should never have to reverse-engineer the criterion.
     out["structural_exclusion_reason"] = [
