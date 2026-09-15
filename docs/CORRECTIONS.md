@@ -136,9 +136,11 @@ targeted binding assay a reader would assume from a *K*d column.
 | `direct_biophysical` | description names a biophysical binding method (SPR, ITC, calorimetry, ...) |
 | `assay_reported` | an activity is reported; the readout cannot be established from structured fields |
 | `proteome_readout` | the measured quantity is abundance or enrichment across many proteins |
-| `multiplexed_pulldown` | one document reports >= 5 distinct seed proteins for this compound |
+| `multiplexed_pulldown` | one document reports >= 4 distinct seed proteins for this compound (`MULTIPLEX_MIN_PROTEINS`) |
 
-The primary rule is mechanical (document breadth); the keyword scan is
+Document breadth is always measured on the full-interactome activities, never on the
+scope being graded, so a two-gene scope cannot launder a thirteen-protein Kinobead
+deposit into a targeted measurement. The primary rule is mechanical (document breadth); the keyword scan is
 corroboration, so a label does not hinge on curator phrasing. The generic phrase
 "pull down" is deliberately **not** a demotion keyword - biotinylated-probe
 pulldowns read out by western blot against one named protein are targeted
@@ -161,7 +163,8 @@ proteins -> 5 clearing the structural floor -> **1** that is not a substrate or
 cofactor relation.
 
 That one compound is **molibresib** (CHEMBL1232461, 73 catalogued suppliers) -
-and its seed-protein evidence is a `proteome_readout`.
+and its seed-protein evidence is a `multiplexed_pulldown`: a single document
+reports it against six seed proteins by LC-MS/MS fold change.
 
 Meanwhile the three strongest measured eEF1A binders on the graph - a flavonoid
 series, pChEMBL 8.3-8.6 by SPR against **both** paralogues, from Yao et al.,
@@ -178,6 +181,62 @@ Two things follow for bench work, and neither is something the network can
 settle: molibresib is orderable today but its eEF1A engagement needs a targeted
 binding measurement before it means anything, and the flavonoid series has the
 measurement but needs synthesis.
+
+## Relevance audit: what this graph is a list of
+
+A shortlist is only as relevant as the edges under it, so every BH-significant
+compound was traced back to the seed protein it actually holds a chemical edge
+to. Results in `results/relevance_audit.csv` and the figure below.
+
+![Relevance audit](fig_relevance.png)
+
+**In the 18-protein scope, significance is not about eEF1A.** Of 64
+BH-significant compounds, **4** hold a chemical edge to EEF1A1 or EEF1A2. The
+rest bind eEF1A's partners: EEF1G (41 compounds), PAPSS1 and PAPSS2 (28 each),
+ST6GALNAC1 (9), and the ribosomal proteins in single figures - that is, the
+glutathione-transferase domain of EEF1G, the PAPS synthases' nucleotide site and
+a sialyltransferase's donor site. Their best cells nevertheless *name* EEF1A2 as
+the target gene (63 of 64), because the metapath runs compound -> partner protein
+-> interaction or pathway -> EEF1A2. Those are hypotheses about eEF1A's
+neighbourhood, not candidate eEF1A ligands, and the ranking must not be read as
+the latter.
+
+Molibresib is the clearest case: its only eEF1A record is a fold-change readout
+in that six-protein LC-MS/MS document, which the activity filter correctly
+rejects, so it holds **no** eEF1A edge at all. It reaches the shortlist through
+EEF1G, RAN, RPS3 and RPS3A.
+
+**In the eEF1A-only scope, significance is not discriminating.** All 19 ranked
+compounds are BH-significant, but the calibrated p-value takes only **two**
+distinct values across them (0.0017 for four compounds, 0.0106 for fifteen), so
+it separates almost nothing. And 15 of the 19 are eEF1A's own nucleotide
+cofactor or bulk chemistry: GTP, GDP, Gpp(NH)p, guanylate, phospho-serine,
+O-phosphothreonine, sulphate, magnesium, selenomethionine, arsenic trioxide. The
+cofactor flag and the structural floor remove all 15, which is what they are for.
+
+**What is left is four compounds.** Three are the flavonoid analogues with SPR
+against both paralogues and no catalogued supplier; the fourth, CHEMBL5653589,
+is purchasable from 29 suppliers at pChEMBL 9.31 but its eEF1A2 link comes from a
+single document reporting 13 seed proteins. So the graph's entire eEF1A-relevant
+chemical layer is four molecules, three unbuyable and one resting on multiplexed
+proteomics. That is the honest size of the result, and any shortlist aimed at
+eEF1A has to start from these four rather than from the 18-protein ranking.
+
+## Two follow-up corrections found during the audit
+
+**Assay provenance was scope-dependent.** Document breadth was measured inside
+the scope being graded, so CHEMBL5653589's 13-protein Kinobead deposit looked
+like a 2-protein one in the eEF1A-only scope and was graded `proteome_readout`
+there versus `multiplexed_pulldown` in the full scope - the same laundering
+problem already fixed for the promiscuity count. Breadth is now always measured
+on the full-interactome activities, and on all deposited records rather than only
+those surviving the potency filter, since breadth is a property of the deposit.
+Molibresib moves from `proteome_readout` to `multiplexed_pulldown` under the
+corrected rule.
+
+**The multiplexing threshold was mis-documented.** The table above said five
+distinct seed proteins; `MULTIPLEX_MIN_PROTEINS` is 4. The code was right and the
+document was wrong.
 
 ## Reproducing
 
@@ -197,7 +256,9 @@ python src/s07_assay_provenance.py          --scope full-interactome
 python src/rank_compounds.py                --scope full-interactome
 ```
 
-Repeat with `--scope eef1a-only`. `python -m pytest` runs 89 tests.
+Repeat with `--scope eef1a-only`. `python -m pytest` runs 89 tests, of which 3
+require the permutation draws and skip on a fresh clone (they are gitignored; the
+skip message prints the command that regenerates them).
 
 ### Two deliberate changes to what the repository tracks
 

@@ -121,13 +121,29 @@ def fetch_assays(assay_ids: list[str]) -> pd.DataFrame:
     return pd.DataFrame([cache[a] for a in assay_ids])
 
 
-def label_provenance(activities: pd.DataFrame, assays: pd.DataFrame) -> pd.DataFrame:
-    """One row per (compound, protein) with the provenance of its supporting assays."""
+def label_provenance(
+    activities: pd.DataFrame,
+    assays: pd.DataFrame,
+    breadth_activities: pd.DataFrame | None = None,
+) -> pd.DataFrame:
+    """One row per (compound, protein) with the provenance of its supporting assays.
+
+    Document breadth is measured on `breadth_activities` when given, and on
+    `activities` otherwise. The distinction matters: breadth is a property of the
+    deposit, not of the scope being ranked. A Kinobead document reporting one
+    compound against thirteen seed proteins is a multiplexed experiment whether
+    or not the current scope contains those thirteen genes, and measuring breadth
+    inside a two-gene scope would silently upgrade that deposit to a targeted
+    measurement. Callers therefore pass the full-interactome activities here.
+    """
     df = activities.merge(assays, on="assay_chembl_id", how="left")
+    breadth_src = df if breadth_activities is None else breadth_activities.merge(
+        assays, on="assay_chembl_id", how="left"
+    )
 
     # Seed proteins per (compound, document) - the multiplexing measure.
     doc_breadth = (
-        df.dropna(subset=["document_chembl_id"])
+        breadth_src.dropna(subset=["document_chembl_id"])
         .groupby(["compound_id", "document_chembl_id"])["protein_id"]
         .nunique()
         .rename("n_seed_proteins_in_document")
@@ -203,8 +219,26 @@ def main(scope: str) -> None:
     assay_ids = sorted(activities["assay_chembl_id"].dropna().unique())
     log.info("%d edges backed by %d distinct assays", len(pairs), len(assay_ids))
 
+    # Breadth is judged on the full-interactome activities regardless of the scope
+    # being graded, so a narrow scope cannot launder a multiplexed deposit into a
+    # targeted measurement (see label_provenance).
+    breadth_path = RAW_DIR / "compound_gene_activities.full-interactome.tsv"
+    breadth_activities = (
+        pd.read_csv(breadth_path, sep="\t") if breadth_path.exists() else None
+    )
+    if breadth_activities is None:
+        log.warning(
+            "%s absent: grading document breadth within scope=%s only, which can "
+            "understate multiplexing", breadth_path, scope,
+        )
+    else:
+        assay_ids = sorted(
+            set(assay_ids)
+            | set(breadth_activities["assay_chembl_id"].dropna().unique())
+        )
+
     assays = fetch_assays(assay_ids)
-    per_edge = label_provenance(activities, assays)
+    per_edge = label_provenance(activities, assays, breadth_activities=breadth_activities)
 
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     out_path = PROCESSED_DIR / f"assay_provenance.{scope}.tsv"

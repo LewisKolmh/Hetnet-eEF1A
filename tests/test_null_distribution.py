@@ -1,8 +1,24 @@
+import pathlib
+
 import pandas as pd
+import pytest
 
 from compute_all_dwpcs import METAPATHS
 
 NULL_DRAWS = "data/processed/null_distribution/null_draws.full-interactome.parquet"
+
+# The draws file is ~48 MB per scope and is deliberately not tracked (see
+# .gitignore), so these tests cannot run on a fresh clone. Skip rather than fail:
+# the assertions below are about a local run's null, not about the repository.
+pytestmark = pytest.mark.skipif(
+    not pathlib.Path(NULL_DRAWS).exists(),
+    reason=(
+        f"{NULL_DRAWS} absent (gitignored). Regenerate with: python "
+        "src/compute_null_distribution.py --scope full-interactome "
+        "--n-permutations 10000 && python src/compute_null_distribution.py "
+        "--scope full-interactome --consolidate"
+    ),
+)
 
 
 def test_null_draws_exist_and_cover_the_computed_metapaths():
