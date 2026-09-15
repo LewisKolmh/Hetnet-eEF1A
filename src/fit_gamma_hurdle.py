@@ -60,14 +60,20 @@ def fit_gamma_hurdle_group(dwpc_values: np.ndarray, n_permutations: int) -> dict
 def main(scope: str) -> None:
     import glob
 
-    files = sorted(glob.glob(str(NULL_DIR / f"perm_*.{scope}.parquet")))
-    if not files:
-        raise FileNotFoundError(f"No permutation files found for scope={scope} in {NULL_DIR}")
-    n_permutations = len(files)
-    log.info("Loading %d permutation files for scope=%s", n_permutations, scope)
-
-    dfs = [pd.read_parquet(f) for f in files]
-    all_df = pd.concat(dfs, ignore_index=True)
+    merged = NULL_DIR / f"null_draws.{scope}.parquet"
+    if merged.exists():
+        all_df = pd.read_parquet(merged)
+        n_permutations = int(all_df["permutation"].nunique())
+        log.info("Loading consolidated null draws for scope=%s (%d permutations)",
+                 scope, n_permutations)
+    else:
+        files = sorted(glob.glob(str(NULL_DIR / f"perm_*.{scope}.parquet")))
+        if not files:
+            raise FileNotFoundError(f"No permutation files found for scope={scope} in {NULL_DIR}")
+        n_permutations = len(files)
+        log.info("Loading %d permutation files for scope=%s", n_permutations, scope)
+        dfs = [pd.read_parquet(f) for f in files]
+        all_df = pd.concat(dfs, ignore_index=True)
 
     rows = []
     for (metapath, target_gene), grp in all_df.groupby(["metapath", "target_gene"]):

@@ -1,0 +1,1604 @@
+{
+"CHEMBL1063218": {
+"assay_chembl_id": "CHEMBL1063218",
+"assay_description": "Amplification of HSF1 transcriptional activity in human HeLa cells assessed as granule formation pretreated for 3 hrs by immunocytochemical staining",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1152353",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL1063219": {
+"assay_chembl_id": "CHEMBL1063219",
+"assay_description": "Amplification of HSF1 transcriptional activity in human heat shock-induced HeLa cells assessed as granule formation treated 1 hr before heat shock challenge measured after 2 hrs without recovery time by immunocytochemical staining",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1152353",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL1805138": {
+"assay_chembl_id": "CHEMBL1805138",
+"assay_description": "Binding affinity to eEF1A1 in human MDA-MB-231 cells using biotinylated compound using Western blot analysis based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1799911",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307960"
+},
+"CHEMBL1805281": {
+"assay_chembl_id": "CHEMBL1805281",
+"assay_description": "Binding affinity to eEF1A2 expressed in human MDA-MB-231 cells using 1 uM biotinylated compound immobilized on streptavidin sensor chip by surface plasmon resonance method",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1799911",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307960"
+},
+"CHEMBL1805284": {
+"assay_chembl_id": "CHEMBL1805284",
+"assay_description": "Inhibition of eEF1A2-mediated protein synthesis in human MDA-MB-231 cells assessed as decrease in 35-S methionine incorporation after 8 hrs by commassie blue staining based SDS-page analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1799911",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307960"
+},
+"CHEMBL1805285": {
+"assay_chembl_id": "CHEMBL1805285",
+"assay_description": "Inhibition of eEF1A2-mediated protein synthesis in human MCF7 cells assessed as decrease in 35-S methionine incorporation after 8 hrs by commassie blue staining based SDS-page analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1799911",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308403"
+},
+"CHEMBL1805286": {
+"assay_chembl_id": "CHEMBL1805286",
+"assay_description": "Inhibition of eEF1A1-mediated protein synthesis in human MDA-MB-231 cells assessed as decrease in 35-S methionine incorporation after 8 hrs by commassie blue staining based phosphoimaging technique",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1799911",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307960"
+},
+"CHEMBL1805287": {
+"assay_chembl_id": "CHEMBL1805287",
+"assay_description": "Inhibition of eEF1A2-mediated protein synthesis in human MCF7 cells assessed as decrease in 35-S methionine incorporation after 8 hrs by commassie blue staining based phosphoimaging technique",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1799911",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308403"
+},
+"CHEMBL1805288": {
+"assay_chembl_id": "CHEMBL1805288",
+"assay_description": "Inhibition of eEF1A2-mediated phosphorylation of serine473 in Akt in human MDA-MB-231 cells at 2 uM after 12 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1799911",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307960"
+},
+"CHEMBL1805289": {
+"assay_chembl_id": "CHEMBL1805289",
+"assay_description": "Inhibition of eEF1A2-mediated phosphorylation of Thr308 in Akt in human MDA-MB-231 cells at 2 uM after 12 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1799911",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307960"
+},
+"CHEMBL1805291": {
+"assay_chembl_id": "CHEMBL1805291",
+"assay_description": "Binding affinity to eEF1A1 expressed in human MDA-MB-231 cells using 1 uM biotinylated compound immobilized on streptavidin sensor chip by surface plasmon resonance method",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1799911",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307960"
+},
+"CHEMBL3610506": {
+"assay_chembl_id": "CHEMBL3610506",
+"assay_description": "Inhibition of HSF1 (unknown origin) assessed as reduction in HSF1--mediated HSP transcription",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3862045": {
+"assay_chembl_id": "CHEMBL3862045",
+"assay_description": "Inhibition of 17AAG-induced HSF1-mediated HSP72 expression in human U2OS cells preincubated for 1 hr followed by 17AAG addition measured after overnight incubation by ArrayScan analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3861941",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307757"
+},
+"CHEMBL3862054": {
+"assay_chembl_id": "CHEMBL3862054",
+"assay_description": "Inhibition of 17AAG-induced HSF1-mediated HSP72 expression in human U2OS cells preincubated for 1 hr followed by 17AAG addition measured after 18 hrs by ELISA",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3861941",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307757"
+},
+"CHEMBL3991866": {
+"assay_chembl_id": "CHEMBL3991866",
+"assay_description": "Kinobeads (epsilon), multiple immobilized ATP-competitive broad spectrum kinase inhibitors, used to assess residual binding of ~300 proteins simultaneously from cell lysate in the presence of a compound. Quantitative readout performed by mass spectrometry.",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3991601",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4001272": {
+"assay_chembl_id": "CHEMBL4001272",
+"assay_description": "Inhibition of 17-AAG-induced HSF1 pathway in human U20S cells assessed as reduction in HSP72 induction preincubated for 1 hr followed by 17-AAG addition measured after 18 hrs by ELISA",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4000193",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4001282": {
+"assay_chembl_id": "CHEMBL4001282",
+"assay_description": "Inhibition of 17-AAG-induced HSF1 pathway in human SKOV3 cells assessed as reduction in HSPA1A mRNA level preincubated for 1 hr followed by 17-AAG addition measured after 6 hrs by Western blot method",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4000193",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4001310": {
+"assay_chembl_id": "CHEMBL4001310",
+"assay_description": "Inhibition of 17-AAG-induced HSF1 pathway in human SKOV3 cells assessed as reduction in HSP72 induction preincubated for 1 hr followed by 17-AAG addition measured after 18 hrs by ELISA",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4000193",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4001313": {
+"assay_chembl_id": "CHEMBL4001313",
+"assay_description": "Inhibition of 17-AAG-induced HSF1 pathway in human SKOV3 cells assessed as reduction in HSP27 induction at 10 to 1000 nM preincubated for 1 hr followed by 17-AAG addition measured after 18 hrs by ELISA",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4000193",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192863": {
+"assay_chembl_id": "CHEMBL4192863",
+"assay_description": "Activation of HSF1 in human NCI-H460 cells assessed as upregulation of HSP25 protein levels at 1 uM after 12 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192864": {
+"assay_chembl_id": "CHEMBL4192864",
+"assay_description": "Activation of HSF1 in human NCI-H460 cells assessed as upregulation of HSP70 protein levels at 1 uM after 12 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4271495": {
+"assay_chembl_id": "CHEMBL4271495",
+"assay_description": "Binding affinity to recombinant human HSF1 monomer expressed in Escherichia coli BL21 (DE3) after 15 mins by fluorescence polarization assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270511",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4271496": {
+"assay_chembl_id": "CHEMBL4271496",
+"assay_description": "Binding affinity to recombinant human HSF1 monomer delta LZ1-3 mutant expressed in Escherichia coli BL21 (DE3) after 15 mins by fluorescence polarization assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270511",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5650977": {
+"assay_chembl_id": "CHEMBL5650977",
+"assay_description": "Binding affinity to human EEF1B2 incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5650978": {
+"assay_chembl_id": "CHEMBL5650978",
+"assay_description": "Binding affinity to human EEF1A2 incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5651328": {
+"assay_chembl_id": "CHEMBL5651328",
+"assay_description": "Binding affinity to human EEF1D incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5651330": {
+"assay_chembl_id": "CHEMBL5651330",
+"assay_description": "Binding affinity to human EEF1G incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5652231": {
+"assay_chembl_id": "CHEMBL5652231",
+"assay_description": "Binding affinity to human RAN incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5652291": {
+"assay_chembl_id": "CHEMBL5652291",
+"assay_description": "Binding affinity to human RPL18A incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5652302": {
+"assay_chembl_id": "CHEMBL5652302",
+"assay_description": "Binding affinity to human RPL3 incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5652312": {
+"assay_chembl_id": "CHEMBL5652312",
+"assay_description": "Binding affinity to human RPL4 incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5652315": {
+"assay_chembl_id": "CHEMBL5652315",
+"assay_description": "Binding affinity to human RPL7 incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5652335": {
+"assay_chembl_id": "CHEMBL5652335",
+"assay_description": "Binding affinity to human RPS2 incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5652347": {
+"assay_chembl_id": "CHEMBL5652347",
+"assay_description": "Binding affinity to human RPS3 incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5652348": {
+"assay_chembl_id": "CHEMBL5652348",
+"assay_description": "Binding affinity to human RPS3A incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5697496": {
+"assay_chembl_id": "CHEMBL5697496",
+"assay_description": "Inhibition of RPS3A (unknown origin) assessed as fold change at 10 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5697524": {
+"assay_chembl_id": "CHEMBL5697524",
+"assay_description": "Inhibition of EEF1D (unknown origin) assessed as fold change at 10 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5697586": {
+"assay_chembl_id": "CHEMBL5697586",
+"assay_description": "Inhibition of EEF1G (unknown origin) assessed as fold change at 10 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698196": {
+"assay_chembl_id": "CHEMBL5698196",
+"assay_description": "Inhibition of RPS3A (unknown origin) assessed as fold change at 2 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698224": {
+"assay_chembl_id": "CHEMBL5698224",
+"assay_description": "Inhibition of EEF1D (unknown origin) assessed as fold change at 2 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698286": {
+"assay_chembl_id": "CHEMBL5698286",
+"assay_description": "Inhibition of EEF1G (unknown origin) assessed as fold change at 2 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698896": {
+"assay_chembl_id": "CHEMBL5698896",
+"assay_description": "Inhibition of RPS3A (unknown origin) assessed as fold change at 0.4 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698924": {
+"assay_chembl_id": "CHEMBL5698924",
+"assay_description": "Inhibition of EEF1D (unknown origin) assessed as fold change at 0.4 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698986": {
+"assay_chembl_id": "CHEMBL5698986",
+"assay_description": "Inhibition of EEF1G (unknown origin) assessed as fold change at 0.4 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5699596": {
+"assay_chembl_id": "CHEMBL5699596",
+"assay_description": "Inhibition of RPS3A (unknown origin) assessed as fold change at 0.08 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5699624": {
+"assay_chembl_id": "CHEMBL5699624",
+"assay_description": "Inhibition of EEF1D (unknown origin) assessed as fold change at 0.08 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5699686": {
+"assay_chembl_id": "CHEMBL5699686",
+"assay_description": "Inhibition of EEF1G (unknown origin) assessed as fold change at 0.08 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5700296": {
+"assay_chembl_id": "CHEMBL5700296",
+"assay_description": "Inhibition of RPS3A (unknown origin) assessed as fold change at 0.016 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5700324": {
+"assay_chembl_id": "CHEMBL5700324",
+"assay_description": "Inhibition of EEF1D (unknown origin) assessed as fold change at 0.016 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5700386": {
+"assay_chembl_id": "CHEMBL5700386",
+"assay_description": "Inhibition of EEF1G (unknown origin) assessed as fold change at 0.016 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5700996": {
+"assay_chembl_id": "CHEMBL5700996",
+"assay_description": "Inhibition of RPS3A (unknown origin) incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5701024": {
+"assay_chembl_id": "CHEMBL5701024",
+"assay_description": "Inhibition of EEF1D (unknown origin) incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5701086": {
+"assay_chembl_id": "CHEMBL5701086",
+"assay_description": "Inhibition of EEF1G (unknown origin) incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL1051570": {
+"assay_chembl_id": "CHEMBL1051570",
+"assay_description": "Transcriptional activation of HSF1 in heat shock stress-induced human HeLa cells assessed as granule formation at 80 uM treated 1 hr before heat shock challenge measured after 2 hrs by immunocytochemical staining",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1152919",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL1060467": {
+"assay_chembl_id": "CHEMBL1060467",
+"assay_description": "Transcriptional activation of HSF1 in heat shock stress-induced human HeLa cells assessed as granule formation treated 1 hr before heat shock challenge measured after 2 hrs by immunocytochemical staining",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1152919",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL1060469": {
+"assay_chembl_id": "CHEMBL1060469",
+"assay_description": "Transcriptional activation of HSF1 in human HeLa cells assessed as granule formation treated 3 hrs before heat shock challenge by immunocytochemical staining",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1152919",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL1063232": {
+"assay_chembl_id": "CHEMBL1063232",
+"assay_description": "Amplification of HSF1 transcriptional activity in human HeLa cells assessed as HFS1 granule count at 80 uM by immunocytochemical staining",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1152353",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL1228364": {
+"assay_chembl_id": "CHEMBL1228364",
+"assay_description": "Inhibition of eEF1A-mediated tRNA binding to ternary complex at 200 uM after 10 mins by filtration binding assay",
+"assay_type_chembl": "B",
+"confidence_score": 8,
+"document_chembl_id": "CHEMBL1221230",
+"assay_organism": null,
+"cell_chembl_id": null
+},
+"CHEMBL1228365": {
+"assay_chembl_id": "CHEMBL1228365",
+"assay_description": "Effect on eEF1A-mediated peptidyl transfer assessed as [35S]methionyl-puromycin formation by TLC",
+"assay_type_chembl": "B",
+"confidence_score": 8,
+"document_chembl_id": "CHEMBL1221230",
+"assay_organism": null,
+"cell_chembl_id": null
+},
+"CHEMBL3295291": {
+"assay_chembl_id": "CHEMBL3295291",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of hsp25 promoter activity after 12 hrs by luciferase reporter gene assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295292": {
+"assay_chembl_id": "CHEMBL3295292",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of hsp70 promoter activity after 12 hrs by luciferase reporter gene assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295295": {
+"assay_chembl_id": "CHEMBL3295295",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP27 mRNA expression at 1 to 20 uM after 12 hrs by qRT-PCR analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295296": {
+"assay_chembl_id": "CHEMBL3295296",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP70 mRNA expression at 1 to 20 uM after 12 hrs by qRT-PCR analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295297": {
+"assay_chembl_id": "CHEMBL3295297",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP1 mRNA expression at 1 to 20 uM after 12 hrs by qRT-PCR analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295298": {
+"assay_chembl_id": "CHEMBL3295298",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP27 mRNA expression at 20 uM up to 24 hrs by qRT-PCR analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295299": {
+"assay_chembl_id": "CHEMBL3295299",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP70 mRNA expression at 20 uM up to 24 hrs by qRT-PCR analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295300": {
+"assay_chembl_id": "CHEMBL3295300",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP1 mRNA expression at 20 uM up to 24 hrs by qRT-PCR analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295301": {
+"assay_chembl_id": "CHEMBL3295301",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP25 protein expression after 12 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295302": {
+"assay_chembl_id": "CHEMBL3295302",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP70 protein expression after 12 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295555": {
+"assay_chembl_id": "CHEMBL3295555",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP1 protein expression after 12 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295556": {
+"assay_chembl_id": "CHEMBL3295556",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP25 protein expression at 20 uM by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295557": {
+"assay_chembl_id": "CHEMBL3295557",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP70 protein expression at 20 uM by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295558": {
+"assay_chembl_id": "CHEMBL3295558",
+"assay_description": "Inhibition of HSP1 activity in human NCI-H460 cells assessed as reduction of HSP1 protein expression at 20 uM by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295559": {
+"assay_chembl_id": "CHEMBL3295559",
+"assay_description": "Reduction of HSP1 stability in human NCI-H460 cells assessed as protein degradation at 10 uM up to 9 hrs by Western blot analysis in presence of cyclohexamide",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295560": {
+"assay_chembl_id": "CHEMBL3295560",
+"assay_description": "Reduction of HSP1 stability in human NCI-H460 cells assessed as protein degradation at 10 ug/mL up to 9 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295561": {
+"assay_chembl_id": "CHEMBL3295561",
+"assay_description": "Induction of HSP1 dephosphorylation at S230, S303/307, and S326 in human NCI-H460 cells after 24 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295562": {
+"assay_chembl_id": "CHEMBL3295562",
+"assay_description": "Reduction of HSP1 phosphorylated at S326E mutant stability in human NCI-H460 cells up to 7.5 hrs by Western blot analysis in presence of cyclohexamide",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3295563": {
+"assay_chembl_id": "CHEMBL3295563",
+"assay_description": "Reduction of HSP1 dephosphorylated at S326A mutant stability in human NCI-H460 cells up to 7.5 hrs by Western blot analysis in presence of cyclohexamide",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3286220",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307677"
+},
+"CHEMBL3610505": {
+"assay_chembl_id": "CHEMBL3610505",
+"assay_description": "Inhibition of HSF1 (unknown origin)",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3610927": {
+"assay_chembl_id": "CHEMBL3610927",
+"assay_description": "Inhibition of HSF1 in human ASB145 cells assessed as potentiation of 17-DMAG-induced reduction in cell proliferation at 20 uM relative to 17-DMAG alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3610928": {
+"assay_chembl_id": "CHEMBL3610928",
+"assay_description": "Inhibition of HSF1 in human ASB244 cells assessed as potentiation of 17-DMAG-induced reduction in cell proliferation at 20 uM relative to 17-DMAG alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3610929": {
+"assay_chembl_id": "CHEMBL3610929",
+"assay_description": "Inhibition of HSF1 in human HNE1 cells assessed as potentiation of 17-DMAG and heat-induced increase in apoptosis at 100 uM relative to 17-DMAG and heat alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611038": {
+"assay_chembl_id": "CHEMBL3611038",
+"assay_description": "Inhibition of HSF1 in human HeLa cells assessed as potentiation of 17-DMAG-induced increase in cell death at 30 uM relative to 17-DMAG alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL3611039": {
+"assay_chembl_id": "CHEMBL3611039",
+"assay_description": "Inhibition of HSF1 in human HeLa cells assessed as potentiation of 17-DMAG and heat-induced increase in cell death at 30 uM relative to 17-DMAG and heat alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL3611040": {
+"assay_chembl_id": "CHEMBL3611040",
+"assay_description": "Inhibition of HSF1 in human ASB145 cells assessed as potentiation of geldanamycin-induced reduction in cell proliferation at 25 uM relative to geldanamycin alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611041": {
+"assay_chembl_id": "CHEMBL3611041",
+"assay_description": "Inhibition of HSF1 in human ASB244 cells assessed as potentiation of geldanamycin-induced reduction in cell proliferation at 25 uM relative to geldanamycin alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611042": {
+"assay_chembl_id": "CHEMBL3611042",
+"assay_description": "Inhibition of HSF1 in human ASB244 cells assessed as potentiation of geldanamycin-induced reduction in cell migration at 20 uM relative to geldanamycin alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611043": {
+"assay_chembl_id": "CHEMBL3611043",
+"assay_description": "Inhibition of HSF1 in human HeLa cells assessed as potentiation of radicicol and heat-induced increase in cell death at 30 uM relative to radicicol and heat alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL3611044": {
+"assay_chembl_id": "CHEMBL3611044",
+"assay_description": "Inhibition of HSF1 in human HL60 cells assessed as potentiation of 17-AAG-induced reduction in cologenicity at 400 uM relative to 17-AAG alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307654"
+},
+"CHEMBL3611045": {
+"assay_chembl_id": "CHEMBL3611045",
+"assay_description": "Inhibition of HSF1 in human HL60 cells assessed as potentiation of 17-AAG-induced increase in apoptosis at 400 uM relative to 17-AAG alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307654"
+},
+"CHEMBL3611046": {
+"assay_chembl_id": "CHEMBL3611046",
+"assay_description": "Inhibition of HSF1 in human ASB145 cells assessed as potentiation of geldanamycin-induced reduction in cell proliferation at 20 uM relative to geldanamycin alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611047": {
+"assay_chembl_id": "CHEMBL3611047",
+"assay_description": "Inhibition of HSF1 in human ASB244 cells assessed as potentiation of geldanamycin-induced reduction in cell proliferation at 20 uM relative to geldanamycin alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611048": {
+"assay_chembl_id": "CHEMBL3611048",
+"assay_description": "Inhibition of HSF1 in human ASB244 cells assessed as potentiation of geldanamycin-induced reduction in cell migration at 10 uM relative to geldanamycin alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611049": {
+"assay_chembl_id": "CHEMBL3611049",
+"assay_description": "Inhibition of HSF1 in human INA63 cells assessed as potentiation of NVP-AUY-922-induced reduction in cell proliferation at 5 nM relative to NVP-AUY-922 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611050": {
+"assay_chembl_id": "CHEMBL3611050",
+"assay_description": "Inhibition of HSF1 in human MM.1S cells assessed as potentiation of NVP-AUY-922-induced reduction in cell proliferation at 6 nM relative to NVP-AUY-922 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611051": {
+"assay_chembl_id": "CHEMBL3611051",
+"assay_description": "Inhibition of HSF1 in human H929 cells assessed as potentiation of 17-AAG-induced icrease in cell death at 100 nM relative to 17-AAG alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL3611052": {
+"assay_chembl_id": "CHEMBL3611052",
+"assay_description": "Inhibition of HSF1 in human HeLa cells assessed as potentiation of radicicol and heat-induced increase in cell death at 60 nM relative to radicicol and heat alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL3611053": {
+"assay_chembl_id": "CHEMBL3611053",
+"assay_description": "Inhibition of HSF1 in human HeLa cells assessed as potentiation of radicicol-induced increase in cell death at 2 uM relative to radicicol alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL3611054": {
+"assay_chembl_id": "CHEMBL3611054",
+"assay_description": "Inhibition of HSF1 in human HCT116 cells assessed as potentiation of SM253-induced increase in cell death at 5 uM relative to SM253 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308372"
+},
+"CHEMBL3611055": {
+"assay_chembl_id": "CHEMBL3611055",
+"assay_description": "Inhibition of HSF1 in human HCT116 cells assessed as potentiation of SM253-induced reduction in HSF1 at 5 uM relative to SM253 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308372"
+},
+"CHEMBL3611056": {
+"assay_chembl_id": "CHEMBL3611056",
+"assay_description": "Inhibition of HSF1 in human HCT116 cells assessed as potentiation of SM253-induced increase in cell death at 50 uM relative to SM253 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308372"
+},
+"CHEMBL3611057": {
+"assay_chembl_id": "CHEMBL3611057",
+"assay_description": "Inhibition of HSF1 in human HCT116 cells assessed as potentiation of SM253-induced reduction in HSF1 at 50 uM relative to SM253 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308372"
+},
+"CHEMBL3611058": {
+"assay_chembl_id": "CHEMBL3611058",
+"assay_description": "Inhibition of HSF1 in human MIAPaCa2 cells assessed as potentiation of SM253-induced increase in cell death at 50 uM relative to SM253 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308500"
+},
+"CHEMBL3611059": {
+"assay_chembl_id": "CHEMBL3611059",
+"assay_description": "Inhibition of HSF1 in human MIAPaCa2 cells assessed as potentiation of SM253-induced reduction in HSF1 at 50 uM relative to SM253 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308500"
+},
+"CHEMBL3611060": {
+"assay_chembl_id": "CHEMBL3611060",
+"assay_description": "Inhibition of HSF1 in human HCT116 cells assessed as potentiation of SM258-induced increase in cell death at 15 uM relative to SM258 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308372"
+},
+"CHEMBL3611061": {
+"assay_chembl_id": "CHEMBL3611061",
+"assay_description": "Inhibition of HSF1 in human HCT116 cells assessed as potentiation of SM258-induced reduction in HSF1 at 15 uM relative to SM258 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308372"
+},
+"CHEMBL3611062": {
+"assay_chembl_id": "CHEMBL3611062",
+"assay_description": "Inhibition of HSF1 in human HCT116 cells assessed as potentiation of SM258-induced increase in cell death at 30 uM relative to SM258 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308372"
+},
+"CHEMBL3611063": {
+"assay_chembl_id": "CHEMBL3611063",
+"assay_description": "Inhibition of HSF1 in human HCT116 cells assessed as potentiation of SM258-induced reduction in HSF1 at 30 uM relative to SM258 alone",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3608221",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308372"
+},
+"CHEMBL3803738": {
+"assay_chembl_id": "CHEMBL3803738",
+"assay_description": "Binding affinity to EEF1A1 in HEK293 proteomes assessed as spectral count ratio at 20 uM incubated for 16 hrs by TAMRA biotin-azide dye based LC-MS/MS analysis relative to control",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL3797061",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4012592": {
+"assay_chembl_id": "CHEMBL4012592",
+"assay_description": "Inhibition of NVP-AUY922-induced HSF-1 phosphorylation at S326 residue in human INA-6 cells at 50 uM preincubated for 4 hrs followed by NVP-AUY922 addition measured after 4 hrs by Western blot method",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4011617",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4012593": {
+"assay_chembl_id": "CHEMBL4012593",
+"assay_description": "Inhibition of NVP-AUY922-induced HSF-1 phosphorylation at S326 residue in human INA-6 cells at 25 uM preincubated for 4 hrs followed by NVP-AUY922 addition measured after 4 hrs by Western blotting method",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4011617",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4012617": {
+"assay_chembl_id": "CHEMBL4012617",
+"assay_description": "Inhibition of NVP-AUY922-induced HSF-1 phosphorylation in human INA-6 cells at 10 uM preincubated for 4 hrs followed by NVP-AUY922 addition measured after 4 hrs by Western blot method",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4011617",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4024027": {
+"assay_chembl_id": "CHEMBL4024027",
+"assay_description": "Binding affinity to eEF1A1 in human CCRF-CEM cells after 30 mins by HPLC-MS based SDS-PAGE analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4020837",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4024030": {
+"assay_chembl_id": "CHEMBL4024030",
+"assay_description": "Binding affinity to eEF1A1 in human CCRF-CEM cells after 30 mins by Western blot method",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4020837",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4024033": {
+"assay_chembl_id": "CHEMBL4024033",
+"assay_description": "Binding affinity to recombinant human eEF1A1 expressed in HEK293 cells by ITC",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4020837",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307715"
+},
+"CHEMBL4036829": {
+"assay_chembl_id": "CHEMBL4036829",
+"assay_description": "Binding affinity to SK2 (unknown origin)",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4033760",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4118716": {
+"assay_chembl_id": "CHEMBL4118716",
+"assay_description": "Binding affinity to PAPSS2 in human NCI-H23 cells at 1 uM by mass spectrometry based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4118021",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4119049": {
+"assay_chembl_id": "CHEMBL4119049",
+"assay_description": "Binding affinity to EEF1G in human NCI-H358 cells at 1 uM by mass spectrometry based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4118021",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192856": {
+"assay_chembl_id": "CHEMBL4192856",
+"assay_description": "Activation of HSF1 in human NCI-H460 cells expressing pGL4-hsp25 construct assessed as upregulation of hsp25 promoter activity at 10 to 30 uM after 12 hrs by luciferase reporter gene assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192858": {
+"assay_chembl_id": "CHEMBL4192858",
+"assay_description": "Activation of HSF1 in human NCI-H460 cells expressing pGL4-hsp70 construct assessed as upregulation of hsp70 promoter activity at 10 to 30 uM after 12 hrs by luciferase reporter gene assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192860": {
+"assay_chembl_id": "CHEMBL4192860",
+"assay_description": "Activation of HSF1 in human NCI-H460 cells assessed as upregulation of HSP25 protein levels at 10 to 30 uM after 12 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192861": {
+"assay_chembl_id": "CHEMBL4192861",
+"assay_description": "Activation of HSF1 in human NCI-H460 cells assessed as upregulation of HSP70 protein levels at 10 to 30 uM after 12 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192862": {
+"assay_chembl_id": "CHEMBL4192862",
+"assay_description": "Activation of HSF1 in human L132 cells assessed as increase in HSP25 mRNA expression at 3 uM after 12 hrs by RT-PCR analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192865": {
+"assay_chembl_id": "CHEMBL4192865",
+"assay_description": "Activation of HSF1 in human L132 cells assessed as increase in HSP70 mRNA expression at 3 uM after 12 hrs by RT-PCR analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192866": {
+"assay_chembl_id": "CHEMBL4192866",
+"assay_description": "Activation of HSF1 in human L132 cells assessed as increase in HSP25 protein levels at 3 uM after 12 hrs by immunoblotting analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192867": {
+"assay_chembl_id": "CHEMBL4192867",
+"assay_description": "Activation of HSF1 in human L132 cells assessed as increase in HSP70 protein levels at 3 uM after 12 hrs by immunoblotting analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192869": {
+"assay_chembl_id": "CHEMBL4192869",
+"assay_description": "Induction of HSF1 phosphorylation at Ser326 residue in human L-132 cells at 3 uM after 12 hrs by immunoblotting analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192896": {
+"assay_chembl_id": "CHEMBL4192896",
+"assay_description": "Activation of HSF1 in human L132 cells assessed as increase in HSP27 protein levels at 3 uM by immunoblotting analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192897": {
+"assay_chembl_id": "CHEMBL4192897",
+"assay_description": "Activation of HSF1 in human L132 cells assessed as increase in HSP27 protein levels after 12 hrs by immunoblotting analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192898": {
+"assay_chembl_id": "CHEMBL4192898",
+"assay_description": "Activation of HSF1 in human L132 cells assessed as increase in HSP70 protein levels at 3 uM after 6 to 24 hrs by immunoblotting analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4192899": {
+"assay_chembl_id": "CHEMBL4192899",
+"assay_description": "Activation of HSF1 in human L132 cells assessed as increase in HSP70 protein levels at 1 to 3 uM after 12 hrs by immunoblotting analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4190282",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4270827": {
+"assay_chembl_id": "CHEMBL4270827",
+"assay_description": "Binding affinity to elongation factor 1-alpha 1 in human Hela cells lysates assessed as protein enrichment by measuring normalized heavy/light ratio at by nano-LC-ESIMS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270485",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4270828": {
+"assay_chembl_id": "CHEMBL4270828",
+"assay_description": "Binding affinity to elongation factor 1-beta in human Hela cells lysates assessed as protein enrichment by measuring normalized heavy/light ratio at by nano-LC-ESIMS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270485",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4270829": {
+"assay_chembl_id": "CHEMBL4270829",
+"assay_description": "Binding affinity to elongation factor 1-delta in human Hela cells lysates assessed as protein enrichment by measuring normalized heavy/light ratio at by nano-LC-ESIMS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270485",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4270830": {
+"assay_chembl_id": "CHEMBL4270830",
+"assay_description": "Binding affinity to elongation factor 1-gamma in human Hela cells lysates assessed as protein enrichment by measuring normalized heavy/light ratio at by nano-LC-ESIMS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270485",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4270835": {
+"assay_chembl_id": "CHEMBL4270835",
+"assay_description": "Binding affinity to GTP-binding nuclear protein ran in human Hela cells lysates assessed as protein enrichment by measuring normalized heavy/light ratio at by nano-LC-ESIMS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270485",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4271491": {
+"assay_chembl_id": "CHEMBL4271491",
+"assay_description": "Inhibition of recombinant human HSF1 expressed in Escherichia coli BL21 (DE3) assessed as reduction in HSF1 trimer-5-fluorescein labeled HSE interaction at 400 uM preincubated for 1 hr followed by DNA tracer addition and measured after 15 mins by competitive fluorescence polarization assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270511",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4271493": {
+"assay_chembl_id": "CHEMBL4271493",
+"assay_description": "Inhibition of recombinant human HSF1 expressed in Escherichia coli BL21 (DE3) assessed as reduction in HSF1 trimer-5-fluorescein labeled HSE interaction preincubated for 1 hr followed by DNA tracer addition and measured after 15 mins by competitive fluorescence polarization assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270511",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4271494": {
+"assay_chembl_id": "CHEMBL4271494",
+"assay_description": "Inhibition of recombinant human HSF1 expressed in Escherichia coli BL21 (DE3) assessed as reduction in HSF1 trimer-5-fluorescein labeled HSE interaction preincubated of protein with DNA tracer up to 24 hrs followed by compound addition and measured after 15 mins by fluorescence polarization assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270511",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4271497": {
+"assay_chembl_id": "CHEMBL4271497",
+"assay_description": "Disruption of full length human HSF1 trimer structure at 20 uM after 30 mins by size-exclusion chromatographic method",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270511",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4271498": {
+"assay_chembl_id": "CHEMBL4271498",
+"assay_description": "Disruption of full length human HSF1 trimer structure at 20 uM after 30 mins by SDS-PAGE analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270511",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4271499": {
+"assay_chembl_id": "CHEMBL4271499",
+"assay_description": "Disruption of full length human HSF1 trimer structure at 20 uM after 30 mins by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4270511",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4314445": {
+"assay_chembl_id": "CHEMBL4314445",
+"assay_description": "Activation of HSF-1 in human HG23 cells transfected with human norovirus at 10 uM after 72 hrs by dual-luciferase reporter gene assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4311988",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4314446": {
+"assay_chembl_id": "CHEMBL4314446",
+"assay_description": "Activation of HSF-1 in human HG23 cells transfected with human norovirus after 72 hrs by dual-luciferase reporter gene assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4311988",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4826549": {
+"assay_chembl_id": "CHEMBL4826549",
+"assay_description": "Activation of Hsf1 in human MSC-NEU cells assessed as induction of HSP70 accumulation at 1 uM incubated for 24 hrs by Western blotting analysis relative to control",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4825683",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4826550": {
+"assay_chembl_id": "CHEMBL4826550",
+"assay_description": "Activation of Hsf1 in human MSC-NEU cells assessed as induction of HSP90 accumulation at 1 uM incubated for 24 hrs by Western blotting analysis relative to control",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4825683",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4826551": {
+"assay_chembl_id": "CHEMBL4826551",
+"assay_description": "Activation of Hsf1 in human MSC-NEU cells assessed as increase in HSP70 substrate-binding chaperone activity at 1 uM incubated for 24 hrs by protein-protein interaction assay relative to control",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4825683",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL4826557": {
+"assay_chembl_id": "CHEMBL4826557",
+"assay_description": "Activation of Hsf1 in human HEK293 cells transfected with Hsp70.1pr-luc plasmid at 1 uM incubated for 24 hrs by luciferase reporter gene based luminescence assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL4825683",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5138045": {
+"assay_chembl_id": "CHEMBL5138045",
+"assay_description": "Induction of HSF-1 degradation in human HT-29 cells at 0.5 uM incubated for 24 hrs by Western blot analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5136984",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5234957": {
+"assay_chembl_id": "CHEMBL5234957",
+"assay_description": "Induction of HSF-1 (unknown origin) degradation assessed as ATPase activity by colorimetric assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5233254",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5372351": {
+"assay_chembl_id": "CHEMBL5372351",
+"assay_description": "Activation of HSF1 in human HeLa cells assessed as increase in HSP70 mRNA expression at 10 uM measured after 12 hrs by Real-time PCR assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5370580",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5372352": {
+"assay_chembl_id": "CHEMBL5372352",
+"assay_description": "Activation of HSF1 in human HeLa cells assessed as increase in HSP47 mRNA expression at 10 uM measured after 12 hrs by Real-time PCR assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5370580",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5372353": {
+"assay_chembl_id": "CHEMBL5372353",
+"assay_description": "Activation of HSF1 in human HeLa cells assessed as increase in HSP27 mRNA expression at 10 uM measured after 12 hrs by Real-time PCR assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5370580",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5372354": {
+"assay_chembl_id": "CHEMBL5372354",
+"assay_description": "Activation of HSF1 in human HeLa cells assessed as increase in HSP70 mRNA expression at 100 uM measured after 12 hrs by Real-time PCR assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5370580",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5372355": {
+"assay_chembl_id": "CHEMBL5372355",
+"assay_description": "Activation of HSF1 in human HeLa cells assessed as increase in HSP47 mRNA expression at 100 uM measured after 12 hrs by Real-time PCR assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5370580",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5372356": {
+"assay_chembl_id": "CHEMBL5372356",
+"assay_description": "Activation of HSF1 in human HeLa cells assessed as increase in HSP27 mRNA expression at 100 uM measured after 12 hrs by Real-time PCR assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5370580",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5651386": {
+"assay_chembl_id": "CHEMBL5651386",
+"assay_description": "Binding affinity to human ETF1 incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5651978": {
+"assay_chembl_id": "CHEMBL5651978",
+"assay_description": "Binding affinity to human PAPSS1 incubated for 45 mins by Kinobead based pull down assay",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5649169",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5697120": {
+"assay_chembl_id": "CHEMBL5697120",
+"assay_description": "Inhibition of RPS3 (unknown origin) assessed as fold change at 10 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5697473": {
+"assay_chembl_id": "CHEMBL5697473",
+"assay_description": "Inhibition of EEF1A1 (unknown origin) assessed as fold change at 10 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5697786": {
+"assay_chembl_id": "CHEMBL5697786",
+"assay_description": "Inhibition of RAN (unknown origin) assessed as fold change at 10 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5697820": {
+"assay_chembl_id": "CHEMBL5697820",
+"assay_description": "Inhibition of RPS3 (unknown origin) assessed as fold change at 2 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698173": {
+"assay_chembl_id": "CHEMBL5698173",
+"assay_description": "Inhibition of EEF1A1 (unknown origin) assessed as fold change at 2 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698486": {
+"assay_chembl_id": "CHEMBL5698486",
+"assay_description": "Inhibition of RAN (unknown origin) assessed as fold change at 2 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698520": {
+"assay_chembl_id": "CHEMBL5698520",
+"assay_description": "Inhibition of RPS3 (unknown origin) assessed as fold change at 0.4 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5698873": {
+"assay_chembl_id": "CHEMBL5698873",
+"assay_description": "Inhibition of EEF1A1 (unknown origin) assessed as fold change at 0.4 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5699186": {
+"assay_chembl_id": "CHEMBL5699186",
+"assay_description": "Inhibition of RAN (unknown origin) assessed as fold change at 0.4 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5699220": {
+"assay_chembl_id": "CHEMBL5699220",
+"assay_description": "Inhibition of RPS3 (unknown origin) assessed as fold change at 0.08 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5699573": {
+"assay_chembl_id": "CHEMBL5699573",
+"assay_description": "Inhibition of EEF1A1 (unknown origin) assessed as fold change at 0.08 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5699886": {
+"assay_chembl_id": "CHEMBL5699886",
+"assay_description": "Inhibition of RAN (unknown origin) assessed as fold change at 0.08 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5699920": {
+"assay_chembl_id": "CHEMBL5699920",
+"assay_description": "Inhibition of RPS3 (unknown origin) assessed as fold change at 0.016 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5700273": {
+"assay_chembl_id": "CHEMBL5700273",
+"assay_description": "Inhibition of EEF1A1 (unknown origin) assessed as fold change at 0.016 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5700586": {
+"assay_chembl_id": "CHEMBL5700586",
+"assay_description": "Inhibition of RAN (unknown origin) assessed as fold change at 0.016 uM incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5700620": {
+"assay_chembl_id": "CHEMBL5700620",
+"assay_description": "Inhibition of RPS3 (unknown origin) incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5700973": {
+"assay_chembl_id": "CHEMBL5700973",
+"assay_description": "Inhibition of EEF1A1 (unknown origin) incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL5701286": {
+"assay_chembl_id": "CHEMBL5701286",
+"assay_description": "Inhibition of RAN (unknown origin) incubated for 1 hr by colloidal coomassie staining based LC-MS/MS analysis",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL5696440",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": null
+},
+"CHEMBL993711": {
+"assay_chembl_id": "CHEMBL993711",
+"assay_description": "Inhibition of HSF1 binding to heat shock element DNA assessed as HSF1/HSE complex formation in human HeLa cells at 50 ug/mL treated for 1 hr before heat induction",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1153987",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3308376"
+},
+"CHEMBL993712": {
+"assay_chembl_id": "CHEMBL993712",
+"assay_description": "Inhibition of HSF1 binding to heat shock element DNA assessed as HSF1/HSE complex formation in human Jurkat cells at 50 ug/mL treated for 1 hr before heat induction",
+"assay_type_chembl": "B",
+"confidence_score": 9,
+"document_chembl_id": "CHEMBL1153987",
+"assay_organism": "Homo sapiens",
+"cell_chembl_id": "CHEMBL3307526"
+}
+}

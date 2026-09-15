@@ -15,6 +15,7 @@ from pathlib import Path
 
 import pandas as pd
 
+from activity_filter import DEFAULT_MIN_PCHEMBL, collapse_to_edges, filter_activities
 from chembl_client import JsonCache, cached_get_json
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -101,6 +102,12 @@ def compounds_for_target(
                         "standard_relation": act.get("standard_relation"),
                         "standard_value": act.get("standard_value"),
                         "standard_units": act.get("standard_units"),
+                        "pchembl_value": act.get("pchembl_value"),
+                        "assay_type": act.get("assay_type"),
+                        "assay_chembl_id": act.get("assay_chembl_id"),
+                        "target_organism": act.get("target_organism"),
+                        "data_validity_comment": act.get("data_validity_comment"),
+                        "activity_comment": act.get("activity_comment"),
                     }
                 )
         meta = data.get("page_meta", {})
@@ -121,20 +128,29 @@ def fetch_compound_details(compound_id: str, cache: JsonCache) -> dict:
     url = f"{CHEMBL_BASE}/molecule/{compound_id}.json"
     data = cached_get_json(url, cache, cache_key=f"molecule::{compound_id}")
     if not data:
-        return {"compound_id": compound_id, "canonical_smiles": None, "pref_name": None, "max_phase": None}
+        return {"compound_id": compound_id, "canonical_smiles": None, "inchikey": None,
+                "pref_name": None, "max_phase": None, "alogp": None, "mw": None}
     structures = data.get("molecule_structures") or {}
+    props = data.get("molecule_properties") or {}
     return {
         "compound_id": compound_id,
         "canonical_smiles": structures.get("canonical_smiles"),
+        # InChIKey is carried through so purchasability lookups can go straight to
+        # PubChem/vendor catalogues by structure key rather than by name.
+        "inchikey": structures.get("standard_inchi_key"),
         "pref_name": data.get("pref_name"),
         "max_phase": data.get("max_phase"),
+        # ChEMBL's own computed descriptors: cheaper and more consistent than
+        # recomputing them, and they are what the medicinal-chemistry ranking uses.
+        "alogp": props.get("alogp"),
+        "mw": props.get("full_mwt"),
     }
 
 
 EEF1A_ONLY = ["EEF1A1", "EEF1A2"]
 
 
-def main(dry_run_n: int | None, scope: str) -> None:
+def main(dry_run_n: int | None, scope: str, min_pchembl: float = DEFAULT_MIN_PCHEMBL) -> None:
     if not SEED_FILE.exists():
         raise FileNotFoundError(f"{SEED_FILE} missing - run extract_seed_proteins.py first")
     seed = pd.read_csv(SEED_FILE, sep="\t")
@@ -202,11 +218,28 @@ def main(dry_run_n: int | None, scope: str) -> None:
     out = pd.DataFrame(detail_rows)
     if out.empty:
         log.warning("No compounds found for any seed protein - writing empty file with header")
-        out = pd.DataFrame(columns=["compound_id", "canonical_smiles", "pref_name", "max_phase"])
+        out = pd.DataFrame(columns=["compound_id", "canonical_smiles", "inchikey",
+                                    "pref_name", "max_phase", "alogp", "mw"])
     out.to_csv(compounds_file(scope), sep="\t", index=False)
     log.info("Saved %d compounds to %s", len(out), compounds_file(scope))
 
-    edges_df = pd.DataFrame(edge_rows).drop_duplicates(subset=["compound_id", "target_chembl_id"])
+    # Every activity record is kept on disk; the edge table is the filtered subset.
+    # Previously this line was a bare drop_duplicates on (compound, target), which
+    # retained an arbitrary record per pair - including non-detections and unitless
+    # ratios. See src/activity_filter.py.
+    acts_df = pd.DataFrame(edge_rows)
+    acts_path = RAW_DIR / f"compound_gene_activities.{scope}.tsv"
+    acts_df.to_csv(acts_path, sep="\t", index=False)
+    log.info("Saved %d raw activity records to %s", len(acts_df), acts_path)
+
+    kept, audit = filter_activities(acts_df, min_pchembl=min_pchembl)
+    audit_path = RAW_DIR / f"activity_filter_audit.{scope}.tsv"
+    audit.to_csv(audit_path, sep="\t", index=False)
+    log.info("Activity filter attrition (from %d records):", len(acts_df))
+    for row in audit.to_dict("records"):
+        log.info("  -%-6d %-45s -> %d remaining", row["records_removed"], row["criterion"], row["records_remaining"])
+
+    edges_df = collapse_to_edges(kept)
     edges_path = RAW_DIR / f"compound_binds_gene.{scope}.tsv"
     edges_df.to_csv(edges_path, sep="\t", index=False)
     log.info(
@@ -229,5 +262,9 @@ if __name__ == "__main__":
             "(one target's activity table alone can run into the hundreds), intended for the HPC."
         ),
     )
+    parser.add_argument(
+        "--min-pchembl", type=float, default=DEFAULT_MIN_PCHEMBL,
+        help="Minimum pChEMBL value for an activity record to become an edge (5.0 = 10 uM)",
+    )
     args = parser.parse_args()
-    main(args.dry_run, args.scope)
+    main(args.dry_run, args.scope, args.min_pchembl)

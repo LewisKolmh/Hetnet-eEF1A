@@ -1,0 +1,8 @@
+compound_id	protein_id	n_supporting_assays	n_supporting_documents	max_seed_proteins_in_one_document	multiplexed_proteomics	proteome_scale_readout	biophysical_method	min_confidence_score	assay_types	example_assay_description	evidence_grade
+CHEMBL1802814	EEF1A1	2	1	2	False	False	True	9	B	Binding affinity to eEF1A1 in human MDA-MB-231 cells using biotinylated compound using Western blot analysis based pull down assay	direct_biophysical
+CHEMBL1802814	EEF1A2	1	1	2	False	False	True	9	B	Binding affinity to eEF1A2 expressed in human MDA-MB-231 cells using 1 uM biotinylated compound immobilized on streptavidin sensor chip by surface plasmon resonance method	direct_biophysical
+CHEMBL1802815	EEF1A1	2	1	2	False	False	True	9	B	Binding affinity to eEF1A1 in human MDA-MB-231 cells using biotinylated compound using Western blot analysis based pull down assay	direct_biophysical
+CHEMBL1802815	EEF1A2	1	1	2	False	False	True	9	B	Binding affinity to eEF1A2 expressed in human MDA-MB-231 cells using 1 uM biotinylated compound immobilized on streptavidin sensor chip by surface plasmon resonance method	direct_biophysical
+CHEMBL1802973	EEF1A1	1	1	2	False	False	True	9	B	Binding affinity to eEF1A1 expressed in human MDA-MB-231 cells using 1 uM biotinylated compound immobilized on streptavidin sensor chip by surface plasmon resonance method	direct_biophysical
+CHEMBL1802973	EEF1A2	7	1	2	False	False	True	9	B	Binding affinity to eEF1A2 expressed in human MDA-MB-231 cells using 1 uM biotinylated compound immobilized on streptavidin sensor chip by surface plasmon resonance method	direct_biophysical
+CHEMBL5653589	EEF1A2	1	1	13	True	True	False	9	B	Binding affinity to human EEF1A2 incubated for 45 mins by Kinobead based pull down assay	multiplexed_pulldown

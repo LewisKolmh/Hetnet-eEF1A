@@ -46,14 +46,12 @@ NULL_DIR = Path("data/processed/null_distribution")
 
 TARGET_GENES = ["EEF1A1", "EEF1A2"]
 
-METAPATHS = {
-    "CbG": [("CbG", False)],
-    "CbGiG": [("CbG", False), ("GiG", False)],
-    "CbGpBP": [("CbG", False), ("GpBP", False), ("GpBP", True)],
-    "CbGpMF": [("CbG", False), ("GpMF", False), ("GpMF", True)],
-    "CbGpCC": [("CbG", False), ("GpCC", False), ("GpCC", True)],
-    "CbGpPW": [("CbG", False), ("GpPW", False), ("GpPW", True)],
-}
+# Single source of truth: the null MUST be computed over exactly the metapaths
+# and with exactly the DWPC definition used for the observed scores, or the two
+# sides of the comparison are not the same statistic. This module previously
+# kept its own copy of this dict, which is how a corrected observed score could
+# silently end up compared against an uncorrected null.
+from compute_all_dwpcs import METAPATHS  # noqa: E402
 
 # which raw metaedges are symmetric (must be XSwapped as undirected)
 SYMMETRIC_METAEDGES = {"GiG"}
@@ -76,10 +74,10 @@ def permute_all_metaedges(
 
 def dwpc_column_for_targets(
     permuted: dict[str, sparse.csr_matrix], edge_spec: list[tuple[str, bool]],
-    target_node_ids: dict[str, int], damping: float,
+    metanodes: list[str], target_node_ids: dict[str, int], damping: float,
 ) -> dict[str, np.ndarray]:
     mats = [(permuted[stub].T.tocsr() if transpose else permuted[stub]) for stub, transpose in edge_spec]
-    dwpc_mat = compute_dwpc(mats, w=damping)
+    dwpc_mat = compute_dwpc(mats, metanodes, w=damping)
     return {g: dwpc_mat[:, tid].toarray().flatten() for g, tid in target_node_ids.items()}
 
 
@@ -92,8 +90,10 @@ def run_one_permutation(
     permuted = permute_all_metaedges(base_matrices, swap_factor, rng)
 
     rows = []
-    for metapath, edge_spec in METAPATHS.items():
-        cols = dwpc_column_for_targets(permuted, edge_spec, target_node_ids, damping)
+    for metapath, (edge_spec, metanodes) in METAPATHS.items():
+        if not all(stub in permuted for stub, _ in edge_spec):
+            continue
+        cols = dwpc_column_for_targets(permuted, edge_spec, metanodes, target_node_ids, damping)
         for g, col in cols.items():
             nz = np.nonzero(col)[0]
             for node_idx in nz:
@@ -109,6 +109,29 @@ def run_one_permutation(
                     }
                 )
     return pd.DataFrame(rows)
+
+
+def consolidate(scope: str, delete_parts: bool) -> Path:
+    """Merge perm_*.parquet into one null_draws.<scope>.parquet.
+
+    At the permutation counts the corrected multiple-testing needs (1e4), the
+    per-permutation files are tens of thousands of small parquets - unusable as a
+    repository artefact. The consolidated file carries the same nonzero rows.
+    """
+    paths = sorted(NULL_DIR.glob(f"perm_*.{scope}.parquet"))
+    if not paths:
+        raise FileNotFoundError(f"no per-permutation files for scope={scope}")
+    frames = [pd.read_parquet(p) for p in paths]
+    out = pd.concat(frames, ignore_index=True)
+    out_path = NULL_DIR / f"null_draws.{scope}.parquet"
+    out.to_parquet(out_path, index=False, compression="zstd")
+    log.info("Consolidated %d permutations (%d nonzero rows) -> %s (%.1f MB)",
+             len(paths), len(out), out_path, out_path.stat().st_size / 1e6)
+    if delete_parts:
+        for p in paths:
+            p.unlink()
+        log.info("Removed %d per-permutation files", len(paths))
+    return out_path
 
 
 def main(
@@ -132,8 +155,15 @@ def main(
     node_to_compound = {row.node_id: row.external_id for row in nodes[nodes.metanode_type == "Compound"].itertuples(index=False)}
     compound_ids = np.array([node_to_compound.get(i) for i in range(n_nodes)], dtype=object)
 
-    base_stubs = sorted({stub for spec in METAPATHS.values() for stub, _ in spec})
-    base_matrices = {stub: load_matrix(stub, scope) for stub in base_stubs}
+    base_stubs = sorted({stub for spec, _ in METAPATHS.values() for stub, _ in spec})
+    base_matrices = {
+        stub: load_matrix(stub, scope)
+        for stub in base_stubs
+        if (MATRICES_DIR / f"{stub}.{scope}.npz").exists()
+    }
+    missing = sorted(set(base_stubs) - set(base_matrices))
+    if missing:
+        log.info("Metaedge matrices absent for scope=%s, metapaths using them are skipped: %s", scope, missing)
 
     end_index = end_index if end_index is not None else n_permutations
     log.info(
@@ -161,5 +191,12 @@ if __name__ == "__main__":
     parser.add_argument("--swap-factor", type=int, default=10, help="XSwap attempts = swap_factor x edge_count per metaedge")
     parser.add_argument("--damping", type=float, default=0.4)
     parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--consolidate", action="store_true",
+                        help="Merge existing perm_*.parquet into null_draws.<scope>.parquet and exit")
+    parser.add_argument("--keep-parts", action="store_true",
+                        help="With --consolidate, keep the per-permutation files")
     args = parser.parse_args()
+    if args.consolidate:
+        consolidate(args.scope, delete_parts=not args.keep_parts)
+        raise SystemExit(0)
     main(args.scope, args.n_permutations, args.start_index, args.end_index, args.swap_factor, args.damping, args.seed)

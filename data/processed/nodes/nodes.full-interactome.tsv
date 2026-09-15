@@ -17,711 +17,720 @@ node_id	metanode_type	external_id	name
 15	Gene	ncbi:9060	PAPSS2
 16	Gene	ncbi:9061	PAPSS1
 17	Gene	ncbi:55808	ST6GALNAC1
-18	Compound	CHEMBL2110732	DACOMITINIB ANHYDROUS
-19	Compound	CHEMBL3353410	OSIMERTINIB
-20	Compound	CHEMBL3545085	XL-228
-21	Compound	CHEMBL571546	TIRBANIBULIN
-22	Compound	CHEMBL494089	GSK-690693
-23	Compound	CHEMBL572878	TOZASERTIB
-24	Compound	CHEMBL1614713	CC-401
-25	Compound	CHEMBL3301622	GILTERITINIB
-26	Compound	CHEMBL1614725	TAK-285
-27	Compound	CHEMBL288441	BOSUTINIB
-28	Compound	CHEMBL482767	SNS-314
-29	Compound	CHEMBL536151	IMD-0354
-30	Compound	CHEMBL413	SIROLIMUS
-31	Compound	CHEMBL270995	BRIVANIB ALANINATE
-32	Compound	CHEMBL482967	CYC-116
-33	Compound	CHEMBL592445	GEDATOLISIB
-34	Compound	CHEMBL1233528	VOLASERTIB
-35	Compound	CHEMBL601719	CRIZOTINIB
-36	Compound	CHEMBL3334567	SAVOLITINIB
-37	Compound	CHEMBL507361	MIRDAMETINIB
-38	Compound	CHEMBL3348923	TOVORAFENIB
-39	Compound	CHEMBL3545328	XL-019
-40	Compound	CHEMBL1614707	MUBRITINIB
-41	Compound	CHEMBL1236682	REFAMETINIB
-42	Compound	CHEMBL3402762	TEPOTINIB
-43	Compound	CHEMBL2408045	SAPITINIB
-44	Compound	CHEMBL300138	ENZASTAURIN
-45	Compound	CHEMBL576982	QUIZARTINIB
-46	Compound	CHEMBL3600873	MK-5108
-47	Compound	CHEMBL296468	BMS-387032
-48	Compound	CHEMBL3688339	CHEMBL3688339
-49	Compound	CHEMBL3182621	AZD-8330
-50	Compound	CHEMBL3989868	TUCATINIB
-51	Compound	CHEMBL1173655	AFATINIB
-52	Compound	CHEMBL1289601	LENVATINIB
-53	Compound	CHEMBL587723	AEE-788
-54	Compound	CHEMBL255863	NILOTINIB
-55	Compound	CHEMBL3137336	UPROSERTIB
-56	Compound	CHEMBL607707	PELITINIB
-57	Compound	CHEMBL491473	CEDIRANIB
-58	Compound	CHEMBL598797	CUDC-101
-59	Compound	CHEMBL522892	DOVITINIB
-60	Compound	CHEMBL403989	TG100-801
-61	Compound	CHEMBL1908397	KW-2449
-62	Compound	CHEMBL259084	MLN-8054
-63	Compound	CHEMBL2386889	SCH-900776
-64	Compound	CHEMBL1230609	FORETINIB
-65	Compound	CHEMBL1873475	IBRUTINIB
-66	Compound	CHEMBL3218576	COPANLISIB
-67	Compound	CHEMBL2103875	TRAMETINIB
-68	Compound	CHEMBL2028663	DABRAFENIB
-69	Compound	CHEMBL3186534	RIVOCERANIB
-70	Compound	CHEMBL2165191	AZD-6482
-71	Compound	CHEMBL3301607	FILGOTINIB
-72	Compound	CHEMBL4289017	PF-03814735
-73	Compound	CHEMBL1983268	ENTRECTINIB
-74	Compound	CHEMBL3545083	RGB-286638
-75	Compound	CHEMBL1801204	AZD-8055
-76	Compound	CHEMBL2079588	TELATINIB
-77	Compound	CHEMBL575448	BMS-754807
-78	Compound	CHEMBL1078178	MOMELOTINIB
-79	Compound	CHEMBL180022	NERATINIB
-80	Compound	CHEMBL1201182	TEMSIROLIMUS
-81	Compound	CHEMBL1230165	SILMITASERTIB
-82	Compound	CHEMBL3128043	PF-03758309
-83	Compound	CHEMBL1229517	VEMURAFENIB
-84	Compound	CHEMBL495727	AT-9283
-85	Compound	CHEMBL3545215	BMS-911543
-86	Compound	CHEMBL1922094	APITOLISIB
-87	Compound	CHEMBL3991932	PEXMETINIB
-88	Compound	CHEMBL3544960	AT-13148
-89	Compound	CHEMBL1946170	REGORAFENIB
-90	Compound	CHEMBL3544932	TAK-901
-91	Compound	CHEMBL5416410	DASATINIB
-92	Compound	CHEMBL1090479	GSK-1070916
-93	Compound	CHEMBL2103839	RIDAFOROLIMUS
-94	Compound	CHEMBL3039513	DECERNOTINIB
-95	Compound	CHEMBL3545154	POZIOTINIB
-96	Compound	CHEMBL3218575	CHEMBL3218575
-97	Compound	CHEMBL3545360	ASP-3026
-98	Compound	CHEMBL1721885	SU-014813
-99	Compound	CHEMBL2105717	CABOZANTINIB
-100	Compound	CHEMBL1088752	LOSMAPIMOD
-101	Compound	CHEMBL477772	PAZOPANIB
-102	Compound	CHEMBL3184679	AZD-4547
-103	Compound	CHEMBL3991934	CHEMBL3991934
-104	Compound	CHEMBL571948	Y-39983
-105	Compound	CHEMBL428690	ALVOCIDIB
-106	Compound	CHEMBL2105759	BARICITINIB
-107	Compound	CHEMBL1738757	REBASTINIB
-108	Compound	CHEMBL1614710	OSI-930
-109	Compound	CHEMBL2029988	CEP-32496
-110	Compound	CHEMBL3991933	CHEMBL3991933
-111	Compound	CHEMBL551064	AEW-541
-112	Compound	CHEMBL1908391	MASITINIB
-113	Compound	CHEMBL1615025	TAK-733
-114	Compound	CHEMBL941	IMATINIB
-115	Compound	CHEMBL2105728	CRENOLANIB
-116	Compound	CHEMBL2220486	LUCITANIB
-117	Compound	CHEMBL445813	AT-7519
-118	Compound	CHEMBL939	GEFITINIB
-119	Compound	CHEMBL283120	AXL-1717
-120	Compound	CHEMBL3545157	TIDEGLUSIB
-121	Compound	CHEMBL3590106	ULIXERTINIB
-122	Compound	CHEMBL3218578	BGT-226 FREE BASE
-123	Compound	CHEMBL3301610	ABEMACICLIB
-124	Compound	CHEMBL253969	OSI-632
-125	Compound	CHEMBL415049	BARASERTIB
-126	Compound	CHEMBL1738797	ALECTINIB
-127	Compound	CHEMBL4084193	CHEMBL4084193
-128	Compound	CHEMBL3408248	AZD-8186
-129	Compound	CHEMBL608533	MIDOSTAURIN
-130	Compound	CHEMBL31965	CANERTINIB
-131	Compound	CHEMBL2107832	PIMASERTIB
-132	Compound	CHEMBL14762	SELICICLIB
-133	Compound	CHEMBL2048872	CHEMBL2048872
-134	Compound	CHEMBL2325741	CAPIVASERTIB
-135	Compound	CHEMBL2376648	CHEMBL2376648
-136	Compound	CHEMBL1084546	PF-00562271
-137	Compound	CHEMBL3545076	LY-2584702
-138	Compound	CHEMBL2103830	FOSTAMATINIB
-139	Compound	CHEMBL2336325	VISTUSERTIB
-140	Compound	CHEMBL1091644	LINSITINIB
-141	Compound	CHEMBL2035187	PACRITINIB
-142	Compound	CHEMBL475251	R-406
-143	Compound	CHEMBL3188267	CAPMATINIB
-144	Compound	CHEMBL553	ERLOTINIB
-145	Compound	CHEMBL603469	LESTAURTINIB
-146	Compound	CHEMBL572881	MOTESANIB
-147	Compound	CHEMBL2103842	VARLITINIB
-148	Compound	CHEMBL3989914	GLESATINIB
-149	Compound	CHEMBL1236962	OMIPALISIB
-150	Compound	CHEMBL1241855	RIGOSERTIB
-151	Compound	CHEMBL2103851	AMUVATINIB
-152	Compound	CHEMBL372764	PERIFOSINE
-153	Compound	CHEMBL462018	TRICIRIBINE PHOSPHATE
-154	Compound	CHEMBL377300	BRIVANIB
-155	Compound	CHEMBL483158	ALISERTIB
-156	Compound	CHEMBL1094408	NMS-1286937
-157	Compound	CHEMBL1289926	AXITINIB
-158	Compound	CHEMBL215152	DEFOSBARASERTIB
-159	Compound	CHEMBL281948	K-252A
-160	Compound	CHEMBL3264002	AVUTOMETINIB
-161	Compound	CHEMBL1908394	GSK-461364
-162	Compound	CHEMBL24828	VANDETANIB
-163	Compound	CHEMBL1944698	ZOTIRACICLIB
-164	Compound	CHEMBL3544966	GSK-1059615
-165	Compound	CHEMBL3991929	Cerdulatinib Hydrochloride
-166	Compound	CHEMBL482968	ENMD-2076
-167	Compound	CHEMBL2138625	AV-412 FREE BASE
-168	Compound	CHEMBL564829	MILCICLIB
-169	Compound	CHEMBL405130	WHI-P131
-170	Compound	CHEMBL2396661	ALPELISIB
-171	Compound	CHEMBL223360	LINIFANIB
-172	Compound	CHEMBL488436	AZD-5438
-173	Compound	CHEMBL1645462	AC-480
-174	Compound	CHEMBL460702	BMS-777607
-175	Compound	CHEMBL496102	AMG-208
-176	Compound	CHEMBL3545110	RIBOCICLIB
-177	Compound	CHEMBL2030402	CHEMBL2030402
-178	Compound	CHEMBL558752	RAF-265
-179	Compound	CHEMBL3544964	RAVOXERTINIB
-180	Compound	CHEMBL1079175	MK-2206
-181	Compound	CHEMBL2041933	AZD-7762
-182	Compound	CHEMBL1879463	DACTOLISIB
-183	Compound	CHEMBL3991931	CHEMBL3991931
-184	Compound	CHEMBL1088751	PH-797804
-185	Compound	CHEMBL3301612	ENCORAFENIB
-186	Compound	CHEMBL502835	NINTEDANIB
-187	Compound	CHEMBL3039517	RABUSERTIB
-188	Compound	CHEMBL2180604	TAK-593
-189	Compound	CHEMBL124660	TANDUTINIB
-190	Compound	CHEMBL1236107	SGX-523
-191	Compound	CHEMBL400402	CHEMBL400402
-192	Compound	CHEMBL2017974	BUPARLISIB
-193	Compound	CHEMBL483321	CP-724714
-194	Compound	CHEMBL2216870	IDELALISIB
-195	Compound	CHEMBL1336	SORAFENIB
-196	Compound	CHEMBL3907479	FGFR INHIBITOR DEBIO 1347
-197	Compound	CHEMBL1976040	ADAVOSERTIB
-198	Compound	CHEMBL3544983	TESEVATINIB
-199	Compound	CHEMBL3699142	CHEMBL3699142
-200	Compound	CHEMBL3137331	DEFACTINIB
-201	Compound	CHEMBL574737	UCN-01
-202	Compound	CHEMBL1614766	RO-4987655
-203	Compound	CHEMBL1952329	SGI-1776
-204	Compound	CHEMBL1908360	EVEROLIMUS
-205	Compound	CHEMBL101253	VATALANIB
-206	Compound	CHEMBL2219422	AFURESERTIB
-207	Compound	CHEMBL3120215	OSI-027
-208	Compound	CHEMBL3991935	CHEMBL3991935
-209	Compound	CHEMBL2103882	TIVANTINIB
-210	Compound	CHEMBL206834	BAFETINIB
-211	Compound	CHEMBL3426621	RIPASUDIL
-212	Compound	CHEMBL2403108	CERITINIB
-213	Compound	CHEMBL1234354	PF-04691502
-214	Compound	CHEMBL217092	SARACATINIB
-215	Compound	CHEMBL1090090	VX-702
-216	Compound	CHEMBL3039525	GOLVATINIB
-217	Compound	CHEMBL189963	PALBOCICLIB
-218	Compound	CHEMBL1233300	HYDROXYFASUDIL
-219	Compound	CHEMBL402548	DANUSERTIB
-220	Compound	CHEMBL3813873	PEXIDARTINIB
-221	Compound	CHEMBL3545366	VOXTALISIB
-222	Compound	CHEMBL3545307	MERESTINIB
-223	Compound	CHEMBL1171837	PONATINIB
-224	Compound	CHEMBL3991927	HMN-214
-225	Compound	CHEMBL2087361	ICOTINIB
-226	Compound	CHEMBL274654	ORANTINIB
-227	Compound	CHEMBL565612	SOTRASTAURIN
-228	Compound	CHEMBL3109738	JNJ-26483327
-229	Compound	CHEMBL1950289	TANZISERTIB
-230	Compound	CHEMBL1231124	AZD-1480
-231	Compound	CHEMBL3188551	GSK-2636771
-232	Compound	CHEMBL3545396	BMS-690514
-233	Compound	CHEMBL1667969	SAR-407899 FREE BASE
-234	Compound	CHEMBL38380	FASUDIL
-235	Compound	CHEMBL514201	TALMAPIMOD
-236	Compound	CHEMBL1287853	FEDRATINIB
-237	Compound	CHEMBL1289494	TIVOZANIB
-238	Compound	CHEMBL521851	PICTILISIB
-239	Compound	CHEMBL2364611	GALUNISERTIB
-240	Compound	CHEMBL1230607	PHA-793887
-241	Compound	CHEMBL2323775	MK-8033
-242	Compound	CHEMBL221959	TOFACITINIB
-243	Compound	CHEMBL3545308	ROCILETINIB
-244	Compound	CHEMBL2001019	PF-04217903
-245	Compound	CHEMBL535	SUNITINIB
-246	Compound	CHEMBL91829	RUBOXISTAURIN
-247	Compound	CHEMBL513909	BI-2536
-248	Compound	CHEMBL3990456	CHEMBL3990456
-249	Compound	CHEMBL2133806	JNJ-38877605
-250	Compound	CHEMBL1789941	RUXOLITINIB
-251	Compound	CHEMBL554	LAPATINIB
-252	Compound	CHEMBL3187723	BINIMETINIB
-253	Compound	CHEMBL1614701	SELUMETINIB
-254	Compound	CHEMBL1822792	MK-2461
-255	Compound	CHEMBL2146883	COBIMETINIB
-256	Compound	CHEMBL2140408	AMG-900
-257	Compound	CHEMBL411907	SONOLISIB
-258	Compound	CHEMBL384304	RG-547
-259	Compound	CHEMBL2103840	DINACICLIB
-260	Compound	CHEMBL230011	TG100-115
-261	Compound	CHEMBL4294164	CHEMBL4294164
-262	Compound	CHEMBL5653589	CHEMBL5653589
-263	Compound	CHEMBL3752910	CHEMBL3752910
-264	Compound	CHEMBL1232461	MOLIBRESIB
-265	Compound	CHEMBL1221911	LACTIMIDOMYCIN
-266	Compound	CHEMBL123292	CYCLOHEXIMIDE
-267	Compound	CHEMBL2303630	SPARSOMYCIN
-268	Compound	CHEMBL1802814	CHEMBL1802814
-269	Compound	CHEMBL1802815	CHEMBL1802815
-270	Compound	CHEMBL1802973	CHEMBL1802973
-271	Compound	CHEMBL3799977	CHEMBL3799977
-272	Compound	CHEMBL4066032	CHEMBL4066032
-273	Compound	CHEMBL4095101	CHEMBL4095101
-274	Compound	CHEMBL4097524	CHEMBL4097524
-275	Compound	CHEMBL4070348	CHEMBL4070348
-276	Compound	CHEMBL4094319	CHEMBL4094319
-277	Compound	CHEMBL4072881	CHEMBL4072881
-278	Compound	CHEMBL4067648	CHEMBL4067648
-279	Compound	CHEMBL4088864	CHEMBL4088864
-280	Compound	CHEMBL4105227	CHEMBL4105227
-281	Compound	CHEMBL514569	GAMENDAZOLE
-282	Compound	CHEMBL4062193	CHEMBL4062193
-283	Compound	CHEMBL4101680	CHEMBL4101680
-284	Compound	CHEMBL4093377	CHEMBL4093377
-285	Compound	CHEMBL4129274	CHEMBL4129274
-286	Compound	CHEMBL50	QUERCETIN
-287	Compound	CHEMBL557848	CHEMBL557848
-288	Compound	CHEMBL549777	CHEMBL549777
-289	Compound	CHEMBL564153	CHEMBL564153
-290	Compound	CHEMBL549776	CHEMBL549776
-291	Compound	CHEMBL559728	CHEMBL559728
-292	Compound	CHEMBL554519	CHEMBL554519
-293	Compound	CHEMBL551320	CHEMBL551320
-294	Compound	CHEMBL562911	CHEMBL562911
-295	Compound	CHEMBL559530	CHEMBL559530
-296	Compound	CHEMBL569598	CHEMBL569598
-297	Compound	CHEMBL551057	CHEMBL551057
-298	Compound	CHEMBL551056	CHEMBL551056
-299	Compound	CHEMBL561378	CHEMBL561378
-300	Compound	CHEMBL562322	CHEMBL562322
-301	Compound	CHEMBL564420	CHEMBL564420
-302	Compound	CHEMBL550653	CHEMBL550653
-303	Compound	CHEMBL564701	CHEMBL564701
-304	Compound	CHEMBL569836	CHEMBL569836
-305	Compound	CHEMBL550509	CHEMBL550509
-306	Compound	CHEMBL551996	CHEMBL551996
-307	Compound	CHEMBL570768	CHEMBL570768
-308	Compound	CHEMBL561059	CHEMBL561059
-309	Compound	CHEMBL559343	CHEMBL559343
-310	Compound	CHEMBL564532	CHEMBL564532
-311	Compound	CHEMBL560380	CHEMBL560380
-312	Compound	CHEMBL561724	CHEMBL561724
-313	Compound	CHEMBL2021570	CHEMBL2021570
-314	Compound	CHEMBL2021569	CHEMBL2021569
-315	Compound	CHEMBL549495	CHEMBL549495
-316	Compound	CHEMBL554525	CHEMBL554525
-317	Compound	CHEMBL558309	CHEMBL558309
-318	Compound	CHEMBL549427	CHEMBL549427
-319	Compound	CHEMBL560657	CHEMBL560657
-320	Compound	CHEMBL552321	CHEMBL552321
-321	Compound	CHEMBL552320	CHEMBL552320
-322	Compound	CHEMBL557917	CHEMBL557917
-323	Compound	CHEMBL561119	CHEMBL561119
-324	Compound	CHEMBL570771	CHEMBL570771
-325	Compound	CHEMBL557507	CHEMBL557507
-326	Compound	CHEMBL550790	CHEMBL550790
-327	Compound	CHEMBL552259	CHEMBL552259
-328	Compound	CHEMBL550179	CHEMBL550179
-329	Compound	CHEMBL551918	CHEMBL551918
-330	Compound	CHEMBL549837	CHEMBL549837
-331	Compound	CHEMBL560858	CHEMBL560858
-332	Compound	CHEMBL551995	CHEMBL551995
-333	Compound	CHEMBL555689	CHEMBL555689
-334	Compound	CHEMBL570772	CHEMBL570772
-335	Compound	CHEMBL558247	CHEMBL558247
-336	Compound	CHEMBL556491	CHEMBL556491
-337	Compound	CHEMBL559594	CHEMBL559594
-338	Compound	CHEMBL564799	CHEMBL564799
-339	Compound	CHEMBL561125	CHEMBL561125
-340	Compound	CHEMBL559595	CHEMBL559595
-341	Compound	CHEMBL553924	CHEMBL553924
-342	Compound	CHEMBL562794	CHEMBL562794
-343	Compound	CHEMBL541255	CHEMBL541255
-344	Compound	CHEMBL550516	CHEMBL550516
-345	Compound	CHEMBL551602	CHEMBL551602
-346	Compound	CHEMBL551807	CHEMBL551807
-347	Compound	CHEMBL560663	CHEMBL560663
-348	Compound	CHEMBL550249	CHEMBL550249
-349	Compound	CHEMBL557716	CHEMBL557716
-350	Compound	CHEMBL558033	CHEMBL558033
-351	Compound	CHEMBL564316	CHEMBL564316
-352	Compound	CHEMBL559039	CHEMBL559039
-353	Compound	CHEMBL550251	CHEMBL550251
-354	Compound	CHEMBL565134	CHEMBL565134
-355	Compound	CHEMBL563049	CHEMBL563049
-356	Compound	CHEMBL570073	CHEMBL570073
-357	Compound	CHEMBL561266	CHEMBL561266
-358	Compound	CHEMBL301982	CELASTROL
-359	Compound	CHEMBL561265	CHEMBL561265
-360	Compound	CHEMBL3286745	CHEMBL3286745
-361	Compound	CHEMBL1240927	CHEMBL1240927
-362	Compound	CHEMBL3609826	CHEMBL3609826
-363	Compound	CHEMBL3608911	CHEMBL3608911
-364	Compound	CHEMBL463763	TRIPTOLIDE
-365	Compound	CHEMBL3937369	CHEMBL3937369
-366	Compound	CHEMBL3975567	CHEMBL3975567
-367	Compound	CHEMBL3946252	CHEMBL3946252
-368	Compound	CHEMBL3947240	CHEMBL3947240
-369	Compound	CHEMBL3919459	CHEMBL3919459
-370	Compound	CHEMBL3955977	CHEMBL3955977
-371	Compound	CHEMBL3928361	CHEMBL3928361
-372	Compound	CHEMBL3900925	CHEMBL3900925
-373	Compound	CHEMBL3972065	CHEMBL3972065
-374	Compound	CHEMBL3953713	CHEMBL3953713
-375	Compound	CHEMBL3901185	CHEMBL3901185
-376	Compound	CHEMBL3944589	CHEMBL3944589
-377	Compound	CHEMBL3916672	CHEMBL3916672
-378	Compound	CHEMBL3964729	CHEMBL3964729
-379	Compound	CHEMBL3911352	CHEMBL3911352
-380	Compound	CHEMBL3936187	CHEMBL3936187
-381	Compound	CHEMBL3957716	CHEMBL3957716
-382	Compound	CHEMBL3891011	CHEMBL3891011
-383	Compound	CHEMBL3969412	CHEMBL3969412
-384	Compound	CHEMBL3922414	CHEMBL3922414
-385	Compound	CHEMBL3973213	CHEMBL3973213
-386	Compound	CHEMBL3983798	CHEMBL3983798
-387	Compound	CHEMBL3919811	CHEMBL3919811
-388	Compound	CHEMBL3923966	CHEMBL3923966
-389	Compound	CHEMBL3905315	CHEMBL3905315
-390	Compound	CHEMBL3967087	CHEMBL3967087
-391	Compound	CHEMBL4070633	CHEMBL4070633
-392	Compound	CHEMBL4087666	CHEMBL4087666
-393	Compound	CHEMBL4082534	CHEMBL4082534
-394	Compound	CHEMBL4066791	CHEMBL4066791
-395	Compound	CHEMBL4077078	CHEMBL4077078
-396	Compound	CHEMBL4099031	CHEMBL4099031
-397	Compound	CHEMBL4063438	CHEMBL4063438
-398	Compound	CHEMBL4091297	CHEMBL4091297
-399	Compound	CHEMBL4081256	CHEMBL4081256
-400	Compound	CHEMBL4077611	CHEMBL4077611
-401	Compound	CHEMBL4063608	CHEMBL4063608
-402	Compound	CHEMBL4063330	CHEMBL4063330
-403	Compound	CHEMBL4069552	CHEMBL4069552
-404	Compound	CHEMBL4096048	CHEMBL4096048
-405	Compound	CHEMBL3125890	CHEMBL3125890
-406	Compound	CHEMBL2144069	CHEMBL2144069
-407	Compound	CHEMBL525191	CHEMBL525191
-408	Compound	CHEMBL4070302	CHEMBL4070302
-409	Compound	CHEMBL4091953	CHEMBL4091953
-410	Compound	CHEMBL4102297	CHEMBL4102297
-411	Compound	CHEMBL186526	CHEMBL186526
-412	Compound	CHEMBL4101619	CHEMBL4101619
-413	Compound	CHEMBL4083615	CHEMBL4083615
-414	Compound	CHEMBL4076337	CHEMBL4076337
-415	Compound	CHEMBL4066800	CHEMBL4066800
-416	Compound	CHEMBL4066949	CHEMBL4066949
-417	Compound	CHEMBL4071793	CHEMBL4071793
-418	Compound	CHEMBL4076144	CHEMBL4076144
-419	Compound	CHEMBL4072087	CHEMBL4072087
-420	Compound	CHEMBL4098083	CHEMBL4098083
-421	Compound	CHEMBL4090359	CHEMBL4090359
-422	Compound	CHEMBL4100535	CHEMBL4100535
-423	Compound	CHEMBL4094691	CHEMBL4094691
-424	Compound	CHEMBL188678	CHEMBL188678
-425	Compound	CHEMBL242529	CONIFERYL ALDEHYDE
-426	Compound	CHEMBL501870	CONIFERYL ALCOHOL
-427	Compound	CHEMBL4207280	CHEMBL4207280
-428	Compound	CHEMBL4207816	CHEMBL4207816
-429	Compound	CHEMBL4288307	CHEMBL4288307
-430	Compound	CHEMBL4280406	CHEMBL4280406
-431	Compound	CHEMBL4283002	CHEMBL4283002
-432	Compound	CHEMBL4293586	CHEMBL4293586
-433	Compound	CHEMBL4288525	CHEMBL4288525
-434	Compound	CHEMBL4277867	CHEMBL4277867
-435	Compound	CHEMBL4285168	CHEMBL4285168
-436	Compound	CHEMBL4293003	CHEMBL4293003
-437	Compound	CHEMBL4276798	CHEMBL4276798
-438	Compound	CHEMBL4284740	CHEMBL4284740
-439	Compound	CHEMBL4291948	CHEMBL4291948
-440	Compound	CHEMBL4281330	CHEMBL4281330
-441	Compound	CHEMBL4293406	CHEMBL4293406
-442	Compound	CHEMBL4282794	CHEMBL4282794
-443	Compound	CHEMBL4514442	CHEMBL4514442
-444	Compound	CHEMBL438605	CHEMBL438605
-445	Compound	CHEMBL4877620	CHEMBL4877620
-446	Compound	CHEMBL4848310	CHEMBL4848310
-447	Compound	CHEMBL4846644	CHEMBL4846644
-448	Compound	CHEMBL4876187	CHEMBL4876187
-449	Compound	CHEMBL5200595	CHEMBL5200595
-450	Compound	CHEMBL520014	DEHYDROCURVULARIN
-451	Compound	CHEMBL278315	GELDANAMYCIN
-452	Compound	CHEMBL5398773	CHEMBL5398773
-453	Compound	CHEMBL5441131	CHEMBL5441131
-454	Compound	CHEMBL5402290	CHEMBL5402290
-455	BiologicalProcess	GO:0071364	cellular response to epidermal growth factor stimulus
-456	BiologicalProcess	GO:0006351	DNA-templated transcription
-457	BiologicalProcess	GO:0044829	host-mediated activation of viral genome replication
-458	BiologicalProcess	GO:1904714	regulation of chaperone-mediated autophagy
-459	BiologicalProcess	GO:0006412	translation
-460	BiologicalProcess	GO:0006414	translational elongation
-461	BiologicalProcess	GO:0045471	response to ethanol
-462	BiologicalProcess	GO:0009615	response to virus
-463	BiologicalProcess	GO:0034605	cellular response to heat
-464	BiologicalProcess	GO:0071479	cellular response to ionizing radiation
-465	BiologicalProcess	GO:0002182	cytoplasmic translational elongation
-466	BiologicalProcess	GO:0045944	positive regulation of transcription by RNA polymerase II
-467	BiologicalProcess	GO:0002181	cytoplasmic translation
-468	BiologicalProcess	GO:1901740	negative regulation of myoblast fusion
-469	BiologicalProcess	GO:0007283	spermatogenesis
-470	BiologicalProcess	GO:0006941	striated muscle contraction
-471	BiologicalProcess	GO:0090218	positive regulation of lipid kinase activity
-472	BiologicalProcess	GO:0000463	maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
-473	BiologicalProcess	GO:0042273	ribosomal large subunit biogenesis
-474	BiologicalProcess	GO:0006364	rRNA processing
-475	BiologicalProcess	GO:0051443	positive regulation of ubiquitin-protein transferase activity
-476	BiologicalProcess	GO:0006915	apoptotic process
-477	BiologicalProcess	GO:0006284	base-excision repair
-478	BiologicalProcess	GO:0051301	cell division
-479	BiologicalProcess	GO:0070301	cellular response to hydrogen peroxide
-480	BiologicalProcess	GO:0034614	cellular response to reactive oxygen species
-481	BiologicalProcess	GO:0007059	chromosome segregation
-482	BiologicalProcess	GO:0002183	cytoplasmic translational initiation
-483	BiologicalProcess	GO:0006974	DNA damage response
-484	BiologicalProcess	GO:0006281	DNA repair
-485	BiologicalProcess	GO:0045738	negative regulation of DNA repair
-486	BiologicalProcess	GO:0031397	negative regulation of protein ubiquitination
-487	BiologicalProcess	GO:0017148	negative regulation of translation
-488	BiologicalProcess	GO:2001235	positive regulation of apoptotic signaling pathway
-489	BiologicalProcess	GO:1905053	positive regulation of base-excision repair
-490	BiologicalProcess	GO:0045739	positive regulation of DNA repair
-491	BiologicalProcess	GO:2000144	positive regulation of DNA-templated transcription initiation
-492	BiologicalProcess	GO:0010628	positive regulation of gene expression
-493	BiologicalProcess	GO:1902231	positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage
-494	BiologicalProcess	GO:0031116	positive regulation of microtubule polymerization
-495	BiologicalProcess	GO:1901224	positive regulation of non-canonical NF-kappaB signal transduction
-496	BiologicalProcess	GO:0042981	regulation of apoptotic process
-497	BiologicalProcess	GO:0061481	response to TNF agonist
-498	BiologicalProcess	GO:0051225	spindle assembly
-499	BiologicalProcess	GO:0030154	cell differentiation
-500	BiologicalProcess	GO:0043066	negative regulation of apoptotic process
-501	BiologicalProcess	GO:0042274	ribosomal small subunit biogenesis
-502	BiologicalProcess	GO:0006413	translational initiation
-503	BiologicalProcess	GO:0071389	cellular response to mineralocorticoid stimulus
-504	BiologicalProcess	GO:0006259	DNA metabolic process
-505	BiologicalProcess	GO:0046039	GTP metabolic process
-506	BiologicalProcess	GO:0021766	hippocampus development
-507	BiologicalProcess	GO:0000278	mitotic cell cycle
-508	BiologicalProcess	GO:0000070	mitotic sister chromatid segregation
-509	BiologicalProcess	GO:0007052	mitotic spindle organization
-510	BiologicalProcess	GO:0042307	positive regulation of protein import into nucleus
-511	BiologicalProcess	GO:0035281	pre-miRNA export from nucleus
-512	BiologicalProcess	GO:0006611	protein export from nucleus
-513	BiologicalProcess	GO:0006606	protein import into nucleus
-514	BiologicalProcess	GO:1902570	protein localization to nucleolus
-515	BiologicalProcess	GO:0000055	ribosomal large subunit export from nucleus
-516	BiologicalProcess	GO:0000056	ribosomal small subunit export from nucleus
-517	BiologicalProcess	GO:0000054	ribosomal subunit export from nucleus
-518	BiologicalProcess	GO:0061015	snRNA import into nucleus
-519	BiologicalProcess	GO:0007286	spermatid development
-520	BiologicalProcess	GO:0016032	viral process
-521	BiologicalProcess	GO:0002184	cytoplasmic translational termination
-522	BiologicalProcess	GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
-523	BiologicalProcess	GO:0006479	protein methylation
-524	BiologicalProcess	GO:0006449	regulation of translational termination
-525	BiologicalProcess	GO:0006415	translational termination
-526	BiologicalProcess	GO:0071276	cellular response to cadmium ion
-527	BiologicalProcess	GO:0071280	cellular response to copper ion
-528	BiologicalProcess	GO:0072738	cellular response to diamide
-529	BiologicalProcess	GO:0071480	cellular response to gamma radiation
-530	BiologicalProcess	GO:1903936	cellular response to sodium arsenite
-531	BiologicalProcess	GO:0034620	cellular response to unfolded protein
-532	BiologicalProcess	GO:0000165	MAPK cascade
-533	BiologicalProcess	GO:0006397	mRNA processing
-534	BiologicalProcess	GO:0051028	mRNA transport
-535	BiologicalProcess	GO:2001033	negative regulation of double-strand break repair via nonhomologous end joining
-536	BiologicalProcess	GO:0031333	negative regulation of protein-containing complex assembly
-537	BiologicalProcess	GO:0000122	negative regulation of transcription by RNA polymerase II
-538	BiologicalProcess	GO:0120162	positive regulation of cold-induced thermogenesis
-539	BiologicalProcess	GO:0045651	positive regulation of macrophage differentiation
-540	BiologicalProcess	GO:0045931	positive regulation of mitotic cell cycle
-541	BiologicalProcess	GO:0065003	protein-containing complex assembly
-542	BiologicalProcess	GO:1900034	regulation of cellular response to heat
-543	BiologicalProcess	GO:0006357	regulation of transcription by RNA polymerase II
-544	BiologicalProcess	GO:0050428	3'-phosphoadenosine 5'-phosphosulfate biosynthetic process
-545	BiologicalProcess	GO:0042445	hormone metabolic process
-546	BiologicalProcess	GO:0000103	sulfate assimilation
-547	BiologicalProcess	GO:0001501	skeletal system development
-548	BiologicalProcess	GO:0009101	glycoprotein biosynthetic process
-549	BiologicalProcess	GO:0048874	host-mediated modulation of intestinal microbiota composition
-550	BiologicalProcess	GO:0009312	oligosaccharide biosynthetic process
-551	CellularComponent	GO:0030864	cortical actin cytoskeleton
-552	CellularComponent	GO:0005737	cytoplasm
-553	CellularComponent	GO:0098574	cytoplasmic side of lysosomal membrane
-554	CellularComponent	GO:0005829	cytosol
-555	CellularComponent	GO:0022626	cytosolic ribosome
-556	CellularComponent	GO:0005853	eukaryotic translation elongation factor 1 complex
-557	CellularComponent	GO:0070062	extracellular exosome
-558	CellularComponent	GO:0005576	extracellular region
-559	CellularComponent	GO:0005615	extracellular space
-560	CellularComponent	GO:1904813	ficolin-1-rich granule lumen
-561	CellularComponent	GO:0016020	membrane
-562	CellularComponent	GO:0005730	nucleolus
-563	CellularComponent	GO:0005634	nucleus
-564	CellularComponent	GO:0005886	plasma membrane
-565	CellularComponent	GO:0005840	ribosome
-566	CellularComponent	GO:0032587	ruffle membrane
-567	CellularComponent	GO:0034774	secretory granule lumen
-568	CellularComponent	GO:0001650	fibrillar center
-569	CellularComponent	GO:0005654	nucleoplasm
-570	CellularComponent	GO:0022625	cytosolic large ribosomal subunit
-571	CellularComponent	GO:0014069	postsynaptic density
-572	CellularComponent	GO:0005925	focal adhesion
-573	CellularComponent	GO:1990904	ribonucleoprotein complex
-574	CellularComponent	GO:0005791	rough endoplasmic reticulum
-575	CellularComponent	GO:0005789	endoplasmic reticulum membrane
-576	CellularComponent	GO:0045202	synapse
-577	CellularComponent	GO:0022627	cytosolic small ribosomal subunit
-578	CellularComponent	GO:0032991	protein-containing complex
-579	CellularComponent	GO:0005783	endoplasmic reticulum
-580	CellularComponent	GO:0005743	mitochondrial inner membrane
-581	CellularComponent	GO:0005759	mitochondrial matrix
-582	CellularComponent	GO:0072686	mitotic spindle
-583	CellularComponent	GO:0071159	NF-kappaB complex
-584	CellularComponent	GO:0032040	small-subunit processome
-585	CellularComponent	GO:0005814	centriole
-586	CellularComponent	GO:0000785	chromatin
-587	CellularComponent	GO:0001673	male germ cell nucleus
-588	CellularComponent	GO:0002177	manchette
-589	CellularComponent	GO:0042470	melanosome
-590	CellularComponent	GO:0030496	midbody
-591	CellularComponent	GO:0005635	nuclear envelope
-592	CellularComponent	GO:0005643	nuclear pore
-593	CellularComponent	GO:0055037	recycling endosome
-594	CellularComponent	GO:0042565	RNA nuclear export complex
-595	CellularComponent	GO:0036126	sperm flagellum
-596	CellularComponent	GO:0018444	translation release factor complex
-597	CellularComponent	GO:0005813	centrosome
-598	CellularComponent	GO:0000776	kinetochore
-599	CellularComponent	GO:0097431	mitotic spindle pole
-600	CellularComponent	GO:0097165	nuclear stress granule
-601	CellularComponent	GO:0048471	perinuclear region of cytoplasm
-602	CellularComponent	GO:0016605	PML body
-603	CellularComponent	GO:0045120	pronucleus
-604	CellularComponent	GO:0101031	protein folding chaperone complex
-605	CellularComponent	GO:0000139	Golgi membrane
-606	MolecularFunction	GO:0005525	GTP binding
-607	MolecularFunction	GO:0003924	GTPase activity
-608	MolecularFunction	GO:0019209	kinase activator activity
-609	MolecularFunction	GO:0019900	kinase binding
-610	MolecularFunction	GO:0060090	molecular adaptor activity
-611	MolecularFunction	GO:0019901	protein kinase binding
-612	MolecularFunction	GO:0003723	RNA binding
-613	MolecularFunction	GO:0003746	translation elongation factor activity
-614	MolecularFunction	GO:0000049	tRNA binding
-615	MolecularFunction	GO:0005085	guanyl-nucleotide exchange factor activity
-616	MolecularFunction	GO:0045296	cadherin binding
-617	MolecularFunction	GO:0003677	DNA binding
-618	MolecularFunction	GO:0140297	DNA-binding transcription factor binding
-619	MolecularFunction	GO:0031072	heat shock protein binding
-620	MolecularFunction	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding
-621	MolecularFunction	GO:0008135	translation factor activity, RNA binding
-622	MolecularFunction	GO:0003735	structural constituent of ribosome
-623	MolecularFunction	GO:0046872	metal ion binding
-624	MolecularFunction	GO:0042802	identical protein binding
-625	MolecularFunction	GO:0003729	mRNA binding
-626	MolecularFunction	GO:0019899	enzyme binding
-627	MolecularFunction	GO:0017134	fibroblast growth factor binding
-628	MolecularFunction	GO:0140078	class I DNA-(apurinic or apyrimidinic site) endonuclease activity
-629	MolecularFunction	GO:0003684	damaged DNA binding
-630	MolecularFunction	GO:0004520	DNA endonuclease activity
-631	MolecularFunction	GO:0003906	DNA-(apurinic or apyrimidinic site) endonuclease activity
-632	MolecularFunction	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific
-633	MolecularFunction	GO:0030544	Hsp70 protein binding
-634	MolecularFunction	GO:0051879	Hsp90 protein binding
-635	MolecularFunction	GO:0051536	iron-sulfur cluster binding
-636	MolecularFunction	GO:0008017	microtubule binding
-637	MolecularFunction	GO:0032357	oxidized purine DNA binding
-638	MolecularFunction	GO:0032358	oxidized pyrimidine DNA binding
-639	MolecularFunction	GO:0051018	protein kinase A binding
-640	MolecularFunction	GO:0070181	small ribosomal subunit rRNA binding
-641	MolecularFunction	GO:0097100	supercoiled DNA binding
-642	MolecularFunction	GO:0015631	tubulin binding
-643	MolecularFunction	GO:0044390	ubiquitin-like protein conjugating enzyme binding
-644	MolecularFunction	GO:0048027	mRNA 5'-UTR binding
-645	MolecularFunction	GO:0003682	chromatin binding
-646	MolecularFunction	GO:0045505	dynein intermediate chain binding
-647	MolecularFunction	GO:0003925	G protein activity
-648	MolecularFunction	GO:0019003	GDP binding
-649	MolecularFunction	GO:0061676	importin-alpha family protein binding
-650	MolecularFunction	GO:0000287	magnesium ion binding
-651	MolecularFunction	GO:0019904	protein domain specific binding
-652	MolecularFunction	GO:0046982	protein heterodimerization activity
-653	MolecularFunction	GO:0044877	protein-containing complex binding
-654	MolecularFunction	GO:0004045	peptidyl-tRNA hydrolase activity
-655	MolecularFunction	GO:0043022	ribosome binding
-656	MolecularFunction	GO:1990825	sequence-specific mRNA binding
-657	MolecularFunction	GO:0003747	translation release factor activity
-658	MolecularFunction	GO:0016149	translation release factor activity, codon specific
-659	MolecularFunction	GO:0008079	translation termination factor activity
-660	MolecularFunction	GO:0031490	chromatin DNA binding
-661	MolecularFunction	GO:0003700	DNA-binding transcription factor activity
-662	MolecularFunction	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific
-663	MolecularFunction	GO:0001227	DNA-binding transcription repressor activity, RNA polymerase II-specific
-664	MolecularFunction	GO:0140296	general transcription initiation factor binding
-665	MolecularFunction	GO:0001162	RNA polymerase II intronic transcription regulatory region sequence-specific DNA binding
-666	MolecularFunction	GO:0043565	sequence-specific DNA binding
-667	MolecularFunction	GO:1990837	sequence-specific double-stranded DNA binding
-668	MolecularFunction	GO:0000976	transcription cis-regulatory region binding
-669	MolecularFunction	GO:0061770	translation elongation factor binding
-670	MolecularFunction	GO:0004020	adenylylsulfate kinase activity
-671	MolecularFunction	GO:0005524	ATP binding
-672	MolecularFunction	GO:0016779	nucleotidyltransferase activity
-673	MolecularFunction	GO:0004781	sulfate adenylyltransferase (ATP) activity
-674	MolecularFunction	GO:0042803	protein homodimerization activity
-675	MolecularFunction	GO:0001665	alpha-N-acetylgalactosaminide alpha-2,6-sialyltransferase activity
-676	MolecularFunction	GO:0008373	sialyltransferase activity
-677	Pathway	R-HSA-156842	Eukaryotic Translation Elongation
-678	Pathway	R-HSA-156902	Peptide chain elongation
-679	Pathway	R-HSA-3371511	HSF1 activation
-680	Pathway	R-HSA-6798695	Neutrophil degranulation
-681	Pathway	R-HSA-8876725	Protein methylation
-682	Pathway	R-HSA-9613829	Chaperone Mediated Autophagy
-683	Pathway	R-HSA-9735869	SARS-CoV-1 modulates host translation machinery
-684	Pathway	R-HSA-9725370	Signaling by ALK fusions and activated point mutants
-685	Pathway	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
-686	Pathway	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
-687	Pathway	R-HSA-192823	Viral mRNA Translation
-688	Pathway	R-HSA-2408557	Selenocysteine synthesis
-689	Pathway	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
-690	Pathway	R-HSA-72689	Formation of a pool of free 40S subunits
-691	Pathway	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
-692	Pathway	R-HSA-72764	Eukaryotic Translation Termination
-693	Pathway	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
-694	Pathway	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
-695	Pathway	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
-696	Pathway	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
-697	Pathway	R-HSA-9954709	Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide
-698	Pathway	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
-699	Pathway	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
-700	Pathway	R-HSA-3214858	RMTs methylate histone arginines
-701	Pathway	R-HSA-6790901	rRNA modification in the nucleus and cytosol
-702	Pathway	R-HSA-72649	Translation initiation complex formation
-703	Pathway	R-HSA-72695	Formation of the ternary complex, and subsequently, the 43S complex
-704	Pathway	R-HSA-72702	Ribosomal scanning and start codon recognition
-705	Pathway	R-HSA-9684482	IFIT antiviral response
-706	Pathway	R-HSA-9754678	SARS-CoV-2 modulates host translation machinery
-707	Pathway	R-HSA-165054	Rev-mediated nuclear export of HIV RNA
-708	Pathway	R-HSA-1655829	Regulation of cholesterol biosynthesis by SREBP (SREBF)
-709	Pathway	R-HSA-168333	NEP/NS2 Interacts with the Cellular Export Machinery
-710	Pathway	R-HSA-180746	Nuclear import of Rev protein
-711	Pathway	R-HSA-203927	MicroRNA (miRNA) biogenesis
-712	Pathway	R-HSA-5578749	Transcriptional regulation by small RNAs
-713	Pathway	R-HSA-6784531	tRNA processing in the nucleus
-714	Pathway	R-HSA-9615933	Postmitotic nuclear pore complex (NPC) reformation
-715	Pathway	R-HSA-9629569	Protein hydroxylation
-716	Pathway	R-HSA-3371453	Regulation of HSF1-mediated heat shock response
-717	Pathway	R-HSA-3371568	Attenuation phase
-718	Pathway	R-HSA-3371571	HSF1-dependent transactivation
-719	Pathway	R-HSA-9646399	Aggrephagy
-720	Pathway	R-HSA-9841251	Mitochondrial unfolded protein response (UPRmt)
-721	Pathway	R-HSA-174362	Transport and metabolism of PAPS
-722	Pathway	R-HSA-2408550	Metabolism of ingested H2SeO4 and H2SeO3 into H2Se
-723	Pathway	R-HSA-3560796	Defective PAPSS2 causes SEMD-PA
-724	Pathway	R-HSA-6802952	Signaling by BRAF and RAF1 fusions
-725	Pathway	R-HSA-4085001	Sialic acid metabolism
+18	Compound	CHEMBL3301622	GILTERITINIB
+19	Compound	CHEMBL2103840	DINACICLIB
+20	Compound	CHEMBL5653589	CHEMBL5653589
+21	Compound	CHEMBL3752910	CHEMBL3752910
+22	Compound	CHEMBL1232461	MOLIBRESIB
+23	Compound	CHEMBL1802814	CHEMBL1802814
+24	Compound	CHEMBL1802815	CHEMBL1802815
+25	Compound	CHEMBL1802973	CHEMBL1802973
+26	Compound	CHEMBL555689	CHEMBL555689
+27	Compound	CHEMBL559594	CHEMBL559594
+28	Compound	CHEMBL564799	CHEMBL564799
+29	Compound	CHEMBL561125	CHEMBL561125
+30	Compound	CHEMBL562794	CHEMBL562794
+31	Compound	CHEMBL560663	CHEMBL560663
+32	Compound	CHEMBL550249	CHEMBL550249
+33	Compound	CHEMBL558033	CHEMBL558033
+34	Compound	CHEMBL564316	CHEMBL564316
+35	Compound	CHEMBL559039	CHEMBL559039
+36	Compound	CHEMBL550251	CHEMBL550251
+37	Compound	CHEMBL565134	CHEMBL565134
+38	Compound	CHEMBL301982	CELASTROL
+39	Compound	CHEMBL1240927	CHEMBL1240927
+40	Compound	CHEMBL3609826	CHEMBL3609826
+41	Compound	CHEMBL3937369	CHEMBL3937369
+42	Compound	CHEMBL3975567	CHEMBL3975567
+43	Compound	CHEMBL3946252	CHEMBL3946252
+44	Compound	CHEMBL3947240	CHEMBL3947240
+45	Compound	CHEMBL3919459	CHEMBL3919459
+46	Compound	CHEMBL3955977	CHEMBL3955977
+47	Compound	CHEMBL3928361	CHEMBL3928361
+48	Compound	CHEMBL3900925	CHEMBL3900925
+49	Compound	CHEMBL3972065	CHEMBL3972065
+50	Compound	CHEMBL3953713	CHEMBL3953713
+51	Compound	CHEMBL3901185	CHEMBL3901185
+52	Compound	CHEMBL3944589	CHEMBL3944589
+53	Compound	CHEMBL3916672	CHEMBL3916672
+54	Compound	CHEMBL3964729	CHEMBL3964729
+55	Compound	CHEMBL3911352	CHEMBL3911352
+56	Compound	CHEMBL3936187	CHEMBL3936187
+57	Compound	CHEMBL3891011	CHEMBL3891011
+58	Compound	CHEMBL3922414	CHEMBL3922414
+59	Compound	CHEMBL3983798	CHEMBL3983798
+60	Compound	CHEMBL3919811	CHEMBL3919811
+61	Compound	CHEMBL3923966	CHEMBL3923966
+62	Compound	CHEMBL3905315	CHEMBL3905315
+63	Compound	CHEMBL3967087	CHEMBL3967087
+64	Compound	CHEMBL4070633	CHEMBL4070633
+65	Compound	CHEMBL4087666	CHEMBL4087666
+66	Compound	CHEMBL4077078	CHEMBL4077078
+67	Compound	CHEMBL4099031	CHEMBL4099031
+68	Compound	CHEMBL4063330	CHEMBL4063330
+69	Compound	CHEMBL4069552	CHEMBL4069552
+70	Compound	CHEMBL4096048	CHEMBL4096048
+71	Compound	CHEMBL4070302	CHEMBL4070302
+72	Compound	CHEMBL4102297	CHEMBL4102297
+73	Compound	CHEMBL4282794	CHEMBL4282794
+74	Compound	CHEMBL278315	GELDANAMYCIN
+75	Compound	CHEMBL170365	acetaldehyde
+76	Compound	CHEMBL1356	benzoic acid
+77	Compound	CHEMBL2146121	calcium ions
+78	Compound	CHEMBL1261	citric acid
+79	Compound	CHEMBL1200547	chloride
+80	Compound	CHEMBL2105994	salicylate
+81	Compound	CHEMBL1231071	arsenite
+82	Compound	CHEMBL136061	phosphonoacetic acid (PAA
+83	Compound	CHEMBL1046	EACA
+84	Compound	CHEMBL692	glycerol
+85	Compound	PUBCHEM:783	hydrogen
+86	Compound	CHEMBL359504	malonate
+87	Compound	CHEMBL2146125	magnesium
+88	Compound	PUBCHEM:923	sodium
+89	Compound	CHEMBL1140	vitamin B
+90	Compound	CHEMBL1098659	distilled water
+91	Compound	CHEMBL1187	phosphate
+92	Compound	CHEMBL1160571	pyrophosphate
+93	Compound	CHEMBL2097002	selenate
+94	Compound	CHEMBL1200456	sulphate
+95	Compound	CHEMBL254951	2-mercaptoethanol
+96	Compound	CHEMBL25	aspirin
+97	Compound	PUBCHEM:2514	cadmium
+98	Compound	CHEMBL388560	diazinon
+99	Compound	CHEMBL1241153	ibuprofen
+100	Compound	CHEMBL1200864	indomethacin
+101	Compound	CHEMBL1234613	diphosphopyridine nucleotide
+102	Compound	CHEMBL14249	MgATP
+103	Compound	CHEMBL14830	MgADP
+104	Compound	CHEMBL1627073	uridylate
+105	Compound	CHEMBL1315633	adenosine monophosphate
+106	Compound	CHEMBL1627075	poly-C
+107	Compound	CHEMBL301523	phenylalanine
+108	Compound	CHEMBL43068	L-valine
+109	Compound	CHEMBL54976	tryptophan
+110	Compound	CHEMBL1200391	Tris-HCl
+111	Compound	CHEMBL348107	acrylamide
+112	Compound	CHEMBL1627076	guanylate
+113	Compound	PUBCHEM:6830	guanosine triphosphate
+114	Compound	CHEMBL119596	EGEE
+115	Compound	CHEMBL1235226	diethylene glycol
+116	Compound	CHEMBL1235254	tetraethylene glycol
+117	Compound	CHEMBL1275977	neomycin
+118	Compound	CHEMBL384759	guanosine diphosphate
+119	Compound	PUBCHEM:10214	3'-phosphoadenosine 5'-phosphosulfate
+120	Compound	CHEMBL1255782	emetine
+121	Compound	CHEMBL572546	phosphosulfate
+122	Compound	CHEMBL1230866	silver nanoparticles
+123	Compound	CHEMBL1206239	Poly(dA
+124	Compound	CHEMBL1234326	3-hydroxypicolinic acid
+125	Compound	PUBCHEM:14888	arsenic trioxide
+126	Compound	CHEMBL1167	spectinomycin
+127	Compound	CHEMBL3184791	streptomycin
+128	Compound	CHEMBL2105054	phosphinate
+129	Compound	PUBCHEM:23931	mercury
+130	Compound	PUBCHEM:23977	cobalt
+131	Compound	CHEMBL1411246	Zn(II
+132	Compound	CHEMBL1200929	ZnSO4
+133	Compound	CHEMBL177367	silver nitrate
+134	Compound	CHEMBL1255943	glutamic acid
+135	Compound	CHEMBL1230989	AMP-PNP
+136	Compound	CHEMBL1233085	Gpp(NH)p
+137	Compound	CHEMBL1229766	pentaethylene glycol
+138	Compound	PUBCHEM:64730	glucans
+139	Compound	CHEMBL1372	GSSG
+140	Compound	CHEMBL1214186	sinefungin
+141	Compound	CHEMBL1171272	Girodazole
+142	Compound	CHEMBL284377	phospho-serine
+143	Compound	PUBCHEM:72332	NSC 141633
+144	Compound	CHEMBL215645	rivastigmine
+145	Compound	CHEMBL1234276	2-(N-morpholino)ethanesulfonic acid
+146	Compound	PUBCHEM:82127	potassium hydride
+147	Compound	PUBCHEM:83606	strontium hydride
+148	Compound	PUBCHEM:84265	GalNAc alpha
+149	Compound	CHEMBL1213327	coenzyme A
+150	Compound	CHEMBL171281	D-Cys
+151	Compound	PUBCHEM:93082	GMPCPP
+152	Compound	CHEMBL103247	L-Dap
+153	Compound	CHEMBL345292	S-hexylglutathione
+154	Compound	PUBCHEM:97538	S-(p-nitrobenzyl)glutathione
+155	Compound	CHEMBL378605	C-phenylglycine
+156	Compound	CHEMBL113178	SeMet
+157	Compound	CHEMBL330546	PLLA
+158	Compound	CHEMBL1236315	tartrate
+159	Compound	PUBCHEM:123991	dehydroalanine
+160	Compound	CHEMBL1543	reduced glutathione
+161	Compound	CHEMBL574817	3'-phosphoadenosine 5'-phosphate
+162	Compound	CHEMBL1229561	poly(2'-O-methyladenylic acid
+163	Compound	CHEMBL2206196	paromomycin
+164	Compound	PUBCHEM:165838	7-methylguanosine 5'-monophosphate
+165	Compound	PUBCHEM:168161	2'-O-methylguanosine 5'-monophosphate
+166	Compound	CHEMBL857	anti-biotin
+167	Compound	PUBCHEM:188966	dADP
+168	Compound	PUBCHEM:189854	AC1L4PEN
+169	Compound	CHEMBL72388	5-methylcytidylic acid
+170	Compound	CHEMBL197110	Allo-gamma-hydroxyglutamic acid
+171	Compound	CHEMBL1351908	NSC-33010
+172	Compound	CHEMBL423192	anisomycin
+173	Compound	CHEMBL406270	dithiothreitol
+174	Compound	PUBCHEM:439417	L-beta-lysine
+175	Compound	PUBCHEM:439424	pseudouridylic acid
+176	Compound	CHEMBL2104870	puromycin
+177	Compound	CHEMBL553426	D-alpha-aminobutyric acid
+178	Compound	PUBCHEM:439750	N-formylmethionine
+179	Compound	PUBCHEM:440416	C04639
+180	Compound	PUBCHEM:440758	adenosine 5'-phosphoselenate
+181	Compound	CHEMBL126	linezolid
+182	Compound	PUBCHEM:444080	Maval
+183	Compound	PUBCHEM:444104	glutathione sulfonic acid
+184	Compound	PUBCHEM:444493	acetyl-CoA
+185	Compound	PUBCHEM:444718	L-3-phenyllactic acid
+186	Compound	CHEMBL165	resveratrol
+187	Compound	PUBCHEM:446207	D-phenylalanyl
+188	Compound	PUBCHEM:446782	AC1L9K3C
+189	Compound	PUBCHEM:448209	CMP-sialic acid
+190	Compound	CHEMBL489	4-hydroxytamoxifen
+191	Compound	PUBCHEM:451597	PANS 5'-monophosphate
+192	Compound	PUBCHEM:475367	AC1L9SSV
+193	Compound	CHEMBL1488586	AC1LCZ7S
+194	Compound	CHEMBL1605795	AC1LDAY6
+195	Compound	CHEMBL1329446	AC1OCX1K
+196	Compound	CHEMBL1524482	T6375761
+197	Compound	CHEMBL1352897	AC1LEXOX
+198	Compound	CHEMBL1537098	ksc-8-51
+199	Compound	CHEMBL405317	AC1LHJD2
+200	Compound	CHEMBL1470676	AC1LI2XE
+201	Compound	CHEMBL1361922	AC1LHOAV
+202	Compound	CHEMBL1310144	AC1LHQM7
+203	Compound	CHEMBL1587117	3-[(4-ethoxyphenoxy)methyl]benzoic acid
+204	Compound	CHEMBL1310435	AC1LK9W8
+205	Compound	PUBCHEM:1151030	LS-40231
+206	Compound	CHEMBL1332512	T5660652
+207	Compound	CHEMBL1506503	AC1LOE3E
+208	Compound	CHEMBL1884996	AC1LOZXL
+209	Compound	CHEMBL1518184	AC1LR2WT
+210	Compound	CHEMBL1461730	AC1LRSO5
+211	Compound	CHEMBL1383149	6W-0211
+212	Compound	CHEMBL1403014	8J-320S
+213	Compound	CHEMBL15770	sulindac
+214	Compound	CHEMBL1910655	AC1LWHNA
+215	Compound	CHEMBL261123	AC1M0U13
+216	Compound	CHEMBL1470904	AC1M3MDE
+217	Compound	CHEMBL1573366	AC1M48EM
+218	Compound	CHEMBL1606031	AC1M50DI
+219	Compound	CHEMBL1320007	AC1M597T
+220	Compound	CHEMBL1351963	AC1M5TQX
+221	Compound	CHEMBL1363796	AC1OBK1Z
+222	Compound	CHEMBL1417851	AC1M6MT7
+223	Compound	CHEMBL1610938	AC1M6QGF
+224	Compound	CHEMBL1339678	T5517345
+225	Compound	CHEMBL1392142	AC1M72LB
+226	Compound	CHEMBL1320794	AC1M747X
+227	Compound	CHEMBL1406361	AC1Q2HP2
+228	Compound	CHEMBL1525789	AC1Q2U3M
+229	Compound	CHEMBL1562575	AC1Q5HEM
+230	Compound	CHEMBL1605021	AC1ME6L3
+231	Compound	CHEMBL1256987	fusidic acid
+232	Compound	CHEMBL441	thiopentone
+233	Compound	PUBCHEM:3080744	poly(rCm
+234	Compound	CHEMBL1385073	AC1MJSXK
+235	Compound	CHEMBL1480522	AC1MJ10T
+236	Compound	CHEMBL1376674	AC1MLHBY
+237	Compound	CHEMBL1583768	AC1MLVZO
+238	Compound	PUBCHEM:3246323	O-phosphothreonine
+239	Compound	CHEMBL1352521	AC1MP7MF
+240	Compound	CHEMBL1595790	AC1MPSSS
+241	Compound	CHEMBL1583837	AC1MRXG6
+242	Compound	CHEMBL1486874	AC1MS651
+243	Compound	PUBCHEM:3556268	osmium ammine-B
+244	Compound	CHEMBL1579258	AC1MTRSQ
+245	Compound	CHEMBL1500447	AC1MXA9E
+246	Compound	CHEMBL1569984	5T-0269
+247	Compound	CHEMBL1303404	3T-0330
+248	Compound	CHEMBL1507250	KSC-8-64
+249	Compound	CHEMBL1453996	1W-0926
+250	Compound	CHEMBL1496413	AC1N8FAO
+251	Compound	CHEMBL1573994	ksc-8-87
+252	Compound	CHEMBL1597561	AC1NMU2T
+253	Compound	PUBCHEM:5287712	atrazine-glutathione conjugate
+254	Compound	PUBCHEM:5287987	L-Capreomycidine
+255	Compound	PUBCHEM:5288232	AC1NRB2Z
+256	Compound	PUBCHEM:5289071	2'-O-methyl-UMP
+257	Compound	CHEMBL458512	pactamycin
+258	Compound	PUBCHEM:5289145	AC1NRCR6
+259	Compound	PUBCHEM:5289231	AC1NRCWU
+260	Compound	PUBCHEM:5289243	DB02566
+261	Compound	PUBCHEM:5289394	AC1NRD84
+262	Compound	PUBCHEM:5321487	squamosamide
+263	Compound	PUBCHEM:5326960	glutathione sulfinate
+264	Compound	CHEMBL3190653	AC1NT7Z9
+265	Compound	CHEMBL1330583	AC1NRZYN
+266	Compound	CHEMBL1904348	AC1NTDW8
+267	Compound	PUBCHEM:5496803	CHEBI:29688
+268	Compound	CHEMBL3192121	AC1NWTDY
+269	Compound	CHEMBL1973921	AC1NXANZ
+270	Compound	CHEMBL1423731	AC1NXILO
+271	Compound	CHEMBL1539980	NSC-662249
+272	Compound	CHEMBL3199915	AC1O0917
+273	Compound	CHEMBL1569988	AC1O31MA
+274	Compound	CHEMBL3198633	AC1O35C4
+275	Compound	CHEMBL1200937	dalfopristin
+276	Compound	PUBCHEM:6449989	dehydrobutyrine
+277	Compound	CHEMBL374308	lactacystin
+278	Compound	CHEMBL1324188	AC1O7SB1
+279	Compound	PUBCHEM:6857725	AC1OAH4S
+280	Compound	CHEMBL361497	artesunate
+281	Compound	CHEMBL1234265	N-Me-Phe
+282	Compound	CHEMBL1503659	AC1OMM8Z
+283	Compound	CHEMBL3192138	AC1OOOKN
+284	Compound	CHEMBL1392611	AC1OY032
+285	Compound	CHEMBL1457961	AC1OZ2B5
+286	Compound	CHEMBL1378232	T5524007
+287	Compound	CHEMBL105720	D05905
+288	Compound	CHEMBL2004141	STK642096
+289	Compound	CHEMBL1965654	MolPort-002-896-060
+290	Compound	CHEMBL1481543	Ambcb7750122
+291	Compound	CHEMBL3193873	T0517-8874
+292	Compound	CHEMBL3195657	cid_9633427
+293	Compound	CHEMBL3191218	Mls000589715
+294	Compound	CHEMBL3198939	MolPort-003-704-645
+295	Compound	CHEMBL3191946	STK579470
+296	Compound	CHEMBL3195389	T0506-8620
+297	Compound	CHEMBL3193530	PB315254390
+298	Compound	PUBCHEM:10691837	nn-dimethyl guanylic acid
+299	Compound	PUBCHEM:10878285	4-hydroxymethyl-3-methylindole-2-carboxylate
+300	Compound	PUBCHEM:10965805	ZINC11887869
+301	Compound	PUBCHEM:11062499	RP08852
+302	Compound	CHEMBL1339283	Smr000204784
+303	Compound	CHEMBL1333930	Mls000583076
+304	Compound	CHEMBL1495977	Mls000720408
+305	Compound	PUBCHEM:12803287	RTMP
+306	Compound	PUBCHEM:12876354	GGZ
+307	Compound	PUBCHEM:14728174	N(2)-methyl-GMP
+308	Compound	PUBCHEM:16040250	[(2S)-1-[2-azanylethoxy(oxidanyl)phosphoryl]oxy-3-hexadecanoyloxy-propan-2-yl] octadecanoate
+309	Compound	PUBCHEM:16040283	13T
+310	Compound	CHEMBL1971760	Oprea1_168710
+311	Compound	CHEMBL3190911	HMS2707L13
+312	Compound	CHEMBL1230331	4-thiouridylate
+313	Compound	CHEMBL1230507	CTK1D3306
+314	Compound	PUBCHEM:16760241	Tn antigen
+315	Compound	PUBCHEM:18596452	CTK0J9100
+316	Compound	PUBCHEM:18628280	hydron;phosphonato phosphate
+317	Compound	PUBCHEM:18931838	AGN-PC-0BUEPK
+318	Compound	PUBCHEM:19420248	hydron;phosphate
+319	Compound	PUBCHEM:20042692	hydron;sulfate
+320	Compound	PUBCHEM:20274032	hydron;acetate
+321	Compound	PUBCHEM:20395750	ethane-1,2-diol;hydron
+322	Compound	CHEMBL1472925	HMS2883F04
+323	Compound	CHEMBL1301042	HMS3358O07
+324	Compound	CHEMBL1312738	HMS3357B03
+325	Compound	PUBCHEM:24892762	C05696
+326	Compound	CHEMBL507881	CHEMBL507881
+327	Compound	CHEMBL525809	CHEMBL525809
+328	Compound	CHEMBL526492	CHEMBL526492
+329	Compound	CHEMBL505657	CHEMBL505657
+330	Compound	CHEMBL526355	CHEMBL526355
+331	Compound	CHEMBL230333	Neuropeptide S
+332	Compound	PUBCHEM:44199360	N(6)-dimethyl-AMP
+333	Compound	CHEMBL321214	CHEMBL321214
+334	Compound	CHEMBL526551	CHEMBL526551
+335	Compound	CHEMBL510338	CHEMBL510338
+336	Compound	CHEMBL524693	CHEMBL524693
+337	Compound	CHEMBL524688	CHEMBL524688
+338	Compound	CHEMBL524654	CHEMBL524654
+339	Compound	CHEMBL448242	CHEMBL448242
+340	Compound	CHEMBL525031	CHEMBL525031
+341	Compound	CHEMBL453962	CHEMBL453962
+342	Compound	CHEMBL215940	N(3)-methyl-UMP
+343	Compound	PUBCHEM:46173764	3'-amino-3'-deoxy-AMP
+344	Compound	PUBCHEM:46936447	DB02661
+345	Compound	PUBCHEM:46936762	DB03708
+346	Compound	PUBCHEM:46937130	DB08185
+347	Compound	PUBCHEM:49822695	cmp-5
+348	Compound	PUBCHEM:49866400	CHEBI:74651
+349	Compound	PUBCHEM:49866464	2-methyl-adenylate
+350	Compound	PUBCHEM:49866561	SCHEMBL3470005
+351	Compound	PUBCHEM:49866685	(Z)-2-amino-3-mercapto-acrylic acid
+352	Compound	PUBCHEM:49866839	L-cysteine sulfoxide
+353	Compound	PUBCHEM:49867309	n-methyl-p-dimethylaminophenylalanine
+354	Compound	PUBCHEM:49867759	(2S,3S,4R)-2-amino-3,4-dihydroxy-3-methyl-valeric acid
+355	Compound	PUBCHEM:49867784	(Z)-2-amino-3-ureido-acrylic acid
+356	Compound	PUBCHEM:49867889	CHEBI:74300
+357	Compound	PUBCHEM:52911283	A845205
+358	Compound	PUBCHEM:52941584	CHEBI:74731
+359	Compound	PUBCHEM:53723505	N-dimethyl-L-threonine
+360	Compound	CHEMBL1765705	CHEMBL1765705
+361	Compound	CHEMBL2338711	1F2
+362	Compound	PUBCHEM:70789301	1F4
+363	Compound	PUBCHEM:71627367	4'-O-Benzyl paromomycin
+364	Compound	PUBCHEM:72193709	O-acetyl-ADP-ribose
+365	Compound	CHEMBL1418244	pSer
+366	Compound	CHEMBL457299	polyethylene glycol
+367	Compound	CHEMBL539	acetate
+368	Compound	PUBCHEM:181	acetyl-CoA
+369	Compound	CHEMBL1160819	ammonia
+370	Compound	CHEMBL1230732	adenosine monophosphate
+371	Compound	CHEMBL1315356	anti-biotin
+372	Compound	CHEMBL1159819	chloride
+373	Compound	CHEMBL1329786	poly-C
+374	Compound	CHEMBL1214873	CMP-NeuAc
+375	Compound	PUBCHEM:392	beta-lysin
+376	Compound	CHEMBL1200630	cystein
+377	Compound	CHEMBL1200559	lactate
+378	Compound	PUBCHEM:620	dADP
+379	Compound	CHEMBL1356971	deoxycytidine
+380	Compound	CHEMBL100476	reduced glutathione
+381	Compound	CHEMBL1242996	guanylate
+382	Compound	CHEMBL1201369	guanosine triphosphate
+383	Compound	PUBCHEM:813	potassium
+384	Compound	CHEMBL1200861	tartrate
+385	Compound	PUBCHEM:911	fMet
+386	Compound	CHEMBL1200760	sodium
+387	Compound	PUBCHEM:990	3'-phosphoadenosine 5'-phosphosulfate
+388	Compound	CHEMBL25080	phenylalanine
+389	Compound	CHEMBL1742182	O-phosphothreonine
+390	Compound	PUBCHEM:1042	pseudouridylic acid
+391	Compound	CHEMBL1208642	thiosulfate
+392	Compound	CHEMBL292303	tryptophan
+393	Compound	CHEMBL11257	L-valine
+394	Compound	CHEMBL1367623	anisomycin
+395	Compound	PUBCHEM:2891	cobalt
+396	Compound	CHEMBL117110	fusidic acid
+397	Compound	CHEMBL1165003	geldanamycin
+398	Compound	PUBCHEM:3486	glutathione sulfonic acid
+399	Compound	CHEMBL175858	homoharringtonine
+400	Compound	CHEMBL1778420	3-phenyllactic acid
+401	Compound	CHEMBL131226	2-phenylglycine
+402	Compound	PUBCHEM:4378	MeVal
+403	Compound	CHEMBL1322152	paromomycin
+404	Compound	PUBCHEM:4800	GMPCPP
+405	Compound	CHEMBL1330459	puromycin
+406	Compound	CHEMBL151763	rivastigmine
+407	Compound	PUBCHEM:5133	S-(p-nitrobenzyl)glutathione
+408	Compound	CHEMBL1255799	spiramycin
+409	Compound	CHEMBL1200740	streptomycin
+410	Compound	CHEMBL1376	sulindac
+411	Compound	CHEMBL1230782	alpha-aminobutyric acid
+412	Compound	CHEMBL1090755	emetine
+413	Compound	CHEMBL101960	sparsomycin
+414	Compound	CHEMBL1994414	pactamycin
+415	Compound	CHEMBL1232391	magic bullet
+416	Compound	CHEMBL1161633	chlorate
+417	Compound	CHEMBL1206211	glucans
+418	Compound	CHEMBL2137046	4-hydroxytamoxifen
+419	Compound	CHEMBL1254011	kasugamycin
+420	Compound	CHEMBL144149	artesunate
+421	Compound	CHEMBL1136	telithromycin
+422	Compound	CHEMBL2106034	strontium
+423	Compound	CHEMBL2114026	mycalamide A
+424	Compound	CHEMBL608610	RTMP
+425	Compound	CHEMBL2311177	5-methylcytidylic acid
+426	Compound	PUBCHEM:197474	squamosamide
+427	Compound	PUBCHEM:429092	poly(rCm
+428	Compound	PUBCHEM:441214	3'-amino-3'-deoxy-AMP
+429	Compound	PUBCHEM:447049	O-acetyl-ADP-ribose
+430	Compound	CHEMBL1236347	Tn antigen
+431	Compound	PUBCHEM:3082167	dehydrobutyrine
+432	Compound	PUBCHEM:3274683	2'-O-methyl-UMP
+433	Compound	PUBCHEM:3334071	DB02566
+434	Compound	PUBCHEM:3400927	AC1MOUJN
+435	Compound	CHEMBL177327	AC1N9J6O
+436	Compound	PUBCHEM:4468926	AC1NBJ90
+437	Compound	PUBCHEM:4469360	1-methylguanylic acid
+438	Compound	PUBCHEM:4469584	2-methyl-adenylate
+439	Compound	PUBCHEM:4469586	N(2)-methyl-GMP
+440	Compound	PUBCHEM:4470567	AC1NBMZI
+441	Compound	PUBCHEM:4473092	atrazine-glutathione conjugate
+442	Compound	PUBCHEM:4473609	AC1NRA5X
+443	Compound	PUBCHEM:4477691	AC1NAIWV
+444	Compound	PUBCHEM:4477868	N(6)-dimethyl-AMP
+445	Compound	PUBCHEM:4477870	AC1NAJ9M
+446	Compound	PUBCHEM:4478774	AC1NAL8N
+447	Compound	PUBCHEM:4626828	cmp-5
+448	Compound	PUBCHEM:4627981	L-Capreomycidine
+449	Compound	PUBCHEM:4631220	AC1NRB2Z
+450	Compound	PUBCHEM:5326793	PE(34:0)
+451	Compound	CHEMBL1732490	AC1O07N3
+452	Compound	CHEMBL390183	13-deoxytedanolide
+453	Compound	PUBCHEM:10774843	K-9390
+454	Compound	PUBCHEM:11008023	4oxolpipecolic acid
+455	Compound	PUBCHEM:12876353	AGN-PC-00JW3C
+456	Compound	CHEMBL318812	AGN-PC-0IX121
+457	Compound	PUBCHEM:19002523	S-lactoylcysteine
+458	Compound	PUBCHEM:20516571	N-dimethyl-L-threonine
+459	Compound	PUBCHEM:25122322	4'-O-Benzyl paromomycin
+460	Compound	PUBCHEM:49867307	3-Hydroxy-2-Iminopropanoic Acid
+461	Compound	PUBCHEM:49867308	3-quinuclidinylthiomethyl
+462	Compound	PUBCHEM:53654133	CTK0A1398
+463	Compound	CHEMBL2338710	AGN-PC-0J2N9U
+464	BiologicalProcess	GO:0071364	cellular response to epidermal growth factor stimulus
+465	BiologicalProcess	GO:0006351	DNA-templated transcription
+466	BiologicalProcess	GO:0044829	host-mediated activation of viral genome replication
+467	BiologicalProcess	GO:1904714	regulation of chaperone-mediated autophagy
+468	BiologicalProcess	GO:0006412	translation
+469	BiologicalProcess	GO:0006414	translational elongation
+470	BiologicalProcess	GO:0045471	response to ethanol
+471	BiologicalProcess	GO:0009615	response to virus
+472	BiologicalProcess	GO:0034605	cellular response to heat
+473	BiologicalProcess	GO:0071479	cellular response to ionizing radiation
+474	BiologicalProcess	GO:0002182	cytoplasmic translational elongation
+475	BiologicalProcess	GO:0045944	positive regulation of transcription by RNA polymerase II
+476	BiologicalProcess	GO:0002181	cytoplasmic translation
+477	BiologicalProcess	GO:1901740	negative regulation of myoblast fusion
+478	BiologicalProcess	GO:0007283	spermatogenesis
+479	BiologicalProcess	GO:0006941	striated muscle contraction
+480	BiologicalProcess	GO:0090218	positive regulation of lipid kinase activity
+481	BiologicalProcess	GO:0000463	maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+482	BiologicalProcess	GO:0042273	ribosomal large subunit biogenesis
+483	BiologicalProcess	GO:0006364	rRNA processing
+484	BiologicalProcess	GO:0051443	positive regulation of ubiquitin-protein transferase activity
+485	BiologicalProcess	GO:0006915	apoptotic process
+486	BiologicalProcess	GO:0006284	base-excision repair
+487	BiologicalProcess	GO:0051301	cell division
+488	BiologicalProcess	GO:0070301	cellular response to hydrogen peroxide
+489	BiologicalProcess	GO:0034614	cellular response to reactive oxygen species
+490	BiologicalProcess	GO:0007059	chromosome segregation
+491	BiologicalProcess	GO:0002183	cytoplasmic translational initiation
+492	BiologicalProcess	GO:0006974	DNA damage response
+493	BiologicalProcess	GO:0006281	DNA repair
+494	BiologicalProcess	GO:0045738	negative regulation of DNA repair
+495	BiologicalProcess	GO:0031397	negative regulation of protein ubiquitination
+496	BiologicalProcess	GO:0017148	negative regulation of translation
+497	BiologicalProcess	GO:2001235	positive regulation of apoptotic signaling pathway
+498	BiologicalProcess	GO:1905053	positive regulation of base-excision repair
+499	BiologicalProcess	GO:0045739	positive regulation of DNA repair
+500	BiologicalProcess	GO:2000144	positive regulation of DNA-templated transcription initiation
+501	BiologicalProcess	GO:0010628	positive regulation of gene expression
+502	BiologicalProcess	GO:1902231	positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage
+503	BiologicalProcess	GO:0031116	positive regulation of microtubule polymerization
+504	BiologicalProcess	GO:1901224	positive regulation of non-canonical NF-kappaB signal transduction
+505	BiologicalProcess	GO:0042981	regulation of apoptotic process
+506	BiologicalProcess	GO:0061481	response to TNF agonist
+507	BiologicalProcess	GO:0051225	spindle assembly
+508	BiologicalProcess	GO:0030154	cell differentiation
+509	BiologicalProcess	GO:0043066	negative regulation of apoptotic process
+510	BiologicalProcess	GO:0042274	ribosomal small subunit biogenesis
+511	BiologicalProcess	GO:0006413	translational initiation
+512	BiologicalProcess	GO:0071389	cellular response to mineralocorticoid stimulus
+513	BiologicalProcess	GO:0006259	DNA metabolic process
+514	BiologicalProcess	GO:0046039	GTP metabolic process
+515	BiologicalProcess	GO:0021766	hippocampus development
+516	BiologicalProcess	GO:0000278	mitotic cell cycle
+517	BiologicalProcess	GO:0000070	mitotic sister chromatid segregation
+518	BiologicalProcess	GO:0007052	mitotic spindle organization
+519	BiologicalProcess	GO:0042307	positive regulation of protein import into nucleus
+520	BiologicalProcess	GO:0035281	pre-miRNA export from nucleus
+521	BiologicalProcess	GO:0006611	protein export from nucleus
+522	BiologicalProcess	GO:0006606	protein import into nucleus
+523	BiologicalProcess	GO:1902570	protein localization to nucleolus
+524	BiologicalProcess	GO:0000055	ribosomal large subunit export from nucleus
+525	BiologicalProcess	GO:0000056	ribosomal small subunit export from nucleus
+526	BiologicalProcess	GO:0000054	ribosomal subunit export from nucleus
+527	BiologicalProcess	GO:0061015	snRNA import into nucleus
+528	BiologicalProcess	GO:0007286	spermatid development
+529	BiologicalProcess	GO:0016032	viral process
+530	BiologicalProcess	GO:0002184	cytoplasmic translational termination
+531	BiologicalProcess	GO:0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+532	BiologicalProcess	GO:0006479	protein methylation
+533	BiologicalProcess	GO:0006449	regulation of translational termination
+534	BiologicalProcess	GO:0006415	translational termination
+535	BiologicalProcess	GO:0071276	cellular response to cadmium ion
+536	BiologicalProcess	GO:0071280	cellular response to copper ion
+537	BiologicalProcess	GO:0072738	cellular response to diamide
+538	BiologicalProcess	GO:0071480	cellular response to gamma radiation
+539	BiologicalProcess	GO:1903936	cellular response to sodium arsenite
+540	BiologicalProcess	GO:0034620	cellular response to unfolded protein
+541	BiologicalProcess	GO:0000165	MAPK cascade
+542	BiologicalProcess	GO:0006397	mRNA processing
+543	BiologicalProcess	GO:0051028	mRNA transport
+544	BiologicalProcess	GO:2001033	negative regulation of double-strand break repair via nonhomologous end joining
+545	BiologicalProcess	GO:0031333	negative regulation of protein-containing complex assembly
+546	BiologicalProcess	GO:0000122	negative regulation of transcription by RNA polymerase II
+547	BiologicalProcess	GO:0120162	positive regulation of cold-induced thermogenesis
+548	BiologicalProcess	GO:0045651	positive regulation of macrophage differentiation
+549	BiologicalProcess	GO:0045931	positive regulation of mitotic cell cycle
+550	BiologicalProcess	GO:0065003	protein-containing complex assembly
+551	BiologicalProcess	GO:1900034	regulation of cellular response to heat
+552	BiologicalProcess	GO:0006357	regulation of transcription by RNA polymerase II
+553	BiologicalProcess	GO:0050428	3'-phosphoadenosine 5'-phosphosulfate biosynthetic process
+554	BiologicalProcess	GO:0042445	hormone metabolic process
+555	BiologicalProcess	GO:0000103	sulfate assimilation
+556	BiologicalProcess	GO:0001501	skeletal system development
+557	BiologicalProcess	GO:0009101	glycoprotein biosynthetic process
+558	BiologicalProcess	GO:0048874	host-mediated modulation of intestinal microbiota composition
+559	BiologicalProcess	GO:0009312	oligosaccharide biosynthetic process
+560	CellularComponent	GO:0030864	cortical actin cytoskeleton
+561	CellularComponent	GO:0005737	cytoplasm
+562	CellularComponent	GO:0098574	cytoplasmic side of lysosomal membrane
+563	CellularComponent	GO:0005829	cytosol
+564	CellularComponent	GO:0022626	cytosolic ribosome
+565	CellularComponent	GO:0005853	eukaryotic translation elongation factor 1 complex
+566	CellularComponent	GO:0070062	extracellular exosome
+567	CellularComponent	GO:0005576	extracellular region
+568	CellularComponent	GO:0005615	extracellular space
+569	CellularComponent	GO:1904813	ficolin-1-rich granule lumen
+570	CellularComponent	GO:0016020	membrane
+571	CellularComponent	GO:0005730	nucleolus
+572	CellularComponent	GO:0005634	nucleus
+573	CellularComponent	GO:0005886	plasma membrane
+574	CellularComponent	GO:0005840	ribosome
+575	CellularComponent	GO:0032587	ruffle membrane
+576	CellularComponent	GO:0034774	secretory granule lumen
+577	CellularComponent	GO:0001650	fibrillar center
+578	CellularComponent	GO:0005654	nucleoplasm
+579	CellularComponent	GO:0022625	cytosolic large ribosomal subunit
+580	CellularComponent	GO:0014069	postsynaptic density
+581	CellularComponent	GO:0005925	focal adhesion
+582	CellularComponent	GO:1990904	ribonucleoprotein complex
+583	CellularComponent	GO:0005791	rough endoplasmic reticulum
+584	CellularComponent	GO:0005789	endoplasmic reticulum membrane
+585	CellularComponent	GO:0045202	synapse
+586	CellularComponent	GO:0022627	cytosolic small ribosomal subunit
+587	CellularComponent	GO:0032991	protein-containing complex
+588	CellularComponent	GO:0005783	endoplasmic reticulum
+589	CellularComponent	GO:0005743	mitochondrial inner membrane
+590	CellularComponent	GO:0005759	mitochondrial matrix
+591	CellularComponent	GO:0072686	mitotic spindle
+592	CellularComponent	GO:0071159	NF-kappaB complex
+593	CellularComponent	GO:0032040	small-subunit processome
+594	CellularComponent	GO:0005814	centriole
+595	CellularComponent	GO:0000785	chromatin
+596	CellularComponent	GO:0001673	male germ cell nucleus
+597	CellularComponent	GO:0002177	manchette
+598	CellularComponent	GO:0042470	melanosome
+599	CellularComponent	GO:0030496	midbody
+600	CellularComponent	GO:0005635	nuclear envelope
+601	CellularComponent	GO:0005643	nuclear pore
+602	CellularComponent	GO:0055037	recycling endosome
+603	CellularComponent	GO:0042565	RNA nuclear export complex
+604	CellularComponent	GO:0036126	sperm flagellum
+605	CellularComponent	GO:0018444	translation release factor complex
+606	CellularComponent	GO:0005813	centrosome
+607	CellularComponent	GO:0000776	kinetochore
+608	CellularComponent	GO:0097431	mitotic spindle pole
+609	CellularComponent	GO:0097165	nuclear stress granule
+610	CellularComponent	GO:0048471	perinuclear region of cytoplasm
+611	CellularComponent	GO:0016605	PML body
+612	CellularComponent	GO:0045120	pronucleus
+613	CellularComponent	GO:0101031	protein folding chaperone complex
+614	CellularComponent	GO:0000139	Golgi membrane
+615	MolecularFunction	GO:0005525	GTP binding
+616	MolecularFunction	GO:0003924	GTPase activity
+617	MolecularFunction	GO:0019209	kinase activator activity
+618	MolecularFunction	GO:0019900	kinase binding
+619	MolecularFunction	GO:0060090	molecular adaptor activity
+620	MolecularFunction	GO:0019901	protein kinase binding
+621	MolecularFunction	GO:0003723	RNA binding
+622	MolecularFunction	GO:0003746	translation elongation factor activity
+623	MolecularFunction	GO:0000049	tRNA binding
+624	MolecularFunction	GO:0005085	guanyl-nucleotide exchange factor activity
+625	MolecularFunction	GO:0045296	cadherin binding
+626	MolecularFunction	GO:0003677	DNA binding
+627	MolecularFunction	GO:0140297	DNA-binding transcription factor binding
+628	MolecularFunction	GO:0031072	heat shock protein binding
+629	MolecularFunction	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding
+630	MolecularFunction	GO:0008135	translation factor activity, RNA binding
+631	MolecularFunction	GO:0003735	structural constituent of ribosome
+632	MolecularFunction	GO:0046872	metal ion binding
+633	MolecularFunction	GO:0042802	identical protein binding
+634	MolecularFunction	GO:0003729	mRNA binding
+635	MolecularFunction	GO:0019899	enzyme binding
+636	MolecularFunction	GO:0017134	fibroblast growth factor binding
+637	MolecularFunction	GO:0140078	class I DNA-(apurinic or apyrimidinic site) endonuclease activity
+638	MolecularFunction	GO:0003684	damaged DNA binding
+639	MolecularFunction	GO:0004520	DNA endonuclease activity
+640	MolecularFunction	GO:0003906	DNA-(apurinic or apyrimidinic site) endonuclease activity
+641	MolecularFunction	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific
+642	MolecularFunction	GO:0030544	Hsp70 protein binding
+643	MolecularFunction	GO:0051879	Hsp90 protein binding
+644	MolecularFunction	GO:0051536	iron-sulfur cluster binding
+645	MolecularFunction	GO:0008017	microtubule binding
+646	MolecularFunction	GO:0032357	oxidized purine DNA binding
+647	MolecularFunction	GO:0032358	oxidized pyrimidine DNA binding
+648	MolecularFunction	GO:0051018	protein kinase A binding
+649	MolecularFunction	GO:0070181	small ribosomal subunit rRNA binding
+650	MolecularFunction	GO:0097100	supercoiled DNA binding
+651	MolecularFunction	GO:0015631	tubulin binding
+652	MolecularFunction	GO:0044390	ubiquitin-like protein conjugating enzyme binding
+653	MolecularFunction	GO:0048027	mRNA 5'-UTR binding
+654	MolecularFunction	GO:0003682	chromatin binding
+655	MolecularFunction	GO:0045505	dynein intermediate chain binding
+656	MolecularFunction	GO:0003925	G protein activity
+657	MolecularFunction	GO:0019003	GDP binding
+658	MolecularFunction	GO:0061676	importin-alpha family protein binding
+659	MolecularFunction	GO:0000287	magnesium ion binding
+660	MolecularFunction	GO:0019904	protein domain specific binding
+661	MolecularFunction	GO:0046982	protein heterodimerization activity
+662	MolecularFunction	GO:0044877	protein-containing complex binding
+663	MolecularFunction	GO:0004045	peptidyl-tRNA hydrolase activity
+664	MolecularFunction	GO:0043022	ribosome binding
+665	MolecularFunction	GO:1990825	sequence-specific mRNA binding
+666	MolecularFunction	GO:0003747	translation release factor activity
+667	MolecularFunction	GO:0016149	translation release factor activity, codon specific
+668	MolecularFunction	GO:0008079	translation termination factor activity
+669	MolecularFunction	GO:0031490	chromatin DNA binding
+670	MolecularFunction	GO:0003700	DNA-binding transcription factor activity
+671	MolecularFunction	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific
+672	MolecularFunction	GO:0001227	DNA-binding transcription repressor activity, RNA polymerase II-specific
+673	MolecularFunction	GO:0140296	general transcription initiation factor binding
+674	MolecularFunction	GO:0001162	RNA polymerase II intronic transcription regulatory region sequence-specific DNA binding
+675	MolecularFunction	GO:0043565	sequence-specific DNA binding
+676	MolecularFunction	GO:1990837	sequence-specific double-stranded DNA binding
+677	MolecularFunction	GO:0000976	transcription cis-regulatory region binding
+678	MolecularFunction	GO:0061770	translation elongation factor binding
+679	MolecularFunction	GO:0004020	adenylylsulfate kinase activity
+680	MolecularFunction	GO:0005524	ATP binding
+681	MolecularFunction	GO:0016779	nucleotidyltransferase activity
+682	MolecularFunction	GO:0004781	sulfate adenylyltransferase (ATP) activity
+683	MolecularFunction	GO:0042803	protein homodimerization activity
+684	MolecularFunction	GO:0001665	alpha-N-acetylgalactosaminide alpha-2,6-sialyltransferase activity
+685	MolecularFunction	GO:0008373	sialyltransferase activity
+686	Pathway	R-HSA-156842	Eukaryotic Translation Elongation
+687	Pathway	R-HSA-156902	Peptide chain elongation
+688	Pathway	R-HSA-3371511	HSF1 activation
+689	Pathway	R-HSA-6798695	Neutrophil degranulation
+690	Pathway	R-HSA-8876725	Protein methylation
+691	Pathway	R-HSA-9613829	Chaperone Mediated Autophagy
+692	Pathway	R-HSA-9735869	SARS-CoV-1 modulates host translation machinery
+693	Pathway	R-HSA-9725370	Signaling by ALK fusions and activated point mutants
+694	Pathway	R-HSA-156827	L13a-mediated translational silencing of Ceruloplasmin expression
+695	Pathway	R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane
+696	Pathway	R-HSA-192823	Viral mRNA Translation
+697	Pathway	R-HSA-2408557	Selenocysteine synthesis
+698	Pathway	R-HSA-6791226	Major pathway of rRNA processing in the nucleolus and cytosol
+699	Pathway	R-HSA-72689	Formation of a pool of free 40S subunits
+700	Pathway	R-HSA-72706	GTP hydrolysis and joining of the 60S ribosomal subunit
+701	Pathway	R-HSA-72764	Eukaryotic Translation Termination
+702	Pathway	R-HSA-9010553	Regulation of expression of SLITs and ROBOs
+703	Pathway	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency
+704	Pathway	R-HSA-975956	Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)
+705	Pathway	R-HSA-975957	Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)
+706	Pathway	R-HSA-9954709	Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide
+707	Pathway	R-HSA-9954714	PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA
+708	Pathway	R-HSA-9954716	ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA
+709	Pathway	R-HSA-3214858	RMTs methylate histone arginines
+710	Pathway	R-HSA-6790901	rRNA modification in the nucleus and cytosol
+711	Pathway	R-HSA-72649	Translation initiation complex formation
+712	Pathway	R-HSA-72695	Formation of the ternary complex, and subsequently, the 43S complex
+713	Pathway	R-HSA-72702	Ribosomal scanning and start codon recognition
+714	Pathway	R-HSA-9684482	IFIT antiviral response
+715	Pathway	R-HSA-9754678	SARS-CoV-2 modulates host translation machinery
+716	Pathway	R-HSA-165054	Rev-mediated nuclear export of HIV RNA
+717	Pathway	R-HSA-1655829	Regulation of cholesterol biosynthesis by SREBP (SREBF)
+718	Pathway	R-HSA-168333	NEP/NS2 Interacts with the Cellular Export Machinery
+719	Pathway	R-HSA-180746	Nuclear import of Rev protein
+720	Pathway	R-HSA-203927	MicroRNA (miRNA) biogenesis
+721	Pathway	R-HSA-5578749	Transcriptional regulation by small RNAs
+722	Pathway	R-HSA-6784531	tRNA processing in the nucleus
+723	Pathway	R-HSA-9615933	Postmitotic nuclear pore complex (NPC) reformation
+724	Pathway	R-HSA-9629569	Protein hydroxylation
+725	Pathway	R-HSA-3371453	Regulation of HSF1-mediated heat shock response
+726	Pathway	R-HSA-3371568	Attenuation phase
+727	Pathway	R-HSA-3371571	HSF1-dependent transactivation
+728	Pathway	R-HSA-9646399	Aggrephagy
+729	Pathway	R-HSA-9841251	Mitochondrial unfolded protein response (UPRmt)
+730	Pathway	R-HSA-174362	Transport and metabolism of PAPS
+731	Pathway	R-HSA-2408550	Metabolism of ingested H2SeO4 and H2SeO3 into H2Se
+732	Pathway	R-HSA-3560796	Defective PAPSS2 causes SEMD-PA
+733	Pathway	R-HSA-6802952	Signaling by BRAF and RAF1 fusions
+734	Pathway	R-HSA-4085001	Sialic acid metabolism

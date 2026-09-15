@@ -1,7 +1,7 @@
 import numpy as np
 from scipy import sparse
 
-from src.dwpc import compute_dwpc, degree_weight
+from src.dwpc import compute_dwpc, compute_dwpc_walk, degree_weight
 
 
 def test_degree_weight_toy():
@@ -43,7 +43,7 @@ def test_compute_dwpc_two_hop_toy():
     GiG[3, 2] = 1  # symmetric interaction gene0<->gene1
     GiG = GiG.tocsr()
 
-    dwpc = compute_dwpc([CbG, GiG], w=0.4)
+    dwpc = compute_dwpc([CbG, GiG], ["Compound", "Gene", "Gene"], w=0.4)
     # path compound0 -b-> gene0 -i-> gene1 should have nonzero DWPC at (0,3)
     assert dwpc[0, 3] > 0
     # compound0 has no path to gene0 itself via this 2-hop metapath (no self-loop)
@@ -56,4 +56,4 @@ def test_compute_dwpc_two_hop_toy():
 def test_compute_dwpc_requires_matrices():
     import pytest
     with pytest.raises(ValueError):
-        compute_dwpc([])
+        compute_dwpc([], ["Compound"])

@@ -1,0 +1,84 @@
+scope,compound_id,pref_name,q_bh,p_minp,best_metapath,best_target_gene,eef1a_direct,seeds_bound,clears_structural_floor,evidence_grade,pchembl_max,n_vendors,n_seed_targets
+eef1a-only,CHEMBL1802814,,0.00807,0.0017,CbGpBP,EEF1A1,True,EEF1A1|EEF1A2,True,direct_biophysical,8.43,0,2
+eef1a-only,CHEMBL1802815,,0.00807,0.0017,CbGpBP,EEF1A1,True,EEF1A1|EEF1A2,True,direct_biophysical,8.61,0,2
+eef1a-only,CHEMBL1802973,,0.00807,0.0017,CbGpBP,EEF1A1,True,EEF1A1|EEF1A2,True,direct_biophysical,8.34,0,2
+eef1a-only,CHEMBL5653589,,0.00807,0.0017,CbGpBP,EEF1A1,True,EEF1A2,True,multiplexed_pulldown,9.31,29,8
+eef1a-only,CHEMBL113178,selenomethionine,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,5
+eef1a-only,CHEMBL1200456,sulphate,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,5
+eef1a-only,CHEMBL1201369,guanosine triphosphate,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,9
+eef1a-only,CHEMBL1233085,Gpp(NH)p,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,3
+eef1a-only,CHEMBL1242996,guanylate,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,2
+eef1a-only,CHEMBL1418244,pSer,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,1
+eef1a-only,CHEMBL1627076,guanylate,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,2
+eef1a-only,CHEMBL1742182,O-phosphothreonine,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,1
+eef1a-only,CHEMBL2146125,magnesium,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,10
+eef1a-only,CHEMBL284377,phospho-serine,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,1
+eef1a-only,CHEMBL384759,guanosine diphosphate,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,9
+eef1a-only,PUBCHEM:14888,arsenic trioxide,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,15,2
+eef1a-only,PUBCHEM:20042692,hydron;sulfate,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,5
+eef1a-only,PUBCHEM:3246323,O-phosphothreonine,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,59,1
+eef1a-only,PUBCHEM:6830,guanosine triphosphate,0.0106,0.0106,CsGpPW,EEF1A1,True,EEF1A2,False,stitch_only,,0,9
+full-interactome,CHEMBL113178,selenomethionine,0.01115,0.0001,CsGiG,EEF1A2,True,EEF1A2|EEF1G|ETF1|HSF1|ST6GALNAC1,False,stitch_only,,0,5
+full-interactome,CHEMBL5653589,,0.01115,0.0001,CbGpPW,EEF1A2,True,EEF1A2|EEF1B2|EEF1D|EEF1G|RAN|RPL18A|RPS2|RPS3,True,multiplexed_pulldown,9.31,29,8
+full-interactome,CHEMBL1200456,sulphate,0.02787,0.0005,CsGiG,EEF1A2,True,EEF1A2|EEF1G|ETF1|PAPSS1|PAPSS2,False,stitch_only,,0,5
+full-interactome,PUBCHEM:20042692,hydron;sulfate,0.03087,0.0036,CsGiG,EEF1A2,True,EEF1A2|EEF1G|ETF1|PAPSS1|PAPSS2,False,stitch_only,,0,5
+full-interactome,CHEMBL1214873,CMP-NeuAc,0.01115,0.0001,CsGiG,EEF1A2,False,ST6GALNAC1,False,stitch_only,,0,1
+full-interactome,CHEMBL692,glycerol,0.01115,0.0001,CsGiG,EEF1A2,False,EEF1G|HSF1|PAPSS1|PAPSS2|ST6GALNAC1,False,stitch_only,,0,5
+full-interactome,CHEMBL1236347,Tn antigen,0.02787,0.0004,CsGiG,EEF1A2,False,ST6GALNAC1,False,stitch_only,,0,1
+full-interactome,CHEMBL1159819,chloride,0.02787,0.0005,CsGiG,EEF1A2,False,EEF1G|PAPSS1|PAPSS2|RPL3|RPL4|RPL7|ST6GALNAC1,False,stitch_only,,0,7
+full-interactome,PUBCHEM:84265,GalNAc alpha,0.02787,0.0005,CsGiG,EEF1A2,False,ST6GALNAC1,False,stitch_only,,38,1
+full-interactome,PUBCHEM:16760241,Tn antigen,0.02973,0.0006,CsGiG,EEF1A2,False,ST6GALNAC1,False,stitch_only,,0,1
+full-interactome,PUBCHEM:448209,CMP-sialic acid,0.03087,0.0007,CsGiG,EEF1A2,False,ST6GALNAC1,False,stitch_only,,35,1
+full-interactome,CHEMBL1200547,chloride,0.03087,0.0009,CsGiG,EEF1A2,False,EEF1G|PAPSS1|PAPSS2|RPL3|RPL4|RPL7|ST6GALNAC1,False,stitch_only,,0,7
+full-interactome,CHEMBL1232461,MOLIBRESIB,0.03087,0.001,CbGpPW,EEF1A2,False,EEF1D|EEF1G|RPS3A,True,multiplexed_pulldown,5.46,73,3
+full-interactome,PUBCHEM:444104,glutathione sulfonic acid,0.03087,0.0013,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,34,1
+full-interactome,CHEMBL1160571,pyrophosphate,0.03087,0.0014,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,PUBCHEM:64730,glucans,0.03087,0.0015,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,11,1
+full-interactome,CHEMBL119596,EGEE,0.03087,0.0016,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL1206211,glucans,0.03087,0.0016,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL177327,AC1N9J6O,0.03087,0.0016,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,PUBCHEM:49866839,L-cysteine sulfoxide,0.03087,0.0016,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,PUBCHEM:3486,glutathione sulfonic acid,0.03087,0.0017,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,11,1
+full-interactome,PUBCHEM:5288232,AC1NRB2Z,0.03087,0.0017,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL1229766,pentaethylene glycol,0.03087,0.0019,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL318812,AGN-PC-0IX121,0.03087,0.0019,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL1356,benzoic acid,0.03087,0.002,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,PUBCHEM:19002523,S-lactoylcysteine,0.03087,0.002,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL1235254,tetraethylene glycol,0.03087,0.0021,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL321214,CHEMBL321214,0.03087,0.0021,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,PUBCHEM:6857725,AC1OAH4S,0.03087,0.0021,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL1255943,glutamic acid,0.03087,0.0022,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL1372,GSSG,0.03087,0.0022,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,PUBCHEM:5133,S-(p-nitrobenzyl)glutathione,0.03087,0.0022,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,4,1
+full-interactome,CHEMBL1236315,tartrate,0.03087,0.0023,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,CHEMBL100476,reduced glutathione,0.03087,0.0025,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL1161633,chlorate,0.03087,0.0025,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,CHEMBL572546,phosphosulfate,0.03087,0.0025,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,PUBCHEM:4473092,atrazine-glutathione conjugate,0.03087,0.0025,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,1,1
+full-interactome,CHEMBL2097002,selenate,0.03087,0.0027,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,CHEMBL1543,reduced glutathione,0.03087,0.0028,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,PUBCHEM:97538,S-(p-nitrobenzyl)glutathione,0.03087,0.0031,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,19,1
+full-interactome,CHEMBL1208642,thiosulfate,0.03087,0.0032,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,PUBCHEM:2891,cobalt,0.03087,0.0032,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,PUBCHEM:5326960,glutathione sulfinate,0.03087,0.0032,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,5,1
+full-interactome,CHEMBL1200861,tartrate,0.03087,0.0033,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,PUBCHEM:18931838,AGN-PC-0BUEPK,0.03087,0.0033,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,CHEMBL359504,malonate,0.03087,0.0034,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,PUBCHEM:5287712,atrazine-glutathione conjugate,0.03087,0.0034,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,25,1
+full-interactome,CHEMBL2146121,calcium ions,0.03087,0.0035,CsGiG,EEF1A2,False,EEF1G|PAPSS1|PAPSS2,False,stitch_only,,0,3
+full-interactome,CHEMBL1235226,diethylene glycol,0.03087,0.0036,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,CHEMBL345292,S-hexylglutathione,0.03087,0.0036,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,PUBCHEM:10214,3'-phosphoadenosine 5'-phosphosulfate,0.03087,0.0036,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,19,2
+full-interactome,PUBCHEM:18628280,hydron;phosphonato phosphate,0.03087,0.0036,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,PUBCHEM:4631220,AC1NRB2Z,0.0313,0.0039,CsGpPW,EEF1A2,False,EEF1G,False,stitch_only,,0,1
+full-interactome,CHEMBL1230989,AMP-PNP,0.0313,0.004,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,CHEMBL1234276,2-(N-morpholino)ethanesulfonic acid,0.0313,0.004,CsGiG,EEF1A2,False,EEF1G|PAPSS1|PAPSS2,False,stitch_only,,0,3
+full-interactome,PUBCHEM:440758,adenosine 5'-phosphoselenate,0.0313,0.004,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,3,2
+full-interactome,PUBCHEM:783,hydrogen,0.0313,0.004,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,114,2
+full-interactome,PUBCHEM:24892762,C05696,0.03537,0.0046,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,1,2
+full-interactome,PUBCHEM:20395750,"ethane-1,2-diol;hydron",0.03553,0.0047,CsGiG,EEF1A2,False,EEF1G|PAPSS1|PAPSS2,False,stitch_only,,0,3
+full-interactome,PUBCHEM:23977,cobalt,0.03642,0.0049,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,0,2
+full-interactome,PUBCHEM:990,3'-phosphoadenosine 5'-phosphosulfate,0.03655,0.005,CsGiG,EEF1A2,False,PAPSS1|PAPSS2,False,stitch_only,,3,2
+full-interactome,CHEMBL1200391,Tris-HCl,0.0374,0.0052,CsGiG,EEF1A2,False,EEF1G|PAPSS1|PAPSS2,False,stitch_only,,0,3
+full-interactome,CHEMBL457299,polyethylene glycol,0.03822,0.0054,CsGiG,EEF1A2,False,EEF1G|PAPSS1|PAPSS2,False,stitch_only,,0,3
+full-interactome,CHEMBL3752910,,0.04251,0.0061,CbGiG,EEF1A1,False,EEF1D|EEF1G|RAN|RPL18A|RPL3|RPL4|RPL7|RPS2|RPS3|RPS3A,True,multiplexed_pulldown,8.41,68,10

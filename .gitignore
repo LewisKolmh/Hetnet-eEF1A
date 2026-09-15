@@ -4,3 +4,7 @@ __pycache__/
 *.egg-info/
 .DS_Store
 data/interim/*.json
+data/processed/null_distribution/perm_*.parquet
+# 10,000 permutation draws per scope (~48 MB): regenerable exactly from
+# src/compute_null_distribution.py, which seeds each permutation as seed + index.
+data/processed/null_distribution/null_draws.*.parquet

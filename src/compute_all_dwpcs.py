@@ -27,7 +27,7 @@ from pathlib import Path
 import pandas as pd
 from scipy import sparse
 
-from dwpc import compute_dwpc
+from dwpc import compute_dwpc, compute_dwpc_walk
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -38,14 +38,28 @@ DWPC_DIR = Path("data/processed/dwpc")
 
 TARGET_GENES = ["EEF1A1", "EEF1A2"]
 
-# metapath_name -> list of (metaedge_file_stub, transpose?) applied in order
+# metapath_name -> (ordered [(metaedge_file_stub, transpose?)], metanode sequence)
+#
+# The metanode sequence is what lets src.dwpc remove walks that revisit a node.
+# Note that every "annotation" metapath below ends on Gene having started on
+# Gene: the repeated metanode is the whole reason the correction is needed.
 METAPATHS = {
-    "CbG": [("CbG", False)],
-    "CbGiG": [("CbG", False), ("GiG", False)],
-    "CbGpBP": [("CbG", False), ("GpBP", False), ("GpBP", True)],
-    "CbGpMF": [("CbG", False), ("GpMF", False), ("GpMF", True)],
-    "CbGpCC": [("CbG", False), ("GpCC", False), ("GpCC", True)],
-    "CbGpPW": [("CbG", False), ("GpPW", False), ("GpPW", True)],
+    "CbG": ([("CbG", False)], ["Compound", "Gene"]),
+    "CbGiG": ([("CbG", False), ("GiG", False)], ["Compound", "Gene", "Gene"]),
+    "CbGpBP": ([("CbG", False), ("GpBP", False), ("GpBP", True)],
+               ["Compound", "Gene", "BiologicalProcess", "Gene"]),
+    "CbGpMF": ([("CbG", False), ("GpMF", False), ("GpMF", True)],
+               ["Compound", "Gene", "MolecularFunction", "Gene"]),
+    "CbGpCC": ([("CbG", False), ("GpCC", False), ("GpCC", True)],
+               ["Compound", "Gene", "CellularComponent", "Gene"]),
+    "CbGpPW": ([("CbG", False), ("GpPW", False), ("GpPW", True)],
+               ["Compound", "Gene", "Pathway", "Gene"]),
+    # STITCH compound-protein evidence (experimental + database channels only).
+    # Added in the corrected iteration; see src/s05_download_stitch.py.
+    "CsG": ([("CsG", False)], ["Compound", "Gene"]),
+    "CsGiG": ([("CsG", False), ("GiG", False)], ["Compound", "Gene", "Gene"]),
+    "CsGpPW": ([("CsG", False), ("GpPW", False), ("GpPW", True)],
+               ["Compound", "Gene", "Pathway", "Gene"]),
 }
 
 
@@ -54,7 +68,7 @@ def load_matrix(stub: str, scope: str, transpose: bool) -> sparse.csr_matrix:
     return mat.T.tocsr() if transpose else mat
 
 
-def main(scope: str, damping: float) -> None:
+def main(scope: str, damping: float, walk_mode: bool = False) -> None:
     nodes = pd.read_csv(NODES_DIR / f"nodes.{scope}.tsv", sep="\t")
     gene_map = pd.read_csv(NODES_DIR / f"gene_symbol_to_external_id.{scope}.tsv", sep="\t")
     symbol_to_ext = dict(zip(gene_map["protein_id"], gene_map["external_id"]))
@@ -71,9 +85,15 @@ def main(scope: str, damping: float) -> None:
             target_node_ids[g] = node_id
 
     rows = []
-    for metapath, edge_spec in METAPATHS.items():
+    for metapath, (edge_spec, metanodes) in METAPATHS.items():
+        if not all((MATRICES_DIR / f"{stub}.{scope}.npz").exists() for stub, _ in edge_spec):
+            log.info("Metapath %s: matrices absent for scope=%s - skipping", metapath, scope)
+            continue
         mats = [load_matrix(stub, scope, transpose) for stub, transpose in edge_spec]
-        dwpc_mat = compute_dwpc(mats, w=damping)
+        if walk_mode:
+            dwpc_mat = compute_dwpc_walk(mats, w=damping)
+        else:
+            dwpc_mat = compute_dwpc(mats, metanodes, w=damping)
         log.info("Metapath %s: computed DWPC matrix, nnz=%d", metapath, dwpc_mat.nnz)
         for g, target_id in target_node_ids.items():
             col = dwpc_mat[:, target_id].toarray().flatten()
@@ -91,7 +111,8 @@ def main(scope: str, damping: float) -> None:
 
     out = pd.DataFrame(rows)
     DWPC_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = DWPC_DIR / f"dwpc_observed.{scope}.tsv"
+    suffix = ".walk" if walk_mode else ""
+    out_path = DWPC_DIR / f"dwpc_observed{suffix}.{scope}.tsv"
     out.to_csv(out_path, sep="\t", index=False)
     log.info("Saved %d nonzero observed DWPC rows to %s", len(out), out_path)
     if not out.empty:
@@ -104,5 +125,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--scope", choices=["eef1a-only", "full-interactome"], default="full-interactome")
     parser.add_argument("--damping", type=float, default=0.4, help="DWPC damping exponent (Himmelstein default 0.4)")
+    parser.add_argument(
+        "--walk-mode",
+        action="store_true",
+        help="Compute uncorrected degree-weighted WALK counts, permitting node revisits. "
+        "Only for reproducing the pre-correction published numbers; writes dwpc_observed.walk.<scope>.tsv",
+    )
     args = parser.parse_args()
-    main(args.scope, args.damping)
+    main(args.scope, args.damping, args.walk_mode)
